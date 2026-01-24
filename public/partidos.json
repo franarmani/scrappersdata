@@ -1,0 +1,1321 @@
+[
+  {
+    "hora_utc": "2026-01-24T14:30:00Z",
+    "logo": "https://elcanaldeportivo.com/img/ale.png",
+    "liga": "Bundesliga:",
+    "equipos": "Bayern Múnich vs. Augsburgo",
+    "canales": [
+      {
+        "nombre": "Disney+ 10",
+        "url": "https://elcanaldeportivo.com/disneyplus10.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal14.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal15.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "11:30"
+  },
+  {
+    "hora_utc": "2026-01-24T14:30:00Z",
+    "logo": "https://elcanaldeportivo.com/img/ale.png",
+    "liga": "Bundesliga:",
+    "equipos": "Bayer Leverkusen vs. Werder Bremen",
+    "canales": [
+      {
+        "nombre": "ESPN 2",
+        "url": "https://elcanaldeportivo.com/espn2hd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal13.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal12.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "11:30"
+  },
+  {
+    "hora_utc": "2026-01-24T14:30:00Z",
+    "logo": "https://elcanaldeportivo.com/img/ale.png",
+    "liga": "Bundesliga:",
+    "equipos": "Eintracht Fráncfort vs. Hoffenheim",
+    "canales": [
+      {
+        "nombre": "Disney+ 4",
+        "url": "https://elcanaldeportivo.com/disneyplus4.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal16.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal17.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "11:30"
+  },
+  {
+    "hora_utc": "2026-01-24T14:30:00Z",
+    "logo": "https://elcanaldeportivo.com/img/ale.png",
+    "liga": "Bundesliga:",
+    "equipos": "Mainz vs. Wolfsburgo",
+    "canales": [
+      {
+        "nombre": "Disney+ 6",
+        "url": "https://elcanaldeportivo.com/disneyplus6.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal19.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal18.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "11:30"
+  },
+  {
+    "hora_utc": "2026-01-24T17:30:00Z",
+    "logo": "https://elcanaldeportivo.com/img/ale.png",
+    "liga": "Bundesliga:",
+    "equipos": "Union Berlin vs. Borussia Dortmund",
+    "canales": [
+      {
+        "nombre": "ESPN 5",
+        "url": "https://elcanaldeportivo.com/espn5.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal12.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal1.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "14:30"
+  },
+  {
+    "hora_utc": "2026-01-24T20:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/ar.png",
+    "liga": "Futbol Argentino:",
+    "equipos": "Barracas Central vs. River Plate",
+    "canales": [
+      {
+        "nombre": "ESPN 2",
+        "url": "https://elcanaldeportivo.com/espn2hd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN Premium",
+        "url": "https://elcanaldeportivo.com/espnpremium.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN Premium",
+        "url": "https://tvlibree.com/html/fl/?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN Premium (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=espnpremium",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN Premium (Op.3)",
+        "url": "https://welivesports.shop/embed/espnpremarg.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN Premium (Op.4)",
+        "url": "https://rereyano.ru/player/3/76",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN Premium (Op.5)",
+        "url": "https://nebunexa.life/tok.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 2 CO",
+        "url": "https://streamtpcloud.com/global1.php?stream=espn2",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Liga Argentina HD",
+        "url": "https://miatvhd.xyz/reproductor/canal70.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "17:00"
+  },
+  {
+    "hora_utc": "2026-01-24T22:30:00Z",
+    "logo": "https://elcanaldeportivo.com/img/ar.png",
+    "liga": "Futbol Argentino:",
+    "equipos": "Gimnasia L.P. vs. Racing Club",
+    "canales": [
+      {
+        "nombre": "TNT Sports",
+        "url": "https://elcanaldeportivo.com/tntsports.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "TNT Sports Premium",
+        "url": "https://tvlibree.com/html/fl/?get=VE5UX1Nwb3J0c19IRA",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "TNT Sports Premium (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=tntsports",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "TNT Sports Premium (Op.3)",
+        "url": "https://welivesports.shop/embed/tntsportarg.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "TNT Sports Premium (Op.4)",
+        "url": "https://rereyano.ru/player/3/75",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "TNT Sports Premium (Op.5)",
+        "url": "https://tvlibree.com/pc/dex/?get=VE5UX1Nwb3J0c19IRA",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Liga Argentina HD",
+        "url": "https://miatvhd.xyz/reproductor/canal72.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "19:30"
+  },
+  {
+    "hora_utc": "2026-01-25T01:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/ar.png",
+    "liga": "Futbol Argentino:",
+    "equipos": "Rosario Central vs. Belgrano",
+    "canales": [
+      {
+        "nombre": "ESPN 2",
+        "url": "https://elcanaldeportivo.com/espn2hd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN Premium",
+        "url": "https://elcanaldeportivo.com/espnpremium.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Liga Argentina HD",
+        "url": "https://miatvhd.xyz/reproductor/canal73.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "22:00"
+  },
+  {
+    "hora_utc": "2026-01-24T19:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/col.png",
+    "liga": "Liga Betplay:",
+    "equipos": "Pereira vs. Fortaleza",
+    "canales": [
+      {
+        "nombre": "Win Sports+",
+        "url": "https://elcanaldeportivo.com/winmas.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Win+ Fútbol",
+        "url": "https://streamtpcloud.com/global1.php?stream=winplus",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Win+ Fútbol (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=winplus2",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Win+ Fútbol (Op.3)",
+        "url": "https://rereyano.ru/player/3/81",
+        "calidad": "720p"
+      }
+    ],
+    "hora_argentina": "16:00"
+  },
+  {
+    "hora_utc": "2026-01-24T21:10:00Z",
+    "logo": "https://elcanaldeportivo.com/img/col.png",
+    "liga": "Liga Betplay:",
+    "equipos": "Llaneros vs. Atl. Bucaramanga",
+    "canales": [
+      {
+        "nombre": "Win Sports+",
+        "url": "https://elcanaldeportivo.com/winmas.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Win+ Fútbol",
+        "url": "https://streamtpcloud.com/global1.php?stream=winplus",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Win+ Fútbol (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=winplus2",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Win+ Fútbol (Op.3)",
+        "url": "https://rereyano.ru/player/3/81",
+        "calidad": "720p"
+      }
+    ],
+    "hora_argentina": "18:10"
+  },
+  {
+    "hora_utc": "2026-01-24T23:20:00Z",
+    "logo": "https://elcanaldeportivo.com/img/col.png",
+    "liga": "Liga Betplay:",
+    "equipos": "Deportivo Cali vs. Ind. Medellín",
+    "canales": [
+      {
+        "nombre": "Win Sports+",
+        "url": "https://elcanaldeportivo.com/winmas.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Win+ Fútbol",
+        "url": "https://streamtpcloud.com/global1.php?stream=winplus",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Win+ Fútbol (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=winplus2",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Win+ Fútbol (Op.3)",
+        "url": "https://rereyano.ru/player/3/81",
+        "calidad": "720p"
+      }
+    ],
+    "hora_argentina": "20:20"
+  },
+  {
+    "hora_utc": "2026-01-25T01:30:00Z",
+    "logo": "https://elcanaldeportivo.com/img/col.png",
+    "liga": "Liga Betplay:",
+    "equipos": "Boyacá Chicó vs. América de Cali",
+    "canales": [
+      {
+        "nombre": "Win Sports+",
+        "url": "https://elcanaldeportivo.com/winmas.php",
+        "calidad": "720p"
+      }
+    ],
+    "hora_argentina": "22:30"
+  },
+  {
+    "hora_utc": "2026-01-24T13:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/es.png",
+    "liga": "LaLiga:",
+    "equipos": "Rayo Vallecano vs. Osasuna",
+    "canales": [
+      {
+        "nombre": "ESPN 3",
+        "url": "https://elcanaldeportivo.com/espn3hd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Sky Sports LaLiga",
+        "url": "https://elcanaldeportivo.com/skysportslaliga.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal61.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal64.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal63.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal62.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "10:00"
+  },
+  {
+    "hora_utc": "2026-01-24T15:15:00Z",
+    "logo": "https://elcanaldeportivo.com/img/es.png",
+    "liga": "LaLiga:",
+    "equipos": "Valencia vs. Espanyol",
+    "canales": [
+      {
+        "nombre": "ESPN 3",
+        "url": "https://elcanaldeportivo.com/espn3hd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Sky Sports LaLiga",
+        "url": "https://elcanaldeportivo.com/skysportslaliga.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal68.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal65.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal66.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal67.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "12:15"
+  },
+  {
+    "hora_utc": "2026-01-24T17:30:00Z",
+    "logo": "https://elcanaldeportivo.com/img/es.png",
+    "liga": "LaLiga:",
+    "equipos": "Sevilla vs. Athletic Club",
+    "canales": [
+      {
+        "nombre": "Dsports",
+        "url": "https://elcanaldeportivo.com/directvsports.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Dsports (Sharecast)",
+        "url": "https://elcanaldeportivo.com/dsports-sharecast.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Sky Sports LaLiga",
+        "url": "https://elcanaldeportivo.com/skysportslaliga.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal62.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/directvsports.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal69.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "14:30"
+  },
+  {
+    "hora_utc": "2026-01-24T20:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/es.png",
+    "liga": "LaLiga:",
+    "equipos": "Villarreal CF vs. Real Madrid",
+    "canales": [
+      {
+        "nombre": "ESPN",
+        "url": "https://elcanaldeportivo.com/espnhd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN (Sharecast)",
+        "url": "https://elcanaldeportivo.com/espn-sharecast.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Sky Sports LaLiga",
+        "url": "https://elcanaldeportivo.com/skysportslaliga.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 1 CO",
+        "url": "https://tvlibree.com/html/fl/?get=RVNQTl9VWQ==",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 1 CO (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=espn",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 1 CO (Op.3)",
+        "url": "https://welivesports.shop/embed/espn1col.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 1 CO (Op.4)",
+        "url": "https://bolaloca.my/player/3/87",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 1 CO (Op.5)",
+        "url": "https://nebunexa.life/tok.html?get=RVNQTl9VWQ==",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN Deportes",
+        "url": "https://streamtpcloud.com/global1.php?stream=espndeportes",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN Deportes (Op.2)",
+        "url": "https://welivesports.shop/embed/espndeportes.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN Deportes (Op.3)",
+        "url": "https://rereyano.ru/player/2/71",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Básquet HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal86.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal63.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal62.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal67.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal66.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/espn.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal65.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal61.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "LaLiga HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal64.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "17:00"
+  },
+  {
+    "hora_utc": "2026-01-24T16:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/fra.png",
+    "liga": "Ligue 1:",
+    "equipos": "Stade Rennais vs. Lorient",
+    "canales": [
+      {
+        "nombre": "Disney+ 3",
+        "url": "https://elcanaldeportivo.com/disneyplus3.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal23.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal21.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal22.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "13:00"
+  },
+  {
+    "hora_utc": "2026-01-24T18:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/fra.png",
+    "liga": "Ligue 1:",
+    "equipos": "Le Havre vs. Mónaco",
+    "canales": [
+      {
+        "nombre": "Disney+ 7",
+        "url": "https://elcanaldeportivo.com/disneyplus7.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal26.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal24.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal25.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "15:00"
+  },
+  {
+    "hora_utc": "2026-01-24T20:05:00Z",
+    "logo": "https://elcanaldeportivo.com/img/fra.png",
+    "liga": "Ligue 1:",
+    "equipos": "Olympique de Marsella vs. RC Lens",
+    "canales": [
+      {
+        "nombre": "ESPN 3",
+        "url": "https://elcanaldeportivo.com/espn3hd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 3",
+        "url": "https://tvlibree.com/html/fl/?get=RVNQTjM",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 3 (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=espn3",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 3 (Op.3)",
+        "url": "https://welivesports.shop/embed/espn3col.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 3 (Op.4)",
+        "url": "https://rereyano.ru/player/3/89",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 3 (Op.5)",
+        "url": "https://nebunexa.life/tok.html?get=RVNQTjM",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Disney+",
+        "url": "https://tvlibree.com/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGNsb3VkLmNvbS9nbG9iYWwxLnBocD9zdHJlYW09ZGlzbmV5Ng==",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal27.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal29.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal28.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "17:05"
+  },
+  {
+    "hora_utc": "2026-01-24T12:30:00Z",
+    "logo": "https://elcanaldeportivo.com/img/eng.png",
+    "liga": "Premier League:",
+    "equipos": "West Ham United vs. Sunderland",
+    "canales": [
+      {
+        "nombre": "ESPN",
+        "url": "https://elcanaldeportivo.com/espnhd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN (Sharecast)",
+        "url": "https://elcanaldeportivo.com/espn-sharecast.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Universo",
+        "url": "https://elcanaldeportivo.com/universo.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal1.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal125.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/espn.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "09:30"
+  },
+  {
+    "hora_utc": "2026-01-24T15:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/eng.png",
+    "liga": "Premier League:",
+    "equipos": "Burnley vs. Tottenham Hotspur",
+    "canales": [
+      {
+        "nombre": "ESPN",
+        "url": "https://elcanaldeportivo.com/espnhd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN (Sharecast)",
+        "url": "https://elcanaldeportivo.com/espn-sharecast.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Universo",
+        "url": "https://elcanaldeportivo.com/universo.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/espn.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal127.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal126.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "12:00"
+  },
+  {
+    "hora_utc": "2026-01-24T15:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/eng.png",
+    "liga": "Premier League:",
+    "equipos": "Manchester City vs. Wolves",
+    "canales": [
+      {
+        "nombre": "Disney+",
+        "url": "https://elcanaldeportivo.com/disneyplus.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal132.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal133.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal134.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "12:00"
+  },
+  {
+    "hora_utc": "2026-01-24T15:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/eng.png",
+    "liga": "Premier League:",
+    "equipos": "Fulham vs. Brighton",
+    "canales": [
+      {
+        "nombre": "Disney+ 9",
+        "url": "https://elcanaldeportivo.com/disneyplus9.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal130.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal129.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal131.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "12:00"
+  },
+  {
+    "hora_utc": "2026-01-24T17:30:00Z",
+    "logo": "https://elcanaldeportivo.com/img/eng.png",
+    "liga": "Premier League:",
+    "equipos": "Bournemouth vs. Liverpool",
+    "canales": [
+      {
+        "nombre": "ESPN",
+        "url": "https://elcanaldeportivo.com/espnhd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN (Sharecast)",
+        "url": "https://elcanaldeportivo.com/espn-sharecast.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Universo",
+        "url": "https://elcanaldeportivo.com/universo.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal1.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/espn.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "14:30"
+  },
+  {
+    "hora_utc": "2026-01-24T17:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/it.png",
+    "liga": "Serie A:",
+    "equipos": "Fiorentina vs. Cagliari",
+    "canales": [
+      {
+        "nombre": "ESPN 2",
+        "url": "https://elcanaldeportivo.com/espn2hd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal36.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal34.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal35.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "14:00"
+  },
+  {
+    "hora_utc": "2026-01-24T19:45:00Z",
+    "logo": "https://elcanaldeportivo.com/img/it.png",
+    "liga": "Serie A:",
+    "equipos": "Lecce vs. Lazio",
+    "canales": [
+      {
+        "nombre": "Disney+ 12",
+        "url": "https://elcanaldeportivo.com/disneyplus12.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Disney+",
+        "url": "https://tvlibree.com/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGNsb3VkLmNvbS9nbG9iYWwxLnBocD9zdHJlYW09ZGlzbmV5Mw==",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal32.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal31.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal33.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "16:45"
+  },
+  {
+    "hora_utc": "2026-01-24T22:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/fut.png",
+    "liga": "Amistoso:",
+    "equipos": "Alianza Lima (Per) vs. Inter Miami (Usa) (link actualizado)",
+    "canales": [
+      {
+        "nombre": "L1Max",
+        "url": "https://elcanaldeportivo.com/liga1maxpe.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Latina",
+        "url": "https://elcanaldeportivo.com/latina.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal6.html",
+        "calidad": "HD"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal7.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "19:00"
+  },
+  {
+    "hora_utc": "2026-01-25T01:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/fut.png",
+    "liga": "Amistoso:",
+    "equipos": "Universitario (Per) vs. U. De Chile (Chi) (link actualizado)",
+    "canales": [
+      {
+        "nombre": "TV Perú",
+        "url": "https://elcanaldeportivo.com/tvperu.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Deportes HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal5.html",
+        "calidad": "HD"
+      }
+    ],
+    "hora_argentina": "22:00"
+  },
+  {
+    "hora_utc": "2026-01-25T00:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/fut.png",
+    "liga": "Serie Rio de La Plata:",
+    "equipos": "Nacional vs. Dep. Concepción",
+    "canales": [
+      {
+        "nombre": "Disney+",
+        "url": "https://elcanaldeportivo.com/disneyplus.php",
+        "calidad": "720p"
+      }
+    ],
+    "hora_argentina": "21:00"
+  },
+  {
+    "hora_utc": "2026-01-25T00:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/te.png",
+    "liga": "Tenis:",
+    "equipos": "Australian Open 2026 : Octavos de final",
+    "canales": [
+      {
+        "nombre": "ESPN 2",
+        "url": "https://elcanaldeportivo.com/espn2hd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 3",
+        "url": "https://elcanaldeportivo.com/espn3hd.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 2",
+        "url": "https://tvlibree.com/html/fl/?get=RVNQTjJfQXJn",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 2 (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=espn2",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 2 (Op.3)",
+        "url": "https://welivesports.shop/embed/espn2arg.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 2 (Op.4)",
+        "url": "https://welivesports.shop/embed/espn2col.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 2 (Op.5)",
+        "url": "https://rereyano.ru/player/3/88",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 3",
+        "url": "https://tvlibree.com/html/fl/?get=RVNQTjM",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 3 (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=espn3",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 3 (Op.3)",
+        "url": "https://welivesports.shop/embed/espn3col.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 3 (Op.4)",
+        "url": "https://rereyano.ru/player/3/89",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 3 (Op.5)",
+        "url": "https://nebunexa.life/tok.html?get=RVNQTjM",
+        "calidad": "720p"
+      }
+    ],
+    "hora_argentina": "21:00"
+  },
+  {
+    "hora_utc": "2026-01-24T05:00:00Z",
+    "logo": "https://elcanaldeportivo.com/img/te.png",
+    "liga": "Tenis:",
+    "equipos": "Australian Open 2026 : Octavos de final",
+    "canales": [
+      {
+        "nombre": "ESPN 2",
+        "url": "https://elcanaldeportivo.com/espn2hd.php",
+        "calidad": "720p"
+      }
+    ],
+    "hora_argentina": "02:00"
+  },
+  {
+    "hora_utc": "2026-01-24T19:00:00Z",
+    "hora_argentina": "16:00",
+    "logo": "https://bestleague.world/jr/38.png",
+    "liga": "Eredivisie",
+    "equipos": "PSV vs. NAC Breda",
+    "canales": [
+      {
+        "nombre": "Disney+",
+        "url": "https://tvlibree.com/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGNsb3VkLmNvbS9nbG9iYWwxLnBocD9zdHJlYW09ZGlzbmV5Mg==",
+        "calidad": "720p"
+      }
+    ],
+    "date_offset": 0
+  },
+  {
+    "hora_utc": "2026-01-24T20:00:00Z",
+    "hora_argentina": "17:00",
+    "logo": "https://bestleague.world/img/nba.svg",
+    "liga": "NBA",
+    "equipos": "New York Knicks vs. Philadelphia 76ers",
+    "canales": [
+      {
+        "nombre": "ESPN 4",
+        "url": "https://tvlibree.com/html/fl/?get=RVNQTkhE",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=espn4",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.3)",
+        "url": "https://welivesports.shop/embed/espn4col.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.4)",
+        "url": "https://rereyano.ru/player/3/90",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.5)",
+        "url": "https://nebunexa.life/tok.html?get=RVNQTkhE",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "NBA HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal109.html",
+        "calidad": "HD"
+      }
+    ],
+    "date_offset": 0
+  },
+  {
+    "hora_utc": "2026-01-24T21:30:00Z",
+    "hora_argentina": "18:30",
+    "logo": "https://bestleague.world/jr/79.png",
+    "liga": "Campeonato Paulista A1",
+    "equipos": "Palmeiras vs. São Paulo",
+    "canales": [
+      {
+        "nombre": "MAX",
+        "url": "https://tvlibree.com/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGNsb3VkLmNvbS9nbG9iYWwxLnBocD9zdHJlYW09bWF4Mg==",
+        "calidad": "720p"
+      }
+    ],
+    "date_offset": 0
+  },
+  {
+    "hora_utc": "2026-01-24T22:30:00Z",
+    "hora_argentina": "19:30",
+    "logo": "https://bestleague.world/img/nba.svg",
+    "liga": "NBA",
+    "equipos": "Golden State Warriors vs. Minnesota Timberwolves",
+    "canales": [
+      {
+        "nombre": "ESPN 4",
+        "url": "https://tvlibree.com/html/fl/?get=RVNQTkhE",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=espn4",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.3)",
+        "url": "https://welivesports.shop/embed/espn4col.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.4)",
+        "url": "https://rereyano.ru/player/3/90",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.5)",
+        "url": "https://nebunexa.life/tok.html?get=RVNQTkhE",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "NBA HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal110.html",
+        "calidad": "HD"
+      }
+    ],
+    "date_offset": 0
+  },
+  {
+    "hora_utc": "2026-01-25T00:30:00Z",
+    "hora_argentina": "21:30",
+    "logo": "https://futbollibrepe.net/flags/ciclismo.png",
+    "liga": "Tour Down Under 2026",
+    "equipos": "Etapa #5",
+    "canales": [
+      {
+        "nombre": "ESPN 5",
+        "url": "https://tvlibree.com/html/fl/?get=RVNQTjQ=",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 5 (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=espn5",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 5 (Op.3)",
+        "url": "https://welivesports.shop/embed/espn5col.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 5 (Op.4)",
+        "url": "https://rereyano.ru/player/3/91",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 5 (Op.5)",
+        "url": "https://nebunexa.life/tok.html?get=RVNQTjQ=",
+        "calidad": "720p"
+      }
+    ],
+    "date_offset": 0
+  },
+  {
+    "hora_utc": "2026-01-25T00:40:00Z",
+    "hora_argentina": "21:40",
+    "logo": "https://bestleague.world/img/box.png",
+    "liga": "Boxeo de Primera",
+    "equipos": "Bonifacio vs. Alarcón / Cardozo vs. Ubiedo / Rodríguez vs. Ayala",
+    "canales": [
+      {
+        "nombre": "TyC Sports",
+        "url": "https://tvlibree.com/html/fl/?get=VHlDU3BvcnQ",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "TyC Sports (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=tycsports",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "TyC Sports (Op.3)",
+        "url": "https://welivesports.shop/embed/tycsportarg.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "TyC Sports (Op.4)",
+        "url": "https://rereyano.ru/player/3/77",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "TyC Sports (Op.5)",
+        "url": "https://nebunexa.life/tok.html?get=VHlDU3BvcnQ",
+        "calidad": "720p"
+      }
+    ],
+    "date_offset": 0
+  },
+  {
+    "hora_utc": "2026-01-25T01:00:00Z",
+    "hora_argentina": "22:00",
+    "logo": "https://bestleague.world/img/box.png",
+    "liga": "Boxeo",
+    "equipos": "Raymond Muratalla vs. Andy Cruz",
+    "canales": [
+      {
+        "nombre": "ESPN 1 CO",
+        "url": "https://tvlibree.com/html/fl/?get=RVNQTl9VWQ==",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 1 CO (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=espn",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 1 CO (Op.3)",
+        "url": "https://welivesports.shop/embed/espn1col.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 1 CO (Op.4)",
+        "url": "https://bolaloca.my/player/3/87",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 1 CO (Op.5)",
+        "url": "https://nebunexa.life/tok.html?get=RVNQTl9VWQ==",
+        "calidad": "720p"
+      }
+    ],
+    "date_offset": 0
+  },
+  {
+    "hora_utc": "2026-01-25T01:30:00Z",
+    "hora_argentina": "22:30",
+    "logo": "https://bestleague.world/img/nba.svg",
+    "liga": "NBA",
+    "equipos": "Los Angeles Lakers vs. Dallas Mavericks",
+    "canales": [
+      {
+        "nombre": "ESPN 4",
+        "url": "https://tvlibree.com/html/fl/?get=RVNQTkhE",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.2)",
+        "url": "https://streamtpcloud.com/global1.php?stream=espn4",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.3)",
+        "url": "https://welivesports.shop/embed/espn4col.php",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.4)",
+        "url": "https://rereyano.ru/player/3/90",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "ESPN 4 (Op.5)",
+        "url": "https://nebunexa.life/tok.html?get=RVNQTkhE",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "NBA HD Stream",
+        "url": "https://miatvhd.xyz/reproductor/canal113.html",
+        "calidad": "HD"
+      }
+    ],
+    "date_offset": 0
+  }
+]
