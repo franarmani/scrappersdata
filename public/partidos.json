@@ -338,6 +338,16 @@
         "nombre": "Win Sports+",
         "url": "https://elcanaldeportivo.com/winmas.php",
         "calidad": "720p"
+      },
+      {
+        "nombre": "Premiere 2 BR",
+        "url": "https://tvlibree.com/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGNsb3VkLmNvbS9nbG9iYWwxLnBocD9zdHJlYW09cHJlbWllcmUy",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Premiere 2 BR",
+        "url": "https://tvlibree.com/eventos/?r=aHR0cHM6Ly9iZXN0bGVhZ3VlLndvcmxkL21wZGsvP2dldD1hSFIwY0hNNkx5OWhZbU16YjNKM1lXRmhZV0ZoWVdGdFpUWTFOVFZvTTJJMllXWTBOQzV2ZEhSaUxteHBkbVV1WTJZdWQzY3VZV2wyTFdOa2JpNXVaWFF2WjNKMUxXNXBkSEp2TDJ4cGRtVXZZMnhwWlc1MGN5OWtZWE5vTDJWdVl5OXZlVFp5Y0RCcWQyMW1MMjkxZEM5Mk1TODFPREJsWTJZeE1tSmhaREkwT1RjNVltRm1PR1JrT1RrelpHTmxNRFV6WlM5alpXNWpMbTF3WkE9PSZrZXk9T1dSak5EQTBOakJqT1RNd09EZGhaV0U0TkdRMk16RTFaakE0WldOaU5qUT0ma2V5Mj1aalk1WXpoa05EWXlOR1prWkdabU5HTmhPRGxpWkRCaU16RmlaR00wWVRjPQ==",
+        "calidad": "720p"
       }
     ],
     "hora_argentina": "22:30"
@@ -935,6 +945,11 @@
         "calidad": "720p"
       },
       {
+        "nombre": "L1MAX",
+        "url": "https://tvlibree.com/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGNsb3VkLmNvbS9nbG9iYWwxLnBocD9zdHJlYW09bGlnYTFtYXg=",
+        "calidad": "720p"
+      },
+      {
         "nombre": "Deportes HD Stream",
         "url": "https://miatvhd.xyz/reproductor/canal6.html",
         "calidad": "HD"
@@ -1169,6 +1184,26 @@
         "nombre": "NBA HD Stream",
         "url": "https://miatvhd.xyz/reproductor/canal110.html",
         "calidad": "HD"
+      }
+    ],
+    "date_offset": 0
+  },
+  {
+    "hora_utc": "2026-01-25T00:00:00Z",
+    "hora_argentina": "21:00",
+    "logo": "https://bestleague.world/jr/79.png",
+    "liga": "Campeonato Carioca",
+    "equipos": "Botafogo vs. Bangu",
+    "canales": [
+      {
+        "nombre": "Premiere 1 BR",
+        "url": "https://tvlibree.com/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGNsb3VkLmNvbS9nbG9iYWwxLnBocD9zdHJlYW09cHJlbWllcmUx",
+        "calidad": "720p"
+      },
+      {
+        "nombre": "Premiere 1 BR",
+        "url": "https://tvlibree.com/eventos/?r=aHR0cHM6Ly9iZXN0bGVhZ3VlLndvcmxkL21wZGsvP2dldD1hSFIwY0hNNkx5OWhZbU16YjNKM1lXRmhZV0ZoWVdGdGFIQjFhVGQzYkc1dFpuRm5hQzV2ZEhSaUxteHBkbVV1WTJZdWQzY3VZV2wyTFdOa2JpNXVaWFF2WjNKMUxXNXBkSEp2TDJ4cGRtVXZZMnhwWlc1MGN5OWtZWE5vTDJWdVl5OXVaV3htZVhWamR6bGhMMjkxZEM5Mk1TODJabVppTW1Nek5qVmhaREUwWmpnNFlqRTFORFU1TVdKbFlqUXpaREZtTmk5alpXNWpMbTF3WkE9PSZrZXk9TlRaaU56bGpNVGM0TW1Jek1HVTJZalptWXprM00ySXdaVGhtWkRReE1EUT0ma2V5Mj1abUV6T0dGaFlUZzJOV0UxTjJWa1lUZGpOemMwTkRRMk9UZGlZVGhsWkRNPQ==",
+        "calidad": "720p"
       }
     ],
     "date_offset": 0
