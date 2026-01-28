@@ -1633,11 +1633,12 @@ class ScraperIntegrado:
             if not href.startswith('http'):
                 href = self.tvlibre_base_url + href
             
-            # Dominios a excluir (la12 y la14)
+            # Dominios a excluir
             excluded_domains = [
                 'elcanaldeportivo.com', 'futbolparatodos', 'futbollibre', 
                 'rojadirecta', 'pirlotv', 'tarjetarojatvonline',
-                'la12hd.com', 'la14hd.com'  # Excluir la12 y la14
+                'la12hd.com', 'la14hd.com',  # Excluir la12 y la14
+                'miatvhd.xyz'  # Excluir miatvhd
             ]
             
             response = requests.get(href, headers=self.headers, timeout=10, verify=False)
