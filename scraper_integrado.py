@@ -62,17 +62,17 @@ class ScraperIntegrado:
         self.streamvv11_base_url = "https://streamvv11.lat"
         self.streamvv11_agenda_url = f"{self.streamvv11_base_url}/eventos.html"
         
-        # Configuración Pelota-Libre.PE (mismo DOM que FutbolLibre-FullHD)
-        # Intentaremos ambos dominios comunes y usaremos el primero que responda
-        self.pelotalibre_domains = [
-            "https://pelotalibre.pe",
-            "https://pelota-libre.pe"
-        ]
-        # Se resolverá dinámicamente en extract_pelotalibre_menu()
-        
         # Configuración RusticoTV (nuevo dominio .top)
         self.rusticotv_base_url = "https://rusticotv.top"
         self.rusticotv_agenda_url = f"{self.rusticotv_base_url}/agenda.html"
+        
+        # Configuración FTVHD (API JSON con base64 embeds)
+        self.ftvhd_base_url = "https://a.ftvhd.com"
+        self.ftvhd_diaries_url = f"{self.ftvhd_base_url}/diaries.json"
+        
+        # Configuración StreamTPCloud (eventos JSON)
+        self.streamtpcloud_base_url = "https://streamtpcloud.com"
+        self.streamtpcloud_eventos_url = f"{self.streamtpcloud_base_url}/eventos.json"
         
         # Archivo de salida
         self.output_path = r'public\partidos.json'
@@ -89,206 +89,13 @@ class ScraperIntegrado:
         }
         
         # Mapeo de clases CSS a URLs de banderas para FutbolParaTodos
-        self.flag_mapping = {
-            'TUR': 'https://pelis4k.online/banderas/ligaturca.png',
-            'ENG': 'https://pelis4k.online/banderas/Inglaterra.png',
-            'LEAGUESCUP': 'https://pelis4k.online/banderas/Leagues%20Cup%20%28MLS%20+%20Liga%20MX%29.png',
-            'ALE': 'https://pelis4k.online/banderas/alemania.png',
-            'FRA': 'https://pelis4k.online/banderas/francia.png',
-            'HOL': 'https://pelis4k.online/banderas/Eredivisie.png',
-            'POR': 'https://pelis4k.online/banderas/Primeira%20Liga.png',
-            'MEX': 'https://pelis4k.online/banderas/mexico.png',
-            'ES': 'https://pelis4k.online/banderas/LaLiga_logo_2023.svg.png',
-            'ES1': 'https://pelis4k.online/banderas/LaLiga_logo_2023.svg.png',
-            'ES2': 'https://pelis4k.online/banderas/LaLiga_logo_2023.svg.png',
-            'IT': 'https://pelis4k.online/banderas/Serie%20A.png',
-            'BEL': 'https://pelis4k.online/banderas/Liga%20Belga.png',
-            'USA': 'https://pelis4k.online/banderas/eeuu.png',
-            'MLS': 'https://pelis4k.online/banderas/MLS.png',
-            'FUT': 'https://pelis4k.online/banderas/internacional.png',
-            'CHA': 'https://pelis4k.online/banderas/Champions%20League.png',
-            'UE': 'https://pelis4k.online/banderas/Europa%20League.svg',
-            'COL': 'https://pelis4k.online/banderas/Liga%20Colombiana.png',
-            'CHI': 'https://pelis4k.online/banderas/chile.png',
-            'ECUA': 'https://pelis4k.online/banderas/Liga%20Ecuatoriana.png',
-            'PE': 'https://pelis4k.online/banderas/Liga%20Peruana.png',
-            'AR': 'https://pelis4k.online/banderas/argentina.png',
-            'BRA': 'https://pelis4k.online/banderas/brasil.png',
-            'URU': 'https://pelis4k.online/banderas/uruguay.png',
-            'LIB': 'https://pelis4k.online/banderas/Copa%20Libertadores.png',
-            'SUD': 'https://pelis4k.online/banderas/Copa%20Sudamericana.png',
-            'UEC': 'https://pelis4k.online/banderas/Conference%20League.png',
-            'F1': 'https://pelis4k.online/banderas/F1%20%28F%C3%B3rmula%201%29.png',
-            'F2': 'https://pelis4k.online/banderas/F2%20%28F%C3%B3rmula%202%29.svg',
-            'F3': 'https://pelis4k.online/banderas/F3%20%28F%C3%B3rmula%203%29.png',
-            'WWE': 'https://pelis4k.online/banderas/WWE.png',
-            'AEW': 'https://pelis4k.online/banderas/AEW.png',
-            'NBA': 'https://pelis4k.online/banderas/NBA%20%28Basket%29.png',
-            'UFC': 'https://pelis4k.online/banderas/ufc.png',
-            'ARA': 'https://pelis4k.online/banderas/Liga%20%C3%81rabe%20-%20Saudi%20Pro%20League.svg',
-            'NFL': 'https://pelis4k.online/banderas/NFL%20%28F%C3%BAtbol%20Americano%29.png',
-            'NHL': 'https://pelis4k.online/banderas/NHL.png',
-            'BOX': 'https://pelis4k.online/banderas/boxeo.png',
-            'BOXING': 'https://pelis4k.online/banderas/Boxing.png',
-            'PY': 'https://pelis4k.online/banderas/paraguay.png',
-            'CR': 'https://pelis4k.online/banderas/Liga%20Costarricense.svg',
-            'MLB': 'https://pelis4k.online/banderas/MLB%20%28B%C3%A9isbol%29.png',
-            'ATP': 'https://pelis4k.online/banderas/ATP.png',
-            'WTA': 'https://pelis4k.online/banderas/WTA.png',
-            'WNBA': 'https://pelis4k.online/banderas/WNBA.png',
-            'RUGBY': 'https://pelis4k.online/banderas/Rugby.png',
-            'MOTOGP': 'https://pelis4k.online/banderas/MotoGP.svg',
-            'INDYCAR': 'https://pelis4k.online/banderas/IndyCar.png',
-            'CICLISMO': 'https://pelis4k.online/banderas/Ciclismo.svg',
-            'BUNDESLIGA': 'https://pelis4k.online/banderas/Bundesliga.png',
-            'LIGUE1': 'https://pelis4k.online/banderas/Ligue%201.png',
-            'PREMIERLEAGUE': 'https://pelis4k.online/banderas/Premier-League-Logo-PNG-Iconic-English-Football-Emblem-Transparent.png',
-            'CHAMPIONSHIP': 'https://pelis4k.online/banderas/Championship-EFL.png',
-            'LIGAMX': 'https://pelis4k.online/banderas/Liga%20MX.png',
-            'LIGAARGENTINA': 'https://pelis4k.online/banderas/Liga%20Argentina.png',
-            'LIGABRASILEÑA': 'https://pelis4k.online/banderas/Liga%20Brasile%C3%B1a.png',
-            'LIGACHILENA': 'https://pelis4k.online/banderas/Liga%20Chilena.png',
-            'LIGAURUGUAYA': 'https://pelis4k.online/banderas/Liga%20Uruguaya.png',
-            'LIGAPARAGUAYA': 'https://pelis4k.online/banderas/Liga%20Paraguaya.png'
-        }
+        # Se desactiva el uso de pelis4k.online y se evita cualquier referencia externa fija.
+        self.flag_mapping = {}
         
-        # Mapeo de clases CSS a URLs de banderas para StreamVV11 (usando pelis4k.online)
+        # Mapeo de clases CSS a URLs de banderas para StreamVV11
+        # Se eliminan todas las referencias a pelis4k.online.
+        # Solo se conservan algunas referencias no relacionadas a pelis4k que ya existían.
         self.streamvv11_flag_mapping = {
-            'TUR': 'https://pelis4k.online/banderas/ligaturca.png',
-            'ENG': 'https://pelis4k.online/banderas/Inglaterra.png',
-            'ENG1': 'https://pelis4k.online/banderas/Premier-League-Logo-PNG-Iconic-English-Football-Emblem-Transparent.png',
-            'CHAMPIONSHIPENG': 'https://pelis4k.online/banderas/Championship-EFL.png',
-            'ALE': 'https://pelis4k.online/banderas/alemania.png',
-            'FRA': 'https://pelis4k.online/banderas/francia.png',
-            'HOL': 'https://pelis4k.online/banderas/Eredivisie.png',
-            'POR': 'https://pelis4k.online/banderas/Primeira%20Liga.png',
-            'MEX': 'https://pelis4k.online/banderas/mexico.png',
-            'ES': 'https://pelis4k.online/banderas/LaLiga_logo_2023.svg.png',
-            'ES1': 'https://pelis4k.online/banderas/LaLiga_logo_2023.svg.png',
-            'ES2': 'https://pelis4k.online/banderas/LaLiga_logo_2023.svg.png',
-            'IT': 'https://pelis4k.online/banderas/Serie%20A.png',
-            'BEL': 'https://pelis4k.online/banderas/Liga%20Belga.png',
-            'CR': 'https://pelis4k.online/banderas/Liga%20Costarricense.svg',
-            'ESC': 'https://pelis4k.online/banderas/Liga%20de%20Escocia.png',
-            'USA': 'https://pelis4k.online/banderas/eeuu.png',
-            'MLS': 'https://pelis4k.online/banderas/MLS.png',
-            'FUT': 'https://pelis4k.online/banderas/internacional.png',
-            'CHA': 'https://pelis4k.online/banderas/Champions%20League.png',
-            'UE': 'https://pelis4k.online/banderas/Europa%20League.svg',
-            'COL': 'https://pelis4k.online/banderas/Liga%20Colombiana.png',
-            'CHI': 'https://pelis4k.online/banderas/chile.png',
-            'ECUA': 'https://pelis4k.online/banderas/Liga%20Ecuatoriana.png',
-            'PE': 'https://pelis4k.online/banderas/Liga%20Peruana.png',
-            'AR': 'https://pelis4k.online/banderas/argentina.png',
-            'FIFA': 'https://pelis4k.online/banderas/FIFA%20Intercontinental%20Cup.png',
-            'BRA': 'https://pelis4k.online/banderas/brasil.png',
-            'URU': 'https://pelis4k.online/banderas/uruguay.png',
-            'LIB': 'https://pelis4k.online/banderas/Copa%20Libertadores.png',
-            'SUD': 'https://pelis4k.online/banderas/Copa%20Sudamericana.png',
-            'UEC': 'https://pelis4k.online/banderas/Conference%20League.png',
-            'AMERICA': 'https://pelis4k.online/banderas/Copa%20Am%C3%A9rica.png',
-            'F1': 'https://pelis4k.online/banderas/F1%20%28F%C3%B3rmula%201%29.png',
-            'F2': 'https://pelis4k.online/banderas/F2%20%28F%C3%B3rmula%202%29.svg',
-            'F3': 'https://pelis4k.online/banderas/F3%20%28F%C3%B3rmula%203%29.png',
-            'WWE': 'https://pelis4k.online/banderas/WWE.png',
-            'NBA': 'https://pelis4k.online/banderas/NBA%20%28Basket%29.png',
-            'NHL': 'https://pelis4k.online/banderas/NHL.png',
-            'UFC': 'https://pelis4k.online/banderas/ufc.png',
-            'EURO': 'https://pelis4k.online/banderas/Nations%20League%20%28UEFA%29.png',
-            'EUROFEM': 'https://pelis4k.online/banderas/Copa%20Am%C3%A9rica%20Femenina.png',
-            'ARA': 'https://pelis4k.online/banderas/Liga%20%C3%81rabe%20-%20Saudi%20Pro%20League.svg',
-            'AFCCUP': 'https://pelis4k.online/banderas/Copa%20Arabia.png',
-            'AEW': 'https://pelis4k.online/banderas/AEW.png',
-            'ATP': 'https://pelis4k.online/banderas/ATP.png',
-            'WTA': 'https://pelis4k.online/banderas/WTA.png',
-            'AFRICA': 'https://pelis4k.online/banderas/conmebol.png',
-            'ENDESA': 'https://pelis4k.online/banderas/Copa%20Endesa%20%28ACB%20Espa%C3%B1a%20-%20Basket%20pero%20aparece%29.svg',
-            'NFL': 'https://pelis4k.online/banderas/NFL%20%28F%C3%BAtbol%20Americano%29.png',
-            'BOX': 'https://pelis4k.online/banderas/boxeo.png',
-            'BOXING': 'https://pelis4k.online/banderas/Boxing.png',
-            'PY': 'https://pelis4k.online/banderas/paraguay.png',
-            'SDC': 'https://pelis4k.online/banderas/Soccer%20Champions%20Tour.png',
-            'FUTSAL': 'https://pelis4k.online/banderas/F%C3%BAtbol%20Sala%20%28FUTSAL%29.webp',
-            'RUG': 'https://pelis4k.online/banderas/Rugby.png',
-            'VEN': 'https://pelis4k.online/banderas/internacional.png',
-            'UYL': 'https://pelis4k.online/banderas/UEFA%20Youth%20League%20%28UYL%29.png',
-            'CICLISMO': 'https://pelis4k.online/banderas/Ciclismo.svg',
-            'LCC': 'https://pelis4k.online/banderas/Leagues%20Cup%20%28MLS%20+%20Liga%20MX%29.png',
-            'NATIONS': 'https://pelis4k.online/banderas/Nations%20League%20%28UEFA%29.png',
-            'AFC': 'https://pelis4k.online/banderas/Copa%20Arabia.png',
-            'MFP': 'https://pelis4k.online/banderas/Copa%20Mundial%20Femenina%20Sub-17.png',
-            'CONCACAFCHA': 'https://pelis4k.online/banderas/CONCACAF%20Champions%20Cup.png',
-            'CONCACAFCUP': 'https://pelis4k.online/banderas/Copa%20de%20Oro%20%28Gold%20Cup%29.png',
-            'RECOPASUD': 'https://pelis4k.online/banderas/Recopa%20Sudamericana.png',
-            'AMERICUP': 'https://pelis4k.online/banderas/FIBA%20World%20Cup%20-%20FIBA%20AmeriCup.png',
-            'MLB': 'https://pelis4k.online/banderas/MLB%20%28B%C3%A9isbol%29.png',
-            'NATIONSF': 'https://pelis4k.online/banderas/Copa%20Am%C3%A9rica%20Femenina.png',
-            'POL': 'https://pelis4k.online/banderas/Liga%20de%20Polonia.png',
-            'HN': 'https://pelis4k.online/banderas/Liga%20de%20Honduras.png',
-            'RU': 'https://pelis4k.online/banderas/Liga%20de%20Rumania.png',
-            'MOTOGP': 'https://pelis4k.online/banderas/MotoGP.svg',
-            'INDYCAR': 'https://pelis4k.online/banderas/IndyCar.png',
-            'SUD-17F': 'https://pelis4k.online/banderas/Sudamericano%20Sub-17.png',
-            'BOL': 'https://pelis4k.online/banderas/Liga%20de%20Bolivia.png',
-            'CONCACAFNATIONS': 'https://pelis4k.online/banderas/CONCACAF%20Nations%20League.png',
-            'ELIAFC': 'https://pelis4k.online/banderas/Copa%20Arabia.png',
-            'SUD-20F': 'https://pelis4k.online/banderas/Sudamericano%20Sub-20.png',
-            'GT': 'https://pelis4k.online/banderas/Liga%20de%20Guatemala.png',
-            'EUROLEAGUE': 'https://pelis4k.online/banderas/EuroLeague.png',
-            'GR': 'https://pelis4k.online/banderas/internacional.png',
-            'CHAWOMEN': 'https://pelis4k.online/banderas/Champions%20League.png',
-            'ASIA': 'https://pelis4k.online/banderas/internacional.png',
-            'WNBA': 'https://pelis4k.online/banderas/WNBA.png',
-            'RO': 'https://pelis4k.online/banderas/Liga%20de%20Rumania.png',
-            'FIBA': 'https://pelis4k.online/banderas/FIBA%20World%20Cup%20-%20FIBA%20AmeriCup.png',
-            'CONCAU20': 'https://pelis4k.online/banderas/CONCACAF%20U20.png',
-            'LEAGUESCUP': 'https://pelis4k.online/banderas/Leagues%20Cup%20%28MLS%20+%20Liga%20MX%29.png',
-            'CENTRALAMERICANCUP': 'https://pelis4k.online/banderas/Copa%20Centroamericana.png',
-            'SOCCERCHAMPIONS': 'https://pelis4k.online/banderas/Soccer%20Champions%20Tour.png',
-            'UEFA_SUPERCOPA': 'https://pelis4k.online/banderas/UEFA%20Supercopa.png',
-            'MUNDIAL20FE': 'https://pelis4k.online/banderas/Copa%20Mundial%20Femenina%20Sub-20.webp',
-            'AFRICANNATIONS': 'https://pelis4k.online/banderas/conmebol.png',
-            'ELISUDA': 'https://pelis4k.online/banderas/Sudamericano%20Sub-17.png',
-            'FIFAINTERCUP': 'https://pelis4k.online/banderas/FIFA%20Intercontinental%20Cup.png',
-            'BUNDESLIGA': 'https://pelis4k.online/banderas/Bundesliga.png',
-            'LIGUE1': 'https://pelis4k.online/banderas/Ligue%201.png',
-            'ENG3': 'https://pelis4k.online/banderas/Championship-EFL.png',
-            'EFLCUP': 'https://pelis4k.online/banderas/Championship-EFL.png',
-            'PT1': 'https://pelis4k.online/banderas/Primeira%20Liga.png',
-            'IT1': 'https://pelis4k.online/banderas/Serie%20A.png',
-            'ESC1': 'https://pelis4k.online/banderas/Liga%20de%20Escocia.png',
-            'ITCOPA': 'https://pelis4k.online/banderas/Copa%20Italia.png',
-            'ES1': 'https://pelis4k.online/banderas/LaLiga_logo_2023.svg.png',
-            'ES2': 'https://pelis4k.online/banderas/LaLiga_logo_2023.svg.png',
-            'ITSUPERCOPA': 'https://pelis4k.online/banderas/Supercopa%20de%20Italia.png',
-            'FRA1': 'https://pelis4k.online/banderas/Ligue%201.png',
-            'ESCOPAREY': 'https://pelis4k.online/banderas/Copa%20del%20Rey.png',
-            'MXF': 'https://pelis4k.online/banderas/Liga%20MX.png',
-            'TUR1': 'https://pelis4k.online/banderas/ligaturca.png',
-            'KINGSLEAGUE': 'https://pelis4k.online/banderas/Soccer%20Champions%20Tour.png',
-            'GOLDCUP': 'https://pelis4k.online/banderas/Copa%20de%20Oro%20%28Gold%20Cup%29.png',
-            'FRASUPERCUP': 'https://pelis4k.online/banderas/Supercopa%20de%20Francia.png',
-            'LIGAF': 'https://pelis4k.online/banderas/espa%C3%B1a.png',
-            'MUNDIALU20': 'https://pelis4k.online/banderas/Copa%20Mundial%20Sub-20.png',
-            'ELIUEFA': 'https://pelis4k.online/banderas/Nations%20League%20%28UEFA%29.png',
-            'ELICONCACAF': 'https://pelis4k.online/banderas/CONCACAF%20Nations%20League.png',
-            'ESSUPERCOPA': 'https://pelis4k.online/banderas/Supercopa%20de%20Espa%C3%B1a.png',
-            'ENGFACUP': 'https://pelis4k.online/banderas/Inglaterra.png',
-            'ARA1': 'https://pelis4k.online/banderas/Liga%20%C3%81rabe%20-%20Saudi%20Pro%20League.svg',
-            'ALE1': 'https://pelis4k.online/banderas/Bundesliga.png',
-            'MX1': 'https://pelis4k.online/banderas/Liga%20MX.png',
-            'MX2': 'https://pelis4k.online/banderas/Liga%20MX.png',
-            'TE': 'https://pelis4k.online/banderas/ATP.png',
-            'BEL1': 'https://pelis4k.online/banderas/Liga%20Belga.png',
-            'CR1': 'https://pelis4k.online/banderas/Liga%20Costarricense.svg',
-            'AOTENNIS': 'https://pelis4k.online/banderas/Australia%20Open.png',
-            'FRACOUPE': 'https://pelis4k.online/banderas/Copa%20Francia%20%28Coupe%20de%20France%29.png',
-            'HOLCOPA': 'https://pelis4k.online/banderas/Copa%20Holanda%20%28KNVB%20Beker%29.png',
-            'ENGWOMEN': 'https://pelis4k.online/banderas/Premier-League-Logo-PNG-Iconic-English-Football-Emblem-Transparent.png',
-            'COPAAMERICAF': 'https://pelis4k.online/banderas/Copa%20Am%C3%A9rica%20Femenina.png',
-            'HN1': 'https://pelis4k.online/banderas/Liga%20de%20Honduras.png',
-            'ARCOPA': 'https://pelis4k.online/banderas/Copa%20Arabia.png',
-            'CONMEBOLU20': 'https://pelis4k.online/banderas/CONCACAF%20U20.png',
             'AR1': 'https://img.futebol12.nexus/zas/primeraar.png',
             'EUROCOPAFEM': 'https://img.futebol12.nexus/zas/eurocopafem.png',
             'U17CONCA': 'https://img.futebol12.nexus/zas/concau17.png',
@@ -1145,9 +952,18 @@ class ScraperIntegrado:
                 time_tag = li.find('time')
                 hora_site = (time_tag.get_text(strip=True) if time_tag else '').strip()
 
-                # Bandera/logo
+                # Bandera/logo: usar imagen del item; normalizar a URL absoluta; fallback: favicon del sitio
                 flag_img = li.find('img')
-                logo = flag_img.get('src') if flag_img and flag_img.get('src') else 'https://pelis4k.online/banderas/futbol.png'
+                logo = flag_img.get('src') if flag_img and flag_img.get('src') else None
+                if logo:
+                    if logo.startswith('//'):
+                        logo = 'https:' + logo
+                    elif logo.startswith('/'):
+                        logo = urljoin(base_url, logo)
+                    elif not logo.startswith('http'):
+                        logo = urljoin(base_url, logo)
+                else:
+                    logo = urljoin(base_url, '/favicon.ico')
 
                 # Título completo
                 title_span = li.find('span')
@@ -1234,14 +1050,121 @@ class ScraperIntegrado:
         """Extractor para FutbolLibreFullHD usando el parser genérico de ul#menu."""
         return self._extract_menu_style_events(self.futbollibre_base_url, "/", "FutbolLibreFullHD")
 
-    def extract_pelotalibre_menu(self):
-        """Intenta extraer Pelota-Libre.PE (mismo DOM que FutbolLibreFullHD) probando dominios comunes."""
-        for domain in self.pelotalibre_domains:
-            events = self._extract_menu_style_events(domain, "/", "Pelota-Libre.PE")
-            if events:
-                return events
-        print("   ❌ Pelota-Libre.PE no respondió en los dominios conocidos")
-        return []
+    def extract_ftvhd_json_events(self):
+        """Extrae eventos de https://a.ftvhd.com/diaries.json con embeds base64"""
+        print("\nEXTRAYENDO DATOS DE FTVHD.COM")
+        
+        try:
+            print("Descargando agenda de FTVHD...")
+            resp = requests.get(self.ftvhd_diaries_url, headers=self.headers, timeout=30, verify=False)
+            resp.raise_for_status()
+            data = resp.json()
+        except Exception as e:
+            print(f"   ❌ Error descargando FTVHD: {e}")
+            return []
+        
+        events = []
+        items = data.get('data', [])
+        
+        for i, item in enumerate(items, 1):
+            try:
+                attrs = item.get('attributes', {})
+                
+                # Extraer horario y fecha
+                diary_hour = attrs.get('diary_hour', '00:00:00')  # ej: "20:30:00"
+                date_diary = attrs.get('date_diary', '')  # ej: "2026-01-24"
+                
+                # Hora: sumar 2 horas a diary_hour para obtener hora Argentina
+                try:
+                    hour, minute, second = map(int, diary_hour.split(':'))
+                    dt = datetime.strptime(f"{date_diary} {hour}:{minute}:{second}", "%Y-%m-%d %H:%M:%S")
+                    # Sumar 2 horas
+                    dt_argentina = dt + timedelta(hours=2)
+                    hora_argentina = dt_argentina.strftime("%H:%M")
+                    # Convertir a UTC: Argentina es UTC-3
+                    dt_utc = dt_argentina + timedelta(hours=3)
+                    hora_utc = dt_utc.strftime("%Y-%m-%dT%H:%M:%S") + "Z"
+                except Exception:
+                    hora_argentina = diary_hour[:5]
+                    hora_utc = datetime.now().strftime("%Y-%m-%dT%H:%M:%S") + "Z"
+                
+                # Descripción del evento
+                description = attrs.get('diary_description', '')
+                
+                # Liga: extraer del country.name
+                country = attrs.get('country', {}).get('data', {})
+                country_attrs = country.get('attributes', {})
+                liga = country_attrs.get('name', 'Deportes')
+                if not liga.endswith(':'):
+                    liga = liga + ':'
+                
+                # Logo: extraer del country.image.url
+                logo = None
+                country_image = country_attrs.get('image', {}).get('data', {})
+                if country_image:
+                    image_attrs = country_image.get('attributes', {})
+                    image_url = image_attrs.get('url', '')
+                    if image_url:
+                        # Normalizar a URL absoluta
+                        if image_url.startswith('/'):
+                            logo = urljoin(self.ftvhd_base_url, image_url)
+                        elif not image_url.startswith('http'):
+                            logo = urljoin(self.ftvhd_base_url, image_url)
+                        else:
+                            logo = image_url
+                
+                if not logo:
+                    logo = urljoin(self.ftvhd_base_url, '/favicon.ico')
+                
+                # Canales: extraer de embeds.data
+                channels = []
+                embeds = attrs.get('embeds', {}).get('data', [])
+                for embed in embeds:
+                    embed_attrs = embed.get('attributes', {})
+                    embed_name = embed_attrs.get('embed_name', 'Desconocido')
+                    embed_iframe = embed_attrs.get('embed_iframe', '')
+                    
+                    # Decodificar r= base64
+                    real_url = None
+                    try:
+                        if '?r=' in embed_iframe:
+                            encoded = embed_iframe.split('?r=')[1]
+                            decoded = base64.b64decode(encoded + '==').decode('utf-8')
+                            if decoded.startswith('//'):
+                                decoded = 'https:' + decoded
+                            elif not decoded.startswith('http'):
+                                decoded = 'https://' + decoded
+                            real_url = decoded
+                    except Exception:
+                        real_url = None
+                    
+                    if not real_url:
+                        real_url = urljoin(self.ftvhd_base_url, embed_iframe)
+                    
+                    channels.append({
+                        "nombre": embed_name,
+                        "url": real_url,
+                        "calidad": "720p"
+                    })
+                
+                # Crear evento solo si hay canales
+                if channels:
+                    events.append({
+                        "hora_utc": hora_utc,
+                        "hora_argentina": hora_argentina,
+                        "logo": logo,
+                        "liga": liga,
+                        "equipos": description,
+                        "canales": channels
+                    })
+                    print(f"   ✅ {liga} {description[:50]} | {hora_argentina} ({len(channels)} canales)")
+            
+            except Exception as e:
+                print(f"   ⚠️ Error procesando evento {i}: {e}")
+                continue
+        
+        print(f"\n✅ FTVHD: {len(events)} eventos extraídos")
+        return events
 
     def extract_tvlibre_events(self):
         """Extrae eventos de TVLibree.com desde https://tvlibree.com/agenda/"""
@@ -1271,12 +1194,9 @@ class ScraperIntegrado:
             'MEX': 'https://bestleague.world/jr/69.png',
             'COL': 'https://bestleague.world/jr/118.png',
             'CH': 'https://bestleague.world/jr/35.png',
-            'URU': 'https://bestleague.world/jr/56.png',
-            'BRA': 'https://bestleague.world/jr/79.png',
             'PE': 'https://bestleague.world/jr/127.png',
             'ECUA': 'https://bestleague.world/jr/101.png',
             'PY': 'https://bestleague.world/jr/47.png',
-            'BOL': 'https://bestleague.world/jr/840.png',
             'VEN': 'https://bestleague.world/jr/591.png',
             'JP': 'https://bestleague.world/jr/52.png',
             'AUS': 'https://bestleague.world/jr/74.png',
@@ -1360,6 +1280,13 @@ class ScraperIntegrado:
         
         # Usar BeautifulSoup para parsear el HTML
         soup = BeautifulSoup(html_content, 'html.parser')
+
+        # Obtener la fecha real de la agenda (evita usar 'hoy' incorrectamente)
+        agenda_date_str = self.extract_tvlibre_date(soup)
+        try:
+            agenda_date = datetime.strptime(agenda_date_str, "%Y-%m-%d").date()
+        except Exception:
+            agenda_date = datetime.now().date()
         
         # Buscar todos los <li> que tienen clase y contienen eventos
         # Excluir los subitem1 que son canales
@@ -1405,19 +1332,15 @@ class ScraperIntegrado:
                 match_name = self.fix_encoding_issues(parts[1].strip())
                 
                 # CONVERSIÓN HORARIA: Restar 4 horas para Argentina
-                # IMPORTANTE: Todos los eventos de la página son del mismo día.
-                # Si un evento tiene hora 01:00, 02:00, 03:30 (madrugada), es porque
-                # es un evento nocturno que ocurre en la madrugada del día SIGUIENTE,
-                # no del día actual. Por lo tanto, si la hora es menor a 06:00,
-                # asumimos que es madrugada del día siguiente.
+                # IMPORTANTE: La agenda muestra eventos para una fecha específica (agenda_date).
+                # Si un evento tiene hora 01:00, 02:00, 03:30 (madrugada), corresponde
+                # a la madrugada del día siguiente respecto a agenda_date.
                 try:
                     original_time = datetime.strptime(time_str, "%H:%M")
-                    # Crear datetime con fecha de hoy
-                    today = datetime.now().date()
-                    original_datetime = datetime.combine(today, original_time.time())
+                    # Crear datetime con fecha de la agenda
+                    original_datetime = datetime.combine(agenda_date, original_time.time())
                     
                     # Si la hora es de madrugada (00:00-05:59), es del día siguiente
-                    # porque la agenda muestra eventos del día + madrugada siguiente
                     is_madrugada = original_time.hour < 6
                     if is_madrugada:
                         original_datetime = original_datetime + timedelta(days=1)
@@ -1425,8 +1348,8 @@ class ScraperIntegrado:
                     # Restar 4 horas para convertir a Argentina
                     argentina_datetime = original_datetime - timedelta(hours=4)
                     
-                    # Determinar date_offset (siempre relativo a hoy)
-                    date_offset = (argentina_datetime.date() - today).days
+                    # Determinar date_offset (relativo a la fecha de agenda)
+                    date_offset = (argentina_datetime.date() - agenda_date).days
                     
                     hora_argentina = argentina_datetime.strftime("%H:%M")
                 except Exception as e:
@@ -1492,29 +1415,20 @@ class ScraperIntegrado:
                 
                 # Solo procesar eventos con canales válidos
                 if channels:
-                    # Calcular hora UTC desde hora Argentina
+                    # Calcular hora UTC desde hora Argentina usando la fecha correcta
                     try:
                         hora_parsed = datetime.strptime(hora_argentina, "%H:%M")
-                        current_date = datetime.now()
-                        event_datetime = current_date.replace(
-                            hour=hora_parsed.hour, 
-                            minute=hora_parsed.minute, 
-                            second=0, 
-                            microsecond=0
+                        # La fecha del evento debe provenir de argentina_datetime
+                        event_datetime = datetime.combine(
+                            argentina_datetime.date(), hora_parsed.time()
                         )
-                        
-                        # Ajustar fecha si hay offset
-                        if date_offset != 0:
-                            event_datetime = event_datetime + timedelta(days=date_offset)
-                        
                         # Argentina es UTC-3, calcular UTC agregando 3 horas
                         utc_datetime = event_datetime + timedelta(hours=3)
                         hora_utc = utc_datetime.strftime("%Y-%m-%dT%H:%M:%S") + "Z"
-                    except:
+                    except Exception as _:
                         # Fallback si hay error parseando la hora
-                        current_date = datetime.now()
-                        utc_datetime = current_date
-                        hora_utc = utc_datetime.strftime("%Y-%m-%dT%H:%M:%S") + "Z"
+                        fallback_dt = datetime.combine(agenda_date, datetime.now().time())
+                        hora_utc = (fallback_dt + timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:%S") + "Z"
                     
                     event_data = {
                         "hora_utc": hora_utc,
@@ -1559,17 +1473,17 @@ class ScraperIntegrado:
                         'septiembre': 9, 'octubre': 10, 'noviembre': 11, 'diciembre': 12
                     }
                     
-                    month = months.get(month_name, 10)  # Default octubre
+                    month = months.get(month_name, 1)
                     
                     # Crear fecha en formato YYYY-MM-DD
                     return f"{year}-{month:02d}-{day:02d}"
             
             # Si no se encuentra, usar fecha actual como fallback
-            return "2025-10-28"
+            return datetime.now().strftime("%Y-%m-%d")
             
         except Exception as e:
             print(f"ERROR extrayendo fecha: {e}")
-            return "2025-10-28"
+            return datetime.now().strftime("%Y-%m-%d")
 
 
 
@@ -2240,534 +2154,28 @@ class ScraperIntegrado:
         print(f"\n✅ StreamVV11: {len(events)} eventos extraídos")
         return events
 
-    def decode_pelotalibre_url(self, encoded_url):
-        """Decodifica la URL base64 de Pelota-Libre.pe"""
-        try:
-            # Extraer el parámetro r de la URL
-            if '?r=' in encoded_url:
-                encoded_part = encoded_url.split('?r=')[1]
-                # Decodificar base64
-                decoded_bytes = base64.b64decode(encoded_part)
-                decoded_url = decoded_bytes.decode('utf-8')
-                return decoded_url
-        except Exception as e:
-            print(f"Error decodificando URL: {e}")
-        return None
-
-    def extract_pelotalibre_iframe_url(self, page_url):
-        """Extrae la URL del iframe de una página de Pelota-Libre.pe"""
-        try:
-            response = requests.get(page_url, headers=self.headers, timeout=15, verify=False)
-            response.raise_for_status()
-            
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Buscar el iframe
-            iframe = soup.find('iframe', {'id': 'embedIframe'})
-            if iframe and iframe.get('src'):
-                return iframe.get('src')
-            
-            # Backup: buscar cualquier iframe
-            iframe = soup.find('iframe')
-            if iframe and iframe.get('src'):
-                return iframe.get('src')
-                
-        except Exception as e:
-            print(f"Error extrayendo iframe de {page_url}: {e}")
-        
-        return None
-
-    def detect_sport_and_league_pelotalibre(self, event_text, img_src):
-        """Detecta el deporte y liga basado en texto e imagen para Pelota-Libre"""
-        league_name = "Internacional"
-        flag_url = "https://pelis4k.online/banderas/futbol.png"
-        sport_type = "Fútbol"
-        
-        event_text_lower = event_text.lower()
-        
-        # Detectar deporte por texto
-        if any(keyword in event_text_lower for keyword in ['tenis:', 'amanda', 'madison', 'atp', 'wta']):
-            sport_type = "Tenis"
-            if 'atp' in event_text_lower:
-                league_name = "ATP"
-                flag_url = "https://pelis4k.online/banderas/ATP.png"
-            elif 'wta' in event_text_lower:
-                league_name = "WTA"
-                flag_url = "https://pelis4k.online/banderas/WTA.png"
-            else:
-                league_name = "Tenis"
-                flag_url = "https://pelis4k.online/banderas/ATP.png"
-        elif any(keyword in event_text_lower for keyword in ['nba', 'lakers', 'warriors', 'celtics', 'basketball']):
-            sport_type = "Básquet"
-            league_name = "NBA"
-            flag_url = "https://pelis4k.online/banderas/NBA%20%28Basket%29.png"
-        elif any(keyword in event_text_lower for keyword in ['nfl', 'patriots', 'cowboys', 'football americano']):
-            sport_type = "Fútbol Americano" 
-            league_name = "NFL"
-            flag_url = "https://pelis4k.online/banderas/NFL%20%28F%C3%BAtbol%20Americano%29.png"
-        elif any(keyword in event_text_lower for keyword in ['ufc', 'mma', 'fight']):
-            sport_type = "UFC/MMA"
-            league_name = "UFC"
-            flag_url = "https://pelis4k.online/banderas/ufc.png"
-        
-        # Detectar liga por imagen y texto
-        if img_src:
-            img_lower = img_src.lower()
-            if 'argentina' in img_lower or 'argentina' in event_text_lower:
-                league_name = "Liga Argentina"
-                flag_url = img_src
-            elif 'espana' in img_lower or 'españa' in event_text_lower or 'laliga' in event_text_lower:
-                league_name = "LaLiga España"
-                flag_url = img_src
-            elif 'colombia' in img_lower or 'colombia' in event_text_lower:
-                league_name = "Liga BetPlay Colombia"
-                flag_url = img_src
-            elif 'brasil' in img_lower or 'brasil' in event_text_lower:
-                league_name = "Brasileirão"
-                flag_url = img_src
-            elif 'uruguay' in img_lower or 'uruguay' in event_text_lower:
-                league_name = "Liga Uruguay"
-                flag_url = img_src
-            elif 'estados_unidos' in img_lower or 'mls' in event_text_lower:
-                league_name = "MLS Estados Unidos"
-                flag_url = img_src
-            elif 'inglaterra' in img_lower or 'premier league' in event_text_lower:
-                league_name = "Premier League"
-                flag_url = img_src
-            elif 'italia' in img_lower or 'serie a' in event_text_lower:
-                league_name = "Serie A Italia"
-                flag_url = img_src
-            elif 'portugal' in img_lower or 'primeira liga' in event_text_lower:
-                league_name = "Primeira Liga Portugal"
-                flag_url = img_src
-            elif 'pavo' in img_lower or 'super lig' in event_text_lower:
-                league_name = "Süper Lig Turquía"
-                flag_url = img_src
-            elif 'paises_bajos' in img_lower or 'eerste divisie' in event_text_lower:
-                league_name = "Eerste Divisie Holanda"
-                flag_url = img_src
-            elif 'bolivia' in img_lower:
-                league_name = "Liga Bolivia"
-                flag_url = img_src
-            elif 'chile' in img_lower:
-                league_name = "Liga Chile"
-                flag_url = img_src
-            elif 'ecuador' in img_lower:
-                league_name = "Liga Ecuador"
-                flag_url = img_src
-            else:
-                flag_url = img_src if img_src.startswith('http') else f"https:{img_src}" if img_src.startswith('//') else img_src
-        
-        return sport_type, league_name, flag_url
-
-    def get_channel_name_pelotalibre(self, sport_type, league_name, channel_text):
-        """Genera nombre de canal para Pelota-Libre"""
-        if sport_type == "Básquet":
-            return "NBA HD Stream"
-        elif sport_type == "Tenis":
-            return "Tenis HD Stream"
-        elif sport_type == "UFC/MMA":
-            return "UFC HD Stream"
-        elif sport_type == "Fútbol Americano":
-            return "NFL HD Stream"
-        else:
-            # Para fútbol, usar el texto del canal si está disponible
-            if channel_text and len(channel_text.strip()) > 0:
-                return f"{channel_text.strip()}"
-            elif "Liga Argentina" in league_name:
-                return "Liga Argentina HD"
-            elif "LaLiga" in league_name:
-                return "LaLiga HD Stream"
-            elif "Premier League" in league_name:
-                return "Premier League HD"
-            else:
-                return "Deportes HD Stream"
-
-    def extract_pelotalibre_events(self):
-        """Extrae eventos de Pelota-Libre.pe usando Selenium para JavaScript"""
-        print("\nEXTRAYENDO DATOS DE PELOTA-LIBRE.PE (con Selenium)")
-        events = []
-        
-        try:
-            from selenium import webdriver
-            from selenium.webdriver.chrome.options import Options
-            from selenium.webdriver.common.by import By
-            from selenium.webdriver.support.ui import WebDriverWait
-            from selenium.webdriver.support import expected_conditions as EC
-            
-            print("🌐 Iniciando navegador Chrome headless...")
-            chrome_options = Options()
-            chrome_options.add_argument('--headless')
-            chrome_options.add_argument('--disable-gpu')
-            chrome_options.add_argument('--no-sandbox')
-            chrome_options.add_argument('--disable-dev-shm-usage')
-            chrome_options.add_argument('--disable-blink-features=AutomationControlled')
-            
-            driver = webdriver.Chrome(options=chrome_options)
-            driver.get('https://pelotalibre-tv.pe/')
-            
-            # Esperar a que el menú se cargue
-            print("⏳ Esperando a que JavaScript cargue los eventos...")
-            WebDriverWait(driver, 20).until(
-                EC.presence_of_element_located((By.ID, "menu"))
-            )
-            
-            # Esperar un poco más para que JavaScript llene los eventos
-            time.sleep(5)
-            
-            # Obtener el HTML renderizado
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            driver.quit()
-            
-            # Buscar todos los eventos con clase toggle-submenu
-            event_items = soup.find_all('li', class_='toggle-submenu')
-            print(f"📋 Encontrados {len(event_items)} eventos después de renderizar JavaScript")
-            
-            for i, event_item in enumerate(event_items, 1):
-                try:
-                    # Extraer hora
-                    time_elem = event_item.find('time')
-                    if not time_elem:
-                        continue
-                    hora_arg = time_elem.get_text(strip=True)
-                    
-                    # Extraer bandera/logo
-                    img_elem = event_item.find('img', alt='bandera')
-                    logo_url = img_elem.get('src', 'https://pelis4k.online/banderas/futbol.png') if img_elem else 'https://pelis4k.online/banderas/futbol.png'
-                    if logo_url.startswith('//'):
-                        logo_url = 'https:' + logo_url
-                    elif not logo_url.startswith('http'):
-                        logo_url = 'https://pelotalibre-tv.pe' + logo_url
-                    
-                    # Extraer nombre del evento (liga + equipos)
-                    event_span = event_item.find('span', style=lambda x: x and 'flex: 1' in x)
-                    if not event_span:
-                        continue
-                    
-                    event_text = event_span.get_text(strip=True)
-                    
-                    # Separar liga y equipos
-                    if ':' in event_text:
-                        liga, equipos = event_text.split(':', 1)
-                        liga = liga.strip()
-                        equipos = equipos.strip()
-                    else:
-                        liga = "Deportes"
-                        equipos = event_text
-                    
-                    # Extraer canales
-                    canales = []
-                    submenu_divs = event_item.find_all('div', class_='submenu')
-                    
-                    for submenu in submenu_divs:
-                        canal_link = submenu.find('a', href=True)
-                        if not canal_link:
-                            continue
-                        
-                        # URL del embed (con base64)
-                        embed_url = canal_link['href']
-                        if not embed_url.startswith('http'):
-                            embed_url = 'https://pelotalibre-tv.pe' + embed_url
-                        
-                        # Nombre del canal
-                        canal_span = canal_link.find('span')
-                        canal_nombre = canal_span.get_text(strip=True) if canal_span else "Canal HD"
-                        
-                        # Extraer iframe real desde la página embed
-                        iframe_url = self.extract_pelotalibre_iframe(embed_url)
-                        
-                        if iframe_url:
-                            canales.append({
-                                "nombre": canal_nombre,
-                                "url": iframe_url,
-                                "calidad": "HD"
-                            })
-                            print(f"   📺 {canal_nombre} → {iframe_url[:60]}...")
-                        
-                        # Pausa para no saturar
-                        time.sleep(0.3)
-                    
-                    if not canales:
-                        continue
-                    
-                    # Convertir hora argentina a UTC
-                    try:
-                        from datetime import datetime, timedelta
-                        today = datetime.now()
-                        hour, minute = map(int, hora_arg.split(':'))
-                        
-                        event_datetime = today.replace(hour=hour, minute=minute, second=0, microsecond=0)
-                        # Argentina es UTC-3
-                        utc_datetime = event_datetime + timedelta(hours=3)
-                        hora_utc = utc_datetime.strftime("%Y-%m-%dT%H:%M:%SZ")
-                    except:
-                        hora_utc = "2025-11-10T23:00:00Z"
-                    
-                    # Detectar deporte por logo y liga
-                    sport_type, league_name, flag_url = self.detect_sport_and_league_pelotalibre(liga, logo_url)
-                    
-                    evento = {
-                        "hora_utc": hora_utc,
-                        "hora_argentina": hora_arg,
-                        "logo": flag_url,
-                        "liga": f"{league_name}:",
-                        "equipos": equipos,
-                        "canales": canales,
-                        "date_offset": 0
-                    }
-                    
-                    events.append(evento)
-                    print(f"✅ [{i}] {hora_arg} - {league_name}: {equipos} ({len(canales)} canales)")
-                
-                except Exception as event_error:
-                    print(f"   ❌ Error procesando evento {i}: {event_error}")
-                    continue
-            
-            print(f"✅ Pelota-Libre: {len(events)} eventos extraídos con Selenium")
-            
-        except ImportError:
-            print("❌ Selenium no instalado. Instala con: pip install selenium")
-            print("   También necesitas ChromeDriver: https://chromedriver.chromium.org/")
-        except Exception as e:
-            print(f"❌ Error extrayendo Pelota-Libre con Selenium: {e}")
-            print("   Verifica que ChromeDriver esté instalado y en el PATH")
-        
-        return events
-    
-    def extract_pelotalibre_iframe(self, embed_url):
-        """Extrae el iframe real de una página embed de Pelota-Libre usando Selenium"""
-        try:
-            from selenium import webdriver
-            from selenium.webdriver.chrome.options import Options
-            from selenium.webdriver.common.by import By
-            from selenium.webdriver.support.ui import WebDriverWait
-            from selenium.webdriver.support import expected_conditions as EC
-            
-            # Configurar Chrome headless
-            chrome_options = Options()
-            chrome_options.add_argument('--headless')
-            chrome_options.add_argument('--disable-gpu')
-            chrome_options.add_argument('--no-sandbox')
-            chrome_options.add_argument('--disable-dev-shm-usage')
-            chrome_options.add_argument('--disable-blink-features=AutomationControlled')
-            
-            driver = webdriver.Chrome(options=chrome_options)
-            driver.get(embed_url)
-            
-            # Esperar a que el iframe se cargue con JavaScript
-            WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.ID, "embedIframe"))
-            )
-            
-            # Esperar un poco más para que JavaScript actualice el src
-            time.sleep(2)
-            
-            # Obtener el HTML renderizado
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            driver.quit()
-            
-            # Buscar iframe con id="embedIframe"
-            iframe = soup.find('iframe', id='embedIframe')
-            if iframe and iframe.get('src'):
-                iframe_url = iframe.get('src')
-                # Limpiar URL (remover saltos de línea que pueden venir del HTML)
-                iframe_url = iframe_url.strip()
-                return iframe_url
-            
-            # Buscar cualquier iframe en la clase subiframe
-            subiframe_div = soup.find('div', class_='subiframe')
-            if subiframe_div:
-                iframe = subiframe_div.find('iframe')
-                if iframe and iframe.get('src'):
-                    return iframe.get('src').strip()
-            
-            # Buscar cualquier iframe como fallback
-            iframe = soup.find('iframe')
-            if iframe and iframe.get('src'):
-                return iframe.get('src').strip()
-            
-            return None
-            
-        except Exception as e:
-            print(f"      ⚠️ Error extrayendo iframe de {embed_url}: {e}")
-            return None
-    
-    def extract_pelotalibre_basic(self):
-        """Extracción alternativa de Pelota-Libre parseando el HTML estático"""
-        events = []
-        try:
-            print("🔄 Intentando extracción desde HTML estático...")
-            response = requests.get('https://pelotalibre-tv.pe/', headers=self.headers, timeout=15)
-            response.raise_for_status()
-            
-            # Buscar eventos en el HTML usando patrones del código fuente
-            html_content = response.text
-            
-            # Crear eventos simulados basados en la estructura mostrada
-            eventos_simulados = [
-                {
-                    "hora": "14:00",
-                    "deporte": "Tenis",
-                    "evento": "Amanda Anisimova vs Madison Keys",
-                    "canales": [{"nombre": "ESPN 2 MX HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJteA=="}]
-                },
-                {
-                    "hora": "14:00",
-                    "deporte": "Super Lig",
-                    "evento": "Alanyaspor vs Gaziantep FK",
-                    "canales": [
-                        {"nombre": "ESPN 5 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjU="},
-                        {"nombre": "ESPN 5 OP2 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjU="},
-                        {"nombre": "Disney 01 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ=="}
-                    ]
-                },
-                {
-                    "hora": "14:30", 
-                    "deporte": "Serie A",
-                    "evento": "Sassuolo vs Genoa",
-                    "canales": [{"nombre": "Disney 02 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg=="}]
-                },
-                {
-                    "hora": "15:15",
-                    "deporte": "AFC Champions League Elite",
-                    "evento": "Al Gharafa vs Al Hilal", 
-                    "canales": [{"nombre": "ESPN 3 MX HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNteA=="}]
-                },
-                {
-                    "hora": "16:45",
-                    "deporte": "Liga Profesional",
-                    "evento": "Defensa y Justicia vs Huracán",
-                    "canales": [
-                        {"nombre": "ESPN Premium HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0="},
-                        {"nombre": "ESPN Premium OP2 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0="}
-                    ]
-                },
-                {
-                    "hora": "16:45",
-                    "deporte": "Serie A",
-                    "evento": "Lazio vs Cagliari",
-                    "canales": [
-                        {"nombre": "ESPN 3 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM="},
-                        {"nombre": "ESPN 3 OP2 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjM="},
-                        {"nombre": "Disney 06 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng=="},
-                        {"nombre": "FOX Deportes HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM="}
-                    ]
-                },
-                {
-                    "hora": "17:00",
-                    "deporte": "Premier League",
-                    "evento": "Sunderland vs Everton",
-                    "canales": [
-                        {"nombre": "ESPN HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg=="},
-                        {"nombre": "ESPN AR OP2 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg=="},
-                        {"nombre": "USA Network HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dXNhbmV0d29yawo="}
-                    ]
-                },
-                {
-                    "hora": "19:00",
-                    "deporte": "Liga Profesional", 
-                    "evento": "Central Córdoba SdE vs Racing Club",
-                    "canales": [
-                        {"nombre": "TNT Sports HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRzCg=="},
-                        {"nombre": "TNT Sports OP2 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09dG50c3BvcnRzCg=="}
-                    ]
-                },
-                {
-                    "hora": "21:15",
-                    "deporte": "Liga Profesional",
-                    "evento": "Banfield vs Lanús", 
-                    "canales": [
-                        {"nombre": "TNT Sports HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRzCg=="},
-                        {"nombre": "TNT Sports OP2 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09dG50c3BvcnRzCg=="}
-                    ]
-                },
-                {
-                    "hora": "00:45",
-                    "deporte": "Major League Soccer",
-                    "evento": "Seattle Sounders FC vs Minnesota United",
-                    "canales": [{"nombre": "MLS 01 HD", "url": "https://pelotalibre-tv.pe/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWxzMWVzCg=="}]
-                }
-            ]
-            
-            # Procesar eventos simulados
-            for evento_data in eventos_simulados:
-                try:
-                    # Convertir horario
-                    from datetime import datetime, timedelta
-                    today = datetime.now()
-                    time_str = evento_data["hora"]
-                    
-                    event_time = datetime.strptime(time_str, "%H:%M")
-                    event_datetime = today.replace(
-                        hour=event_time.hour, 
-                        minute=event_time.minute, 
-                        second=0, 
-                        microsecond=0
-                    )
-                    
-                    # Argentina está UTC-3
-                    utc_datetime = event_datetime + timedelta(hours=3)
-                    
-                    # Procesar canales
-                    canales = []
-                    for canal_data in evento_data["canales"]:
-                        # Decodificar URL 
-                        decoded_url = self.decode_pelotalibre_url(canal_data["url"])
-                        canales.append({
-                            "nombre": canal_data["nombre"],
-                            "url": decoded_url,
-                            "calidad": "HD"
-                        })
-                    
-                    # Detectar deporte y logo
-                    sport_info = self.detect_sport_and_logo(evento_data["deporte"], evento_data["evento"])
-                    
-                    evento = {
-                        "hora_utc": utc_datetime.strftime("%Y-%m-%dT%H:%M:%SZ"),
-                        "hora_argentina": time_str,
-                        "logo": sport_info[1],
-                        "liga": f"{sport_info[0]}:",
-                        "equipos": evento_data["evento"],
-                        "canales": canales,
-                        "date_offset": 0
-                    }
-                    
-                    events.append(evento)
-                    print(f"✅ {sport_info[0]}: {evento_data['evento']} - {time_str} ({len(canales)} canales)")
-                    
-                except Exception as event_error:
-                    print(f"❌ Error procesando evento: {event_error}")
-                    continue
-            
-            print(f"✅ Pelota-Libre: {len(events)} eventos extraídos (modo alternativo)")
-            
-        except Exception as e:
-            print(f"❌ Error en extracción alternativa: {e}")
-        
-        return events
-
-    def merge_events(self, elcanal_events, futbol_events, futbollibre_events, tvlibre_events=None, pirlotv_events=None, streamvv11_events=None, pelotalibre_events=None, bolaloca_events=None, rusticotv_events=None, pelotalibrenet_events=None):
-        """Combina eventos de ElCanalDeportivo, FutbolParaTodos, FutbolLibre-HD, TVLibre, PirloTV, StreamVV11, Pelota-Libre, Bolaloca, RusticoTV y Pelota-Libre.NET, evitando duplicados"""
+    def merge_events(self, elcanal_events, futbol_events, futbollibre_events, tvlibre_events=None, pirlotv_events=None, streamvv11_events=None, bolaloca_events=None, rusticotv_events=None, pelotalibrenet_events=None, streamtpcloud_events=None):
+        """Combina eventos de ElCanalDeportivo, FutbolParaTodos, FutbolLibre-HD, TVLibre, PirloTV, StreamVV11, Bolaloca, RusticoTV, Pelota-Libre.NET y StreamTPCloud, evitando duplicados"""
         print("\nCOMBINANDO EVENTOS")
         
         # Usar eventos de ElCanalDeportivo como base
         merged_events = elcanal_events.copy()
         
-        # Agregar eventos de TVLibre, PirloTV, StreamVV11, Pelota-Libre, Bolaloca, RusticoTV y Pelota-Libre.NET si están disponibles
+        # Agregar eventos de TVLibre, PirloTV, StreamVV11, Bolaloca, RusticoTV, Pelota-Libre.NET y StreamTPCloud si están disponibles
         if tvlibre_events is None:
             tvlibre_events = []
         if pirlotv_events is None:
             pirlotv_events = []
         if streamvv11_events is None:
             streamvv11_events = []
-        if pelotalibre_events is None:
-            pelotalibre_events = []
         if bolaloca_events is None:
             bolaloca_events = []
         if rusticotv_events is None:
             rusticotv_events = []
         if pelotalibrenet_events is None:
             pelotalibrenet_events = []
+        if streamtpcloud_events is None:
+            streamtpcloud_events = []
         
         # Función auxiliar para detectar si dos eventos son similares
         def are_similar_events(event1, event2):
@@ -2872,23 +2280,6 @@ class ScraperIntegrado:
             if not duplicate_found:
                 merged_events.append(streamvv11_event)
         
-        # Agregar eventos de Pelota-Libre
-        for pelotalibre_event in pelotalibre_events:
-            duplicate_found = False
-            
-            for existing_event in merged_events:
-                if are_similar_events(existing_event, pelotalibre_event):
-                    duplicate_found = True
-                    # Agregar canales únicos al evento existente
-                    existing_channels = [c.get('url', '') for c in existing_event.get('canales', [])]
-                    for pelotalibre_channel in pelotalibre_event.get('canales', []):
-                        if pelotalibre_channel.get('url', '') not in existing_channels:
-                            existing_event['canales'].append(pelotalibre_channel)
-                    break
-            
-            if not duplicate_found:
-                merged_events.append(pelotalibre_event)
-        
         # Agregar eventos de Bolaloca
         for bolaloca_event in bolaloca_events:
             duplicate_found = False
@@ -2940,6 +2331,23 @@ class ScraperIntegrado:
             if not duplicate_found:
                 merged_events.append(pelotalibrenet_event)
         
+        # Agregar eventos de StreamTPCloud
+        for streamtpcloud_event in streamtpcloud_events:
+            duplicate_found = False
+            
+            for existing_event in merged_events:
+                if are_similar_events(existing_event, streamtpcloud_event):
+                    duplicate_found = True
+                    # Agregar canales únicos al evento existente
+                    existing_channels = [c.get('url', '') for c in existing_event.get('canales', [])]
+                    for streamtpcloud_channel in streamtpcloud_event.get('canales', []):
+                        if streamtpcloud_channel.get('url', '') not in existing_channels:
+                            existing_event['canales'].append(streamtpcloud_channel)
+                    break
+            
+            if not duplicate_found:
+                merged_events.append(streamtpcloud_event)
+        
         print(f"OK Eventos combinados: {len(merged_events)} total")
         print(f"   ElCanalDeportivo: {len(elcanal_events)} eventos")
         print(f"   FutbolParaTodos: {len(futbol_events)} eventos")
@@ -2947,9 +2355,10 @@ class ScraperIntegrado:
         print(f"   TVLibre: {len(tvlibre_events)} eventos")
         print(f"   PirloTV: {len(pirlotv_events)} eventos")
         print(f"   StreamVV11: {len(streamvv11_events)} eventos")
-        print(f"   Pelota-Libre: {len(pelotalibre_events)} eventos")
         print(f"   Bolaloca: {len(bolaloca_events)} eventos")
         print(f"   RusticoTV: {len(rusticotv_events)} eventos")
+        print(f"   Pelota-Libre.NET: {len(pelotalibrenet_events)} eventos")
+        print(f"   StreamTPCloud: {len(streamtpcloud_events)} eventos")
         print(f"   Pelota-Libre.NET: {len(pelotalibrenet_events)} eventos")
         
         return merged_events
@@ -3236,165 +2645,220 @@ class ScraperIntegrado:
             print(f"      ⚠️ Error extrayendo opciones de {url_canal}: {str(e)}")
             return []
 
-    def extract_bolaloca_events(self):
-        """Extrae eventos de bolaloca.my"""
-        print("\nEXTRAYENDO DATOS DE BOLALOCA.MY")
-        events = []
+    def extract_streamtpcloud_events(self):
+        """Extrae eventos de StreamTPCloud desde https://streamtpcloud.com/eventos.json"""
+        print("\nEXTRAYENDO DATOS DE STREAMTPCLOUD")
         
         try:
-            # Mapeo de canales bolaloca
-            channel_mapping = self.get_bolaloca_channel_mapping()
-            
-            response = requests.get('https://bolaloca.my/', headers=self.headers, timeout=30, verify=False)
+            print("Descargando eventos de StreamTPCloud...")
+            response = requests.get(self.streamtpcloud_eventos_url, headers=self.headers, timeout=30, verify=False)
             response.raise_for_status()
             
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Buscar textarea con eventos
-            textareas = soup.find_all('textarea')
-            event_text = None
-            
-            for textarea in textareas:
-                content = textarea.get_text()
-                if '2025' in content and ('vs' in content or '-' in content):
-                    event_text = content
-                    break
-            
-            if not event_text:
-                print("❌ No se encontraron eventos en bolaloca.my")
-                return []
-            
-            # Procesar líneas de eventos
-            lines = event_text.split('\n')
-            
-            for line in lines:
-                line = line.strip()
+            # Parsear JSON
+            eventos_data = response.json()
+            print(f"OK Descargados {len(eventos_data)} eventos")
+        except Exception as e:
+            print(f"ERROR descargando StreamTPCloud: {e}")
+            return []
+
+        eventos = []
+        
+        # Mapeo de categorías a ligas y logos
+        categoria_mapping = {
+            'Fútbol': ('Liga Profesional Argentina:', 'https://bestleague.world/jr/55.png'),
+            'Baloncesto': ('NBA:', 'https://bestleague.world/img/nba.svg'),
+            'Other': ('BetPlay:', 'https://bestleague.world/jr/118.png'),
+        }
+        
+        for evento in eventos_data:
+            try:
+                # Extraer datos básicos
+                titulo_raw = evento.get('title', '')
+                hora = evento.get('time', '00:00')
+                categoria = evento.get('category', 'Fútbol')
+                estado = evento.get('status', 'pronto')
+                enlace = evento.get('link', '')
                 
-                # Buscar líneas con formato de evento: fecha (hora) Liga : Equipos (CHxxx)
-                if re.match(r'\d{2}-\d{2}-\d{4}.*\(.*\).*:.*\(CH\d+', line):
+                # Limpiar el título (convertir Unicode escapado a caracteres normales)
+                titulo = titulo_raw.encode('utf-8').decode('utf-8') if isinstance(titulo_raw, str) else titulo_raw
+                
+                # Limpiar la URL (convertir \/ a /)
+                enlace = enlace.replace('\\/', '/')
+                
+                if not titulo or not enlace:
+                    continue
+                
+                # Parsear título para extraer liga y equipos
+                # Formato típico: "Liga Profesional: Equipo A vs Equipo B"
+                if ':' in titulo:
+                    liga_part, equipos_part = titulo.split(':', 1)
+                    liga_name = liga_part.strip()
+                    equipos = equipos_part.strip()
+                else:
+                    liga_name = categoria
+                    equipos = titulo
+                
+                # Obtener logo y liga formateada
+                logo = categoria_mapping.get(categoria, ('Deportes:', 'https://bestleague.world/jr/76.png'))[1]
+                
+                # Formatar liga con descripción
+                if categoria == 'Fútbol':
+                    if 'Liga Profesional' in liga_name:
+                        liga_formatted = 'Liga Profesional Argentina:'
+                    elif 'BetPlay' in liga_name:
+                        liga_formatted = 'BetPlay Colombia:'
+                    else:
+                        liga_formatted = f"{liga_name}:" if liga_name else 'Liga Profesional Argentina:'
+                elif categoria == 'Baloncesto':
+                    liga_formatted = 'NBA:'
+                else:
+                    liga_formatted = f"{liga_name}:" if liga_name else 'Deportes:'
+                
+                # Calcular hora_utc desde hora_argentina
+                # IMPORTANTE: Si la hora es de madrugada (00:00-05:59), es del día siguiente
+                try:
+                    hour, minute = map(int, hora.split(':'))
+                    today = datetime.now().date()
+                    argentina_datetime = datetime.combine(today, datetime.strptime(f"{hour}:{minute}", "%H:%M").time())
+                    
+                    # Si la hora es de madrugada, es del día siguiente
+                    if hour < 6:
+                        argentina_datetime = argentina_datetime + timedelta(days=1)
+                    
+                    # Argentina es UTC-3, agregar 3 horas para UTC
+                    utc_datetime = argentina_datetime + timedelta(hours=3)
+                    hora_utc = utc_datetime.strftime("%Y-%m-%dT%H:%M:%SZ")
+                except:
+                    hora_utc = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+                
+                # Crear evento
+                evento_dict = {
+                    'hora_utc': hora_utc,
+                    'hora_argentina': hora,
+                    'logo': logo,
+                    'liga': liga_formatted,
+                    'equipos': equipos,
+                    'canales': [
+                        {
+                            'nombre': 'StreamTPCloud',
+                            'url': enlace,
+                            'calidad': 'HD'
+                        }
+                    ]
+                }
+                
+                eventos.append(evento_dict)
+                print(f"   ✅ {equipos[:50]}... ({hora})")
+                
+            except Exception as e:
+                print(f"   ⚠️ Error procesando evento StreamTPCloud: {str(e)}")
+                continue
+        
+        print(f"   ✅ Total: {len(eventos)} eventos extraídos")
+        return eventos
+        """Extrae eventos desde la página de Bolaloca publicada en rereyano.ru"""
+        print("\nEXTRAYENDO DATOS DE BOLALOCA (rereyano.ru)")
+        events = []
+
+        try:
+            response = requests.get('https://rereyano.ru/', headers=self.headers, timeout=30, verify=False)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, 'html.parser')
+            full_text = soup.get_text("\n")
+
+            channel_mapping = self.parse_bolaloca_channel_mapping(full_text)
+
+            for raw_line in full_text.splitlines():
+                line = raw_line.strip()
+                if not line:
+                    continue
+
+                if re.search(r'\d{2}-\d{2}-\d{4}\s*\(\d{2}:\d{2}\)', line) and '(CH' in line:
                     try:
                         event = self.parse_bolaloca_event(line, channel_mapping)
                         if event:
                             events.append(event)
                     except Exception as e:
-                        print(f"Error procesando evento bolaloca: {line[:50]}... - {e}")
+                        print(f"Error procesando evento bolaloca: {line[:80]}... - {e}")
                         continue
-            
+
             print(f"Bolaloca: {len(events)} eventos extraídos")
-            
+
         except Exception as e:
-            print(f"Error extrayendo eventos de bolaloca.my: {e}")
-        
+            print(f"Error extrayendo eventos de Bolaloca: {e}")
+
         return events
-    
-    def get_bolaloca_channel_mapping(self):
-        """Mapeo de canales de bolaloca.my"""
-        return {
-            'CH1': 'beIN Sports 1', 'CH2': 'beIN Sports 2', 'CH3': 'beIN Sports 3',
-            'CH4': 'beIN Sports Max 4', 'CH12': 'Canal+ Foot', 'CH49': 'LaLiga España',
-            'CH50': 'LaLiga 2 España', 'CH51': 'DAZN LaLiga', 'CH52': 'DAZN LaLiga 2',
-            'CH53': 'LaLiga Hypermotion', 'CH56': 'DAZN 1', 'CH68': 'TUDN USA',
-            'CH69': 'beIN en Español', 'CH70': 'FOX Deportes', 'CH71': 'ESPN Deportes',
-            'CH74': 'GOL TV', 'CH75': 'TNT Sports Argentina', 'CH76': 'ESPN Premium',
-            'CH77': 'TyC Sports', 'CH83': 'TNT Sports Chile', 'CH87': 'ESPN 1',
-            'CH88': 'ESPN 2', 'CH89': 'ESPN 3', 'CH91': 'ESPN 5', 'CH97': 'ESPN 1 MX',
-            'CH98': 'ESPN 2 MX', 'CH99': 'ESPN 3 MX', 'CH120': 'Sky Bundesliga',
-            'CH123': 'DAZN Alemania', 'CH124': 'DAZN 2 Alemania', 'CH127': 'Sky Sports UK',
-            'CH137': 'DAZN Italia', 'CH138': 'Sky Calcio Italia', 'CH144': 'Sport TV Portugal',
-            'CH151': 'beIN Sports Turquía 1', 'CH152': 'beIN Sports Turquía 2',
-            'CH160': 'Extra Sport 6', 'CH161': 'Extra Sport 7', 'CH162': 'Extra Sport 8',
-            'CH163': 'Extra Sport 9', 'CH164': 'Extra Sport 10', 'CH165': 'Extra Sport 11',
-            'CH166': 'Extra Sport 12', 'CH167': 'Extra Sport 13', 'CH168': 'Extra Sport 14',
-            'CH169': 'Extra Sport 15', 'CH170': 'Extra Sport 16', 'CH171': 'Extra Sport 17',
-            'CH172': 'Extra Sport 18', 'CH173': 'Extra Sport 19', 'CH174': 'Extra Sport 20'
-        }
-    
+
+    def parse_bolaloca_channel_mapping(self, text):
+        """Construye el mapeo CH -> nombre a partir del texto público"""
+        mapping = {}
+        for raw_line in text.splitlines():
+            line = raw_line.strip()
+            match = re.match(r'\(CH(\d+)\)\s*-\s*(.+)', line, re.IGNORECASE)
+            if match:
+                ch_num = match.group(1)
+                name = match.group(2).strip()
+                if name:
+                    mapping[f"CH{ch_num}"] = name
+        return mapping
+
     def parse_bolaloca_event(self, line, channel_mapping):
-        """Procesa una línea de evento de bolaloca.my"""
+        """Procesa una línea de evento de Bolaloca"""
         try:
-            # Formato: 03-11-2025 (18:00) Super Lig : Alanyaspor - Gaziantep  (CH151tr) (CH91es)
-            # Extraer fecha y hora
             date_match = re.search(r'(\d{2}-\d{2}-\d{4})\s*\((\d{2}:\d{2})\)', line)
             if not date_match:
                 return None
-                
+
             date_str = date_match.group(1)
             time_str = date_match.group(2)
-            
-            # Extraer liga y equipos
+
             after_time = line[date_match.end():].strip()
-            
-            # Buscar el patrón liga : equipos
-            colon_pos = after_time.find(' : ')
-            if colon_pos == -1:
+            parts = after_time.split(':', 1)
+            if len(parts) < 2:
                 return None
-                
-            league = after_time[:colon_pos].strip()
-            rest = after_time[colon_pos + 3:].strip()
-            
-            # Extraer equipos (hasta el primer paréntesis de canal)
+
+            league = parts[0].strip()
+            rest = parts[1].strip()
+
             teams_match = re.search(r'^([^(]+)', rest)
             if not teams_match:
                 return None
-                
-            teams = teams_match.group(1).strip()
-            
-            # Reemplazar " - " con " vs. "
-            teams = teams.replace(' - ', ' vs. ')
-            
-            # Extraer canales
-            channels = re.findall(r'\(CH(\d+)[^)]*\)', line)
-            
-            if not channels:
+
+            teams = teams_match.group(1).replace(' - ', ' vs. ').strip(' -')
+
+            channel_numbers = re.findall(r'\(CH(\d+)[^)]*\)', line)
+            if not channel_numbers:
                 return None
-            
-            # Crear canales
+
             canales = []
-            for ch_num in channels:
-                ch_key = f'CH{ch_num}'
-                if ch_key in channel_mapping:
-                    canal = {
-                        "nombre": f"{channel_mapping[ch_key]} HD",
-                        "url": f"https://bolaloca.my/player/1/{ch_num}",
-                        "calidad": "HD"
-                    }
-                    canales.append(canal)
-            
-            if not canales:
-                return None
-            
-            # Convertir fecha y hora
-            try:
-                from datetime import datetime, timedelta
-                dt_str = f"{date_str} {time_str}"
-                dt = datetime.strptime(dt_str, "%d-%m-%Y %H:%M")
-                
-                # Bolaloca muestra horarios con +4 horas respecto a Argentina
-                # Restar 4 horas para obtener la hora correcta de Argentina
-                arg_dt = dt - timedelta(hours=4)
-                
-                # Convertir a UTC (Argentina es UTC-3)
-                utc_dt = arg_dt + timedelta(hours=3)
-                
-                # Detectar deporte y logo
-                sport, logo = self.detect_sport_and_logo(league, teams)
-                
-                evento = {
-                    "hora_utc": utc_dt.strftime("%Y-%m-%dT%H:%M:%SZ"),
-                    "hora_argentina": arg_dt.strftime("%H:%M"),
-                    "logo": logo,
-                    "liga": f"{sport}: " if sport != "Deportes" else league,
-                    "equipos": teams,
-                    "canales": canales,
-                    "date_offset": 0
-                }
-                
-                return evento
-                
-            except Exception as e:
-                print(f"Error procesando fecha/hora: {e}")
-                return None
-                
+            for ch_num in channel_numbers:
+                ch_key = f"CH{ch_num}"
+                channel_name = channel_mapping.get(ch_key, f"Canal {ch_key}")
+                canales.append({
+                    "nombre": f"{channel_name} HD",
+                    "url": f"https://bolaloca.my/player/2/{ch_num}",
+                    "calidad": "HD"
+                })
+
+            # Ajustar horario: origen está 4h adelantado respecto a Argentina
+            dt = datetime.strptime(f"{date_str} {time_str}", "%d-%m-%Y %H:%M")
+            arg_dt = dt - timedelta(hours=4)
+            utc_dt = arg_dt + timedelta(hours=3)
+
+            sport, logo = self.detect_sport_and_logo(league, teams)
+            liga_val = f"{sport}: " if sport != "Deportes" else f"{league}:"
+
+            return {
+                "hora_utc": utc_dt.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "hora_argentina": arg_dt.strftime("%H:%M"),
+                "logo": logo,
+                "liga": liga_val,
+                "equipos": teams,
+                "canales": canales,
+                "date_offset": 0
+            }
+
         except Exception as e:
             print(f"Error parseando evento bolaloca: {e}")
             return None
@@ -3403,6 +2867,14 @@ class ScraperIntegrado:
         """Extrae el iframe real de una página de TVLibree siguiendo el patrón especificado"""
         try:
             print(f"   🔍 Extrayendo iframe de: {page_url}")
+            
+            # Primero, verificar si la URL tiene un parámetro 'r' en base64
+            # Patrón: https://tvlibree.com/eventos/?r=<base64_url>
+            if '/eventos/' in page_url or '?r=' in page_url:
+                iframe_url = self.extract_iframe_from_base64_tvlibre(page_url)
+                if iframe_url:
+                    return iframe_url
+            
             response = requests.get(page_url, headers=self.headers, timeout=15, verify=False)
             response.raise_for_status()
             
@@ -3452,6 +2924,36 @@ class ScraperIntegrado:
             
         except Exception as e:
             print(f"   ❌ Error extrayendo iframe de {page_url}: {e}")
+            return None
+    
+    def extract_iframe_from_base64_tvlibre(self, page_url):
+        """Extrae el iframe desde una URL de TVLibre que contiene un parámetro 'r' codificado en base64
+        
+        Ejemplo: https://tvlibree.com/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGNsb3VkLmNvbS9nbG9iYWwxLnBocD9zdHJlYW09cHJlbWllcmUx
+        El parámetro 'r' decodificado es: https://streamtpcloud.com/global1.php?stream=premiere1
+        """
+        try:
+            # Extraer el parámetro 'r' de la URL usando urlparse
+            from urllib.parse import parse_qs
+            parsed_url = urlparse(page_url)
+            query_params = parse_qs(parsed_url.query)
+            
+            if 'r' not in query_params:
+                return None
+            
+            encoded_url = query_params['r'][0]  # Obtener el primer valor del parámetro 'r'
+            
+            # Decodificar desde base64
+            try:
+                decoded_url = base64.b64decode(encoded_url).decode('utf-8')
+                print(f"   ✅ URL decodificada desde base64: {decoded_url}")
+                return decoded_url
+            except Exception as e:
+                print(f"   ⚠️ Error decodificando base64: {e}")
+                return None
+                
+        except Exception as e:
+            print(f"   ⚠️ Error extrayendo parámetro 'r' de la URL: {e}")
             return None
     
     def extract_iframe_from_tvlibre_page(self, page_url):
@@ -3628,48 +3130,41 @@ class ScraperIntegrado:
 
     def run(self):
         """Ejecuta el scraper integrado"""
-        print("SCRAPER INTEGRADO - ELCANALDEPORTIVO + TVLIBRE + PELOTA-LIBRE.NET + BOLALOCA")
+        print("SCRAPER INTEGRADO - TVLIBRE + FTVHD")
         print("=" * 80)
         
         # Extraer eventos de las fuentes ACTIVAS
-        elcanal_events = self.extract_elcanaldeportivo_events()
         tvlibre_events = self.extract_tvlibre_events()
-        pelotalibrenet_events = self.extract_pelotalibrenet_events()
-        bolaloca_events = self.extract_bolaloca_events()
+        ftvhd_events = self.extract_ftvhd_json_events()
+        streamtpcloud_events = self.extract_streamtpcloud_events()
         
-        # FUENTES ACTIVADAS
-        pirlotv_events = self.extract_pirlotv_events()  # ACTIVADO - pirlotvoficial.com
-        rusticotv_events = self.extract_rusticotv_events()  # ACTIVADO - rusticotv.top
-        futbollibrefullhd_events = self.extract_futbollibrefullhd_menu()  # ACTIVADO - futbollibrefullhd.com (nuevo DOM)
-        pelotalibre_pe_events = self.extract_pelotalibre_menu()  # ACTIVADO - pelotalibre.pe / pelota-libre.pe
+        # FUENTES DESACTIVADAS (lentas o con problemas)
+        # pirlotv_events = self.extract_pirlotv_events()  # DESACTIVADO - timeout
+        # rusticotv_events = self.extract_rusticotv_events()  # DESACTIVADO
+        # futbollibrefullhd_events = self.extract_futbollibrefullhd_menu()  # DESACTIVADO
+        # elcanal_events = self.extract_elcanaldeportivo_events()  # DESACTIVADO - no funciona
+        # pelotalibrenet_events = self.extract_pelotalibrenet_events()  # DESACTIVADO
+        # bolaloca_events = self.extract_bolaloca_events()  # DESACTIVADO
         
-        # FUENTES DESACTIVADAS
-        # futbollibre_events = self.extract_futbollibre_events()  # DESACTIVADO - futbollibre-hd.cl
-        # streamvv11_events = self.extract_streamvv11_events()  # DESACTIVADO - streamvv11.lat
-        # futbolparatodos_events = self.extract_futbolparatodos_events()  # DESACTIVADO - futbolparatodos.top
-        # pelotalibre_events = self.extract_pelotalibre_events()  # DESACTIVADO - pelotalibre-tv.pe (legacy)
-        
-        futbollibre_events = futbollibrefullhd_events
+        pirlotv_events = []
+        rusticotv_events = []
+        futbollibre_events = []
+        elcanal_events = []
+        pelotalibrenet_events = []
         streamvv11_events = []
         futbolparatodos_events = []
-        pelotalibre_events = pelotalibre_pe_events
+        bolaloca_events = []
         
         # Combinar eventos
-        if elcanal_events or tvlibre_events or pelotalibrenet_events or bolaloca_events:
-            merged_events = self.merge_events(elcanal_events, futbolparatodos_events, futbollibre_events, tvlibre_events, pirlotv_events, streamvv11_events, pelotalibre_events, bolaloca_events, rusticotv_events, pelotalibrenet_events)
+        if tvlibre_events or ftvhd_events or streamtpcloud_events:
+            merged_events = self.merge_events(elcanal_events, futbolparatodos_events, futbollibre_events, tvlibre_events, pirlotv_events, streamvv11_events, bolaloca_events, rusticotv_events, pelotalibrenet_events, streamtpcloud_events)
             self.save_events(merged_events)
             
             print("\nPROCESO COMPLETADO EXITOSAMENTE!")
-            print(f"   ✅ ElCanalDeportivo: {len(elcanal_events)} eventos")
             print(f"   ✅ TVLibre: {len(tvlibre_events)} eventos")
-            print(f"   ✅ Pelota-Libre.NET: {len(pelotalibrenet_events)} eventos")
-            print(f"   ✅ Bolaloca: {len(bolaloca_events)} eventos")
-            print(f"   ✅ PirloTV: {len(pirlotv_events)} eventos")
-            print(f"   ✅ RusticoTV: {len(rusticotv_events)} eventos")
-            print(f"   ✅ Pelota-Libre.PE: {len(pelotalibre_events)} eventos")
-            print(f"   ✅ FutbolLibreFullHD: {len(futbollibre_events)} eventos")
-            print(f"   ❌ StreamVV11: DESACTIVADO")
-            print(f"   ❌ FutbolParaTodos: DESACTIVADO")
+            print(f"   ✅ FTVHD: {len(ftvhd_events)} eventos")
+            print(f"   ✅ StreamTPCloud: {len(streamtpcloud_events)} eventos")
+            print(f"   ❌ Otros: DESACTIVADOS")
             print(f"   📊 Total combinado: {len(merged_events)} eventos")
         else:
             print("ERROR: No se pudieron extraer eventos de ninguna fuente")
