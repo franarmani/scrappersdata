@@ -2931,7 +2931,9 @@ class ScraperIntegrado:
         """Extrae el iframe desde una URL de TVLibre que contiene un parámetro 'r' codificado en base64
         
         Ejemplo: https://tvlibree.com/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGNsb3VkLmNvbS9nbG9iYWwxLnBocD9zdHJlYW09cHJlbWllcmUx
-        El parámetro 'r' decodificado es: https://streamtpcloud.com/global1.php?stream=premiere1
+        1. Decodifica el parámetro 'r' desde base64
+        2. Visita esa URL decodificada
+        3. Extrae el iframe con id="miIframe" del HTML
         """
         try:
             # Extraer el parámetro 'r' de la URL usando urlparse
@@ -2947,11 +2949,50 @@ class ScraperIntegrado:
             # Decodificar desde base64
             try:
                 decoded_url = base64.b64decode(encoded_url).decode('utf-8')
-                print(f"   ✅ URL decodificada desde base64: {decoded_url}")
-                return decoded_url
+                print(f"   🔓 URL decodificada desde base64: {decoded_url[:80]}...")
             except Exception as e:
                 print(f"   ⚠️ Error decodificando base64: {e}")
                 return None
+            
+            # Ahora visitar la URL decodificada y extraer el iframe con id="miIframe"
+            try:
+                print(f"   📄 Visitando página decodificada para extraer iframe...")
+                response = requests.get(decoded_url, headers=self.headers, timeout=15, verify=False)
+                response.raise_for_status()
+                
+                soup = BeautifulSoup(response.text, 'html.parser')
+                
+                # Buscar iframe con id="miIframe"
+                iframe = soup.find('iframe', {'id': 'miIframe'})
+                if iframe and iframe.get('src'):
+                    iframe_src = iframe.get('src')
+                    # Si es una ruta relativa, agregar el dominio base de la URL decodificada
+                    if iframe_src.startswith('/'):
+                        from urllib.parse import urlparse as up
+                        parsed = up(decoded_url)
+                        iframe_src = f"{parsed.scheme}://{parsed.netloc}{iframe_src}"
+                    print(f"   ✅ Iframe extraído: {iframe_src[:80]}...")
+                    return iframe_src
+                
+                # Si no encuentra el iframe con id, buscar cualquier iframe
+                iframe = soup.find('iframe')
+                if iframe and iframe.get('src'):
+                    iframe_src = iframe.get('src')
+                    if iframe_src.startswith('/'):
+                        from urllib.parse import urlparse as up
+                        parsed = up(decoded_url)
+                        iframe_src = f"{parsed.scheme}://{parsed.netloc}{iframe_src}"
+                    print(f"   ✅ Iframe fallback extraído: {iframe_src[:80]}...")
+                    return iframe_src
+                
+                print(f"   ⚠️ No se encontró iframe en la página decodificada")
+                # Si no hay iframe, devolver la URL decodificada original
+                return decoded_url
+                
+            except Exception as e:
+                print(f"   ⚠️ Error visitando página decodificada: {e}")
+                # Si falla, devolver la URL decodificada como fallback
+                return decoded_url
                 
         except Exception as e:
             print(f"   ⚠️ Error extrayendo parámetro 'r' de la URL: {e}")
