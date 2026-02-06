@@ -38,6 +38,11 @@ class HenaojaraAnimeScraper:
         self.processed_tmdb_ids = set()
         self.visited_anime_urls = set()
 
+    def _workspace_root(self) -> str:
+        """Devuelve la ruta base del workspace (dos niveles arriba)."""
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        return os.path.abspath(os.path.join(script_dir, "..", ".."))
+
     def _clean_base_title(self, title: str) -> Tuple[str, int]:
         """Quita sufijos de temporada y devuelve (base_title, season_number)."""
         season_number = 1
@@ -546,11 +551,10 @@ class HenaojaraAnimeScraper:
             except Exception as e:
                 logger.error(f"Error procesando anime {anime.get('title')}: {e}")
 
-    def guardar_animes(self, output_file: str = "../anime.json"):
+    def guardar_animes(self, output_file: str = "anime.json"):
         """Guarda la lista de animes en JSON."""
         try:
-            script_dir = os.path.dirname(os.path.abspath(__file__))
-            full_path = os.path.join(script_dir, output_file)
+            full_path = os.path.join(self._workspace_root(), output_file)
 
             # Merge con existentes (ya están en self.animes)
             final = list({s.get("tmdb_id"): s for s in self.animes if s.get("tmdb_id")}.values())
@@ -563,11 +567,10 @@ class HenaojaraAnimeScraper:
         except Exception as e:
             logger.error(f"Error guardando animes: {e}")
 
-    def _cargar_animes_existentes(self, output_file: str = "../anime.json"):
+    def _cargar_animes_existentes(self, output_file: str = "anime.json"):
         """Carga animes existentes del JSON al inicio."""
         try:
-            script_dir = os.path.dirname(os.path.abspath(__file__))
-            full_path = os.path.join(script_dir, output_file)
+            full_path = os.path.join(self._workspace_root(), output_file)
             
             if os.path.exists(full_path):
                 with open(full_path, "r", encoding="utf-8") as f:

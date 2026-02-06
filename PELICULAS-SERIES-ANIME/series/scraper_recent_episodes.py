@@ -34,6 +34,11 @@ class RecentEpisodesScraper:
         self.recent_episodes = []
         self.new_series = []
         self.processed_episode_ids = set()
+
+    def _workspace_root(self) -> str:
+        """Devuelve la ruta base del workspace (dos niveles arriba)."""
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        return os.path.abspath(os.path.join(script_dir, "..", ".."))
         
     def _get_next_data(self, html_text: str) -> Optional[Dict]:
         """Extrae el JSON de __NEXT_DATA__"""
@@ -319,8 +324,7 @@ class RecentEpisodesScraper:
     def guardar_episodios_recientes(self, output_file: str = 'episodios_recientes.json'):
         """Guarda episodios recientes en JSON"""
         try:
-            script_dir = os.path.dirname(os.path.abspath(__file__))
-            full_path = os.path.join(script_dir, output_file)
+            full_path = os.path.join(self._workspace_root(), output_file)
             
             # Estructura de salida
             output_data = {
@@ -340,14 +344,13 @@ class RecentEpisodesScraper:
         except Exception as e:
             logger.error(f"Error guardando episodios recientes: {e}")
 
-    def actualizar_series_json(self, series_file: str = '../series.json'):
+    def actualizar_series_json(self, series_file: str = 'series.json'):
         """Actualiza el archivo series.json con nuevas series"""
         if not self.new_series:
             return
         
         try:
-            script_dir = os.path.dirname(os.path.abspath(__file__))
-            full_path = os.path.join(script_dir, series_file)
+            full_path = os.path.join(self._workspace_root(), series_file)
             
             # Leer series existentes
             series_existentes = {}
