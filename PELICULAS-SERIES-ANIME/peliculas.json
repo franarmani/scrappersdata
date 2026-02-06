@@ -34,7 +34,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ttEESBvVrO8ngZr19qp6eBMVS9F.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Crimen"
+    ],
+    "overview": "Un improbable dúo de hermanastros, uno un impulsivo detective y el otro un disciplinado, se ven atraídos por el asesinato de su padre en Hawai, lo que les lleva a un peligroso viaje para desenmascarar una conspiración de largo alcance.",
+    "rating": 6.8
   },
   {
     "tmdb_id": 840464,
@@ -61,7 +70,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/uoFJ6nGGvf8moZGpharm8Qyrpzm.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
+    "genres_spanish": [
+      "Aventura",
+      "Suspense",
+      "Ciencia ficción"
+    ],
+    "overview": "La familia Garrity superviviente debe abandonar la seguridad del búnker de Groenlandia y embarcarse en un peligroso viaje a través del diezmado páramo helado de Europa para encontrar un nuevo hogar.",
+    "rating": 6.524
   },
   {
     "tmdb_id": 1317288,
@@ -88,7 +106,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/mijSU0Rws3tBBbhdE5udxPSaZvF.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/6h7w8R4BA7vubEmEEW5vYEjuoz6.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "overview": "Biopic de Marty Reisman, un buscavidas convertido en campeón de ping pong, desde que empezó a jugar por apuestas en Manhattan hasta ganar 22 títulos importantes y convertirse en el más veterano en ganar una competición nacional de deportes de raqueta, con 67 años.",
+    "rating": 7.809
   },
   {
     "tmdb_id": 1412598,
@@ -105,7 +130,18 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/cqbXxAw9sUr4tJ5ffEwtnz6IL9o.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ykigHs1OIyqqV04zfFqIlSHp546.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Terror",
+      "Acción",
+      "Misterio",
+      "Ciencia ficción"
+    ],
+    "overview": "Las mejores amigas Maddie y Trish quedan atrapadas en una remota laguna con la peligrosa orca Ceto.",
+    "rating": 5.9
   },
   {
     "tmdb_id": 1272837,
@@ -132,7 +168,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9qlqDX3lo7CiFCDZV1Qwopwm5rz.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/cwX1koqx0UsN0naDGxKFMs3raUZ.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense",
+      "Ciencia ficción"
+    ],
+    "overview": "El Dr. Kelson (Ralph Fiennes) se ve envuelto en una nueva y sorprendente relación, cuyas consecuencias podrían cambiar el mundo tal y como se conoce. Por otra parte, el encuentro de Spike (Alfie Williams) con el Gran Lord Jimmy Crystal (Jack O'Connell) se convierte en una pesadilla de la que el chico no puede escapar. En este mundo, los infectados ya no son la mayor amenaza para la supervivencia, ya que la inhumanidad de los supervivientes puede ser aún más extraña y aterradora.",
+    "rating": 7.283
   },
   {
     "tmdb_id": 1306368,
@@ -159,7 +204,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/55C5loKFkw7Cj0nMLWux4FJCRHI.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/3F2EXWF1thX0BdrVaKvnm6mAhqh.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense",
+      "Crimen"
+    ],
+    "overview": "El descubrimiento de varios millones de dólares en efectivo en un zulo abandonado de Miami quiebra la confianza de un grupo de policías. Ahora, todo y todos están bajo sospecha.",
+    "rating": 7.026
   },
   {
     "tmdb_id": 1368166,
@@ -186,7 +240,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/A6S15iqfHpoit02leDfDVnpklys.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/tNONILTe9OJz574KZWaLze4v6RC.jpg",
+    "genres_spanish": [
+      "Misterio",
+      "Suspense"
+    ],
+    "overview": "Millie es una joven que, tras perder su trabajo, acepta un puesto como sirvienta en la lujosa pero inquietante mansión de los Winchester. Pronto se da cuenta de que algo no está bien en la casa y con sus habitantes, especialmente con Nina, la dueña, que actúa de manera errática.",
+    "rating": 7.121
   },
   {
     "tmdb_id": 967941,
@@ -223,7 +285,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xBfI3jboJ8zGXpoerp8Xk9ku9JN.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/cGbPBHKSFO7hSIjxkb3KOaGdOep.jpg",
+    "genres_spanish": [
+      "Fantasía",
+      "Aventura",
+      "Romance"
+    ],
+    "overview": "Mientras la multitud alza su clamor contra la Bruja Malvada, Glinda y Elphaba deberán unirse una vez más. Con su singular amistad convertida en el punto de inflexión de su futuro, tendrán que mirarse a los ojos con honestidad y compasión para afrontar su transformación personal y cambiar el destino de todo Oz.",
+    "rating": 6.7
   },
   {
     "tmdb_id": 1311031,
@@ -250,7 +321,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iWLV12z9oexSRLz2WKyqCZbKoPA.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Acción",
+      "Fantasía"
+    ],
+    "overview": "El Cuerpo de Cazadores de Demonios se enfrenta a los Doce Kizuki restantes antes de enfrentarse a Muzan en el Castillo del Infinito para derrotarlo de una vez por todas.",
+    "rating": 7.683
   },
   {
     "tmdb_id": 1214931,
@@ -277,7 +357,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7OOQRx9SmkMC3UQfdzj4QsQHtA1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/xsO1Qgru8sETLTcVla8MrqxOVr0.jpg",
+    "genres_spanish": [
+      "Historia",
+      "Drama"
+    ],
+    "overview": "Un psiquiatra estadounidense examina a 22 criminales nazis durante los juicios de Núremberg. Su fascinación por Hermann Göring y su obsesiva búsqueda por entender la naturaleza del mal lo llevan a un oscuro destino.",
+    "rating": 7.373
   },
   {
     "tmdb_id": 83533,
@@ -314,7 +402,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4n1U0Mwn7djux6VKNYDRWPgS2x6.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Aventura",
+      "Fantasía"
+    ],
+    "overview": "Jake Sully y Neytiri enfrentan una nueva amenaza en Pandora: los Ash People, una tribu Na'vi violenta y sedienta de poder, liderada por la implacable Varang. Tras la devastadora guerra contra la RDA y la pérdida de su hijo mayor, la familia de Jake deberá luchar por su supervivencia y el futuro de Pandora en un conflicto que llevará a los personajes a sus límites emocionales y físicos. Con nuevos y antiguos aliados, esta épica visual y emocional redefine el destino de un mundo al borde del abismo.",
+    "rating": 7.3
   },
   {
     "tmdb_id": 1228246,
@@ -351,7 +448,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/egHOFSRXrAaugFUD7VMEnXlTnzJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/54BOXpX2ieTXMDzHymdDMnUIzYG.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Un año después de la pesadilla sobrenatural en Freddy Fazbear's Pizza, las historias sobre lo ocurrido allí se han convertido en una leyenda local extravagante, inspirando el primer Fazfest del pueblo. Con la verdad oculta, Abby se escapa para reencontrarse con Freddy, Bonnie, Chica y Foxy, desencadenando una serie de eventos aterradores que revelarán oscuros secretos sobre el verdadero origen de Freddy's y desatarán un horror oculto durante décadas.",
+    "rating": 6.7
   },
   {
     "tmdb_id": 1084242,
@@ -388,7 +493,18 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4fRdfQPjHiuDSkzaxFAV44k7Iem.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Comedia",
+      "Aventura",
+      "Familia",
+      "Misterio"
+    ],
+    "overview": "Después de resolver el caso más importante en la historia de Zootrópolis, los policías novatos Judy Hopps y Nick Wilde descubren que su asociación no es tan sólida como pensaban cuando el Jefe Bogo les ordena unirse al programa de consejería \"Compañeros en Crisis\". Pero no pasa mucho tiempo para que su asociación se ponga a prueba al máximo, cuando la llegada de Gary, la serpiente, pone la ciudad patas arriba.",
+    "rating": 7.634
   },
   {
     "tmdb_id": 1242898,
@@ -425,7 +541,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8nCEJ5hFJt0h8FhXafHGhEhT8d7.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ebyxeBh56QNXxSJgTnmz7fXAlwk.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+    ],
+    "overview": "Un joven Predator rechazado por su clan encuentra un aliado inesperado en Thia y emprende un peligroso viaje en busca del adversario definitivo.",
+    "rating": 7.8
   },
   {
     "tmdb_id": 1062722,
@@ -452,7 +577,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/hTj8x0ElKldJyAjTYvaqxkQNxxN.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ceyakefyCRAgyeFhefa2bz6d9QO.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Fantasía",
+      "Terror"
+    ],
+    "overview": "Un científico brillante y obsesivo, Victor Frankenstein, en su ambición por desafiar a la muerte, da vida a una criatura ensamblada con partes de cadáveres. Pese a tratarse de una proeza científica, Frankenstein considera que la criatura carece de inteligencia y la rechaza. Dolida, esta se rebela contra su creador.",
+    "rating": 7.688
   },
   {
     "tmdb_id": 1197137,
@@ -479,7 +613,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/i5OfOjbZMxNfiFGkdETdbJUOLAq.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/6zKjoOOb3OZnZuiHtQZn4Kd69Gq.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Ambientada en 1982, cuatro años después de que Finney Blake lograra matar al secuestrador y asesino en serie conocido como \"The Grabber\". Finney, ahora marcado por el trauma, junto a su hermana menor Gwen, que tiene habilidades psíquicas, comienzan a tener visiones relacionadas con asesinatos ocurridos en un campamento cristiano en las Montañas Rocosas. Decididos a descubrir la verdad, viajan junto con Ernesto, un amigo, al campamento donde trabajó su madre, que también tenía dones psíquicos y fue víctima del asesino.",
+    "rating": 6.766
   },
   {
     "tmdb_id": 533533,
@@ -516,7 +658,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/qShQABLVRMZKnv5mWOPXWniBeB3.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/pUNfHmVqfwRdILhCkU8TdysVOXo.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Aventura",
+      "Acción"
+    ],
+    "overview": "La historia de Ares, un programa muy sofisticado que se envía desde el mundo digital al mundo real en una misión peligrosa y que va a representar el primer encuentro de la humanidad con seres creados por la IA.",
+    "rating": 6.506
   },
   {
     "tmdb_id": 760329,
@@ -543,7 +694,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3qfyfrY4Sa0fUPVH0rcsfGZZNoY.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/vfbryKoLrisx8Xh37OaTjTyrFY0.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Historia"
+    ],
+    "overview": "A finales de los 90, el prometedor artista marcial mixto Mark Kerr aspira a convertirse en el mejor luchador del mundo. Sin embargo, también debe luchar contra su adicción a los opioides y una relación inestable con su novia Dawn.",
+    "rating": 6.458
   },
   {
     "tmdb_id": 1054867,
@@ -580,7 +739,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iZ1499F6hYxDxiqioy8oSUaxipG.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/si68lkhkMfIospVeLEBtl7HWKDh.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Crimen",
+      "Acción"
+    ],
+    "overview": "Un ex revolucionario, tras años apartado de la lucha, se ve obligado a volver a la acción para enfrentar a viejos enemigos en un ambiente cargado de tensión política, racismo y violencia militar... Adaptación modernizada de la novela 'Vineland', de Thomas Pynchon (1990), sobre los movimientos radicales de los años sesenta.",
+    "rating": 7.424
   },
   {
     "tmdb_id": 1257009,
@@ -607,7 +775,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aJc0Ej0mAIpNPoQh46oOnUQCqxE.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/bWF5ImUscXXYia8owpm8coadR4m.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Terror",
+      "Bélica"
+    ],
+    "overview": "Vietnam, 1968. El equipo de reconocimiento Vulture Squad se adentra en un valle aislado para investigar un pelotón de Boinas Verdes desaparecido. Su misión toma un giro oscuro cuando descubren una amenaza invisible.",
+    "rating": 6.657
   },
   {
     "tmdb_id": 987400,
@@ -634,7 +811,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/wpMaI2J3ISYZiaIWNkoA1lVb5LQ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9KSboWOt09J72aMY4x8SS1IaOHK.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Acción",
+      "Aventura",
+      "Fantasía"
+    ],
+    "overview": "En la época del Imperio Azteca, Yohualli Coatl, un joven azteca, experimenta una tragedia cuando su padre y líder de la aldea, Toltecatzin, es asesinado por los conquistadores españoles. Yohualli escapa a Tenochtitlán para advertir al rey Moctezuma y a su sumo sacerdote, Yoka, del peligro inminente. Usando el templo de Tzinacan, el dios murciélago, como guarida, Yohualli entrena con su mentor y asistente, Acatzin, desarrollando equipo y armamento para enfrentar la invasión española, proteger el templo de Moctezuma y vengar la muerte de su padre.",
+    "rating": 7.717
   },
   {
     "tmdb_id": 1107216,
@@ -651,7 +838,17 @@
         "server": "vpge.link",
         "language": "Lat"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dJZRImFs3jdMV1I2OzgjGz1rZv9.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/3Gjo73aMqNWxNdBa7PeEj7AXJ3E.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Comedia",
+      "Aventura",
+      "Suspense"
+    ],
+    "overview": "En un tren que está a punto de salir de la estación, suena la alarma que obliga a todos los pasajeros a bajarse. Pero entonces el tren arranca de manera improvista, llevándose a bordo los viajeros que no han tenido tiempo de bajar: los animales de compañía. Asombrados, estos descubren que el tren está bajo el control de Hans, un tejón manipulador y rencoroso, que se quiere vengar de Rex, el perro policía que le puso entre rejas hace años. Como los servicios de rescate no consiguen intervenir en el trayecto montañoso del tren, que circula a toda velocidad, los animales de compañía solo pueden contar con Falcon, un mapache un poco tramposo que hará todo lo posible para salvarles.",
+    "rating": 6.9
   },
   {
     "tmdb_id": 1246049,
@@ -678,7 +875,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ff7fyDdtXM2wu9jsm9gOMYtpvOl.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/8jYyd9mGx5O28FX2OvfcqZfs5tB.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Fantasía",
+      "Romance"
+    ],
+    "overview": "Tras la muerte de su esposa, un príncipe del siglo XV renuncia a Dios y se convierte en vampiro. Siglos más tarde, en el Londres del siglo XIX, ve a una mujer parecida a su difunta esposa y la persigue, sellando así su propio destino.",
+    "rating": 7.157
   },
   {
     "tmdb_id": 1038392,
@@ -715,7 +921,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/qdoqogLNR6myoRrxYFxF4UTkFne.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/tcBX2dtkNozZ0uDLVaxXrE6rqyN.jpg",
+    "genres_spanish": [
+      "Terror"
+    ],
+    "overview": "Los investigadores de lo paranormal Ed y Lorraine Warren se enfrentan a un último caso aterrador en el que están implicadas entidades misteriosas a las que deben enfrentarse.",
+    "rating": 6.921
   },
   {
     "tmdb_id": 617126,
@@ -752,7 +965,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ckfiXWGEMWrUP53cc6QyHijLlhl.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Aventura",
+      "Acción"
+    ],
+    "overview": "Con un mundo retrofuturista inspirado en los años 60 como telón de fondo, la Primera Familia de Marvel deberá hacer frente a su mayor desafío hasta la fecha. Obligados a buscar el equilibrio entre su papel de héroes y sus fuertes vínculos familiares, tendrán que defender la Tierra de un hambriento dios espacial llamado Galactus y su intrigante heraldo, Estela Plateada.",
+    "rating": 6.979
   },
   {
     "tmdb_id": 1007734,
@@ -789,7 +1011,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/qwdBh0102NX5fslXv3L9MSlXqKc.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/82C04rTiXYZ7c8XZv91Nu53w82Y.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense"
+    ],
+    "overview": "Cuatro años después de enfrentarse involuntariamente a la mafia rusa, Hutch Mansell sigue intentando saldar una deuda de 30 millones de dólares con golpes a criminales internacionales. Agotado y distanciado de su familia, organiza unas vacaciones con su esposa e hijos en Plummerville, el lugar donde solía ir con su hermano de niño. Pero un pequeño altercado los convierte en el objetivo de un peligroso mafioso local y de su corrupto sheriff, poniendo en riesgo toda la familia.",
+    "rating": 7.0
   },
   {
     "tmdb_id": 1078605,
@@ -826,7 +1056,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nYqEQ3ltw0hHc1kBaNWr7Rb8WNZ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9mKhhHBfIAWy9TNVHAXqMEFokes.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Misterio"
+    ],
+    "overview": "Cuando todos los alumnos de una misma clase, salvo uno, desaparecen misteriosamente la misma noche y exactamente a la misma hora, la pequeña ciudad donde viven se pregunta quién o qué está detrás de su desaparición.",
+    "rating": 7.283
   },
   {
     "tmdb_id": 1061474,
@@ -863,7 +1101,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fvUJb08yatV2b3NUSwuYdQKYoFd.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Aventura",
+      "Acción"
+    ],
+    "overview": "En un mundo que ha perdido la fe en la bondad, Superman lucha por reconciliar su herencia kryptoniana con los valores humanos que moldearon su carácter. Criado en la Tierra, representa la verdad, la justicia y el estilo americano, pero debe enfrentarse a un mundo cínico que cuestiona sus ideales. Entre el deber de proteger a la humanidad y la búsqueda de su identidad, Superman demuestra que la esperanza y la bondad nunca pasan de moda, incluso en los tiempos más oscuros, inspirando a otros a creer en un futuro mejor.",
+    "rating": 7.375
   },
   {
     "tmdb_id": 541671,
@@ -900,7 +1147,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gQCrYmvCK7JCLXjCGTMRF5Lzr5c.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/1yktYsxkmUtUFTUnCAUaqG6FEiz.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense",
+      "Crimen"
+    ],
+    "overview": "Eve Macarro es una asesina entrenada por la Ruska Roma desde su infancia, la misma organización criminal encargada del adiestramiento de John Wick. En esta violenta historia de venganza, Eve intentará por todos los medios averiguar quién está detrás del asesinato de su padre. En su lucha por conocer la verdad, tendrá que atenerse a las normas de la Alta Mesa y, por supuesto, a las del Hotel Continental, donde descubrirá que existen secretos ocultos sobre su pasado.",
+    "rating": 7.3
   },
   {
     "tmdb_id": 1389158,
@@ -927,7 +1183,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kc5n7LJUmvBsVxzAla1ONN8kouP.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/u3Cfe21Cmv5cWs5VnFCz15HdfKO.jpg",
+    "genres_spanish": [
+      "Terror"
+    ],
+    "overview": "Frente a una maldición demoníaca, una madre libera a la diosa Kali que lleva dentro y desata una salvaje batalla de miedo, derramamiento de sangre y traición.",
+    "rating": 6.755
   },
   {
     "tmdb_id": 1151334,
@@ -964,7 +1227,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nDNvZhJeMSwi8UH8jbpZvLMUfjp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/8jeDyvFQKgss36FbGAmGQVzPXlH.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Acción",
+      "Comedia"
+    ],
+    "overview": "La conductora, un irreverente thriller de ritmo frenético, cuenta la historia de una mujer que, en su adolescencia, fue conductora de huidas en coche y que en el presente se ve obligada a revivir su desagradable pasado cuando un antiguo jefe le brinda la oportunidad de salvar la vida de su exnovio, quien nunca ha sido de fiar. La conductora está escrita y dirigida por Shawn Simmons y protagonizada por Samara Weaving en el papel principal de Edie, también conocida como Eenie Meanie.",
+    "rating": 6.31
   },
   {
     "tmdb_id": 1087192,
@@ -996,7 +1268,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kjQXYc2Abhy3TBgAZGzJRhN1JaV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/79PNOxNXSe5e0bhEj11QJPlsdCN.jpg",
+    "genres_spanish": [
+      "Fantasía",
+      "Familia",
+      "Acción",
+      "Aventura"
+    ],
+    "overview": "En la escarpada isla de Mema, donde vikingos y dragones han sido enemigos acérrimos durante generaciones, Hipo se desmarca desafiando siglos de tradición cuando entabla amistad con Desdentao, un temido dragón Furia Nocturna. Su insólito vínculo revela la verdadera naturaleza de los dragones y desafía los cimientos de la sociedad vikinga.",
+    "rating": 7.948
   },
   {
     "tmdb_id": 1051896,
@@ -1033,7 +1315,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2paAs9Azw9CXZe3jD5F3weQVwyr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9s9o9RT9Yj6nDuRJjnJm78WFoFl.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Un padre y sus hijos mellizos intentan sobrevivir al asedio de unas criaturas feroces que atacan su remota granja.",
+    "rating": 6.031
   },
   {
     "tmdb_id": 426063,
@@ -1070,7 +1361,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jivUhECegXI3OYtPVflWoIDtENt.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/fYnEbgoNCxW9kL0IgOgtJb9JTBU.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Fantasía"
+    ],
+    "overview": "Historia gótica de obsesión entre una joven hechizada y el aterrador vampiro encaprichado de ella que causa un indescriptible terror a su paso.",
+    "rating": 6.7
   },
   {
     "tmdb_id": 1045938,
@@ -1107,7 +1406,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xihssRPgRDZ7xwIjx3xuPTnqPfU.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/k32XKMjmXMGeydykD32jfER3BVI.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Misterio",
+      "Drama"
+    ],
+    "overview": "Cuando la cumbre del G20 sufre un ataque, la presidenta de EE. UU. Danielle Sutton se convierte en el objetivo número uno. Tras evitar ser capturada por los atacantes, debe derrotar al enemigo para proteger a su familia, defender a su país y poner a salvo a los líderes del mundo en esta trepidante película cargada de acción.",
+    "rating": 6.44
   },
   {
     "tmdb_id": 648878,
@@ -1144,7 +1452,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2uB5UFi0ZMpFglg0QhMAVKCf27X.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/5PJkK2iVXRO1ydrtgwuJdevmnOe.jpg",
+    "genres_spanish": [
+      "Western",
+      "Comedia",
+      "Crimen"
+    ],
+    "overview": "En mayo de 2020, la disputa entre el sheriff de un pequeño pueblo y su alcalde prende un auténtico polvorín al enfrentar a los vecinos de Eddington, Nuevo México.",
+    "rating": 6.407
   },
   {
     "tmdb_id": 1225572,
@@ -1181,7 +1498,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dENTTYrOPvbVWUr0gwXsMsoWHTT.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/n6IPjfSwyKqLungH8EHX3ZldodS.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Comedia"
+    ],
+    "overview": "Un viaje en barco a altas horas de la noche se convierte en una lucha desesperada por la supervivencia en la ciudad de Nueva York cuando un ratón travieso se convierte en una monstruosa realidad.",
+    "rating": 5.092
   },
   {
     "tmdb_id": 1232827,
@@ -1208,7 +1533,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7AXkSJ9zVSTL7vzTeBryx22kYDa.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/uwACVNL5OpiI3oT72DVGxnU4SRV.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Historia"
+    ],
+    "overview": "Una joven embarazada que acaba de quedarse sin trabajo en Copenhague lucha por sobrevivir y es acogida por un anciano carismático para que la ayude a dirigir una agencia de adopción clandestina. Entre los dos se crea un vínculo inesperado, hasta que un descubrimiento repentino lo cambia todo.",
+    "rating": 7.6
   },
   {
     "tmdb_id": 1043905,
@@ -1245,7 +1578,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/arf2DgdTEVL3xjOjkpboMOV8NQt.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/yBMGM7x8lPXUlmTNfCLZvHbpJmk.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Suspense",
+      "Bélica"
+    ],
+    "overview": "Cuando un grupo de adolescentes es tomado como rehén en Afganistán, Jake (Eva Green), una soldado americana, se une a un comando de mujeres para liberarlas. El plan: Ganarse la confianza de los terroristas haciéndose pasar por miembros de una organización humanitaria. Pero las traiciones, las tragedias y los fantasmas del pasado de Jake complican el rescate en esta misión de vida o muerte.",
+    "rating": 6.131
   },
   {
     "tmdb_id": 1125257,
@@ -1282,7 +1624,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/sqp4urYCbmSRbMYRt4SSb7oRQGJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/yQy9Y3p5INwkfTuHSnzYnz4MCV3.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Fantasía",
+      "Familia"
+    ],
+    "overview": "Años después de que Tess y Anna atravesaran una crisis de identidad, Anna ahora tiene una hija y una futura hijastra. Mientras enfrentan los innumerables desafíos que surgen cuando dos familias se fusionan, Tess y Anna descubren que el rayo puede caer dos veces.",
+    "rating": 6.849
   },
   {
     "tmdb_id": 1300891,
@@ -1309,7 +1660,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/tkMsXx2Cmigomq5ANWHQOIWRC1S.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/hWVousfMBk2YSQTfmC9SaB2SCxv.jpg",
+    "genres_spanish": [
+      "Aventura",
+      "Fantasía",
+      "Drama",
+      "Terror"
+    ],
+    "overview": "El Príncipe Elderón está huyendo después del usurpado del reino por su hermana reina Ginnarra. La reina Ginnarra sigue a los viejos dioses oscuros y usa sus poderes para perseguir a su hermano. ¿El Elderon sobrevivirá a las fuerzas en su contra?",
+    "rating": 6.583
   },
   {
     "tmdb_id": 1185528,
@@ -1336,7 +1697,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xDYngVPSl6zdepSsSxAZRvScUOM.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/1DTIRhw4cpLJlHlrPPbKzq6amHc.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Drama",
+      "Historia"
+    ],
+    "rating": 6.9
   },
   {
     "tmdb_id": 1035259,
@@ -1373,7 +1742,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/v8FpKw8mOsHxC0YElkgNNSCzGMl.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/kzeBfhXMRWiykBsqoL3UbfaM0S.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Crimen"
+    ],
+    "overview": "El torpe teniente Frank Drebin Jr. intenta resolver un asesinato vinculado a un magnate tecnológico. Mientras investiga, su unidad policial corre peligro de ser cerrada. Con la ayuda de una escritora de crímenes, Frank se verá envuelto en situaciones tan absurdas como explosivas. Película reboot basada en la popular franquicia de comedia \"Agárralo como puedas\" y la serie de televisión \"Police Squad!\".",
+    "rating": 6.427
   },
   {
     "tmdb_id": 1195631,
@@ -1400,7 +1778,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/f9JBhW0bjkfPufuyNyhcA5s7NVB.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/kLrtbKmTkbMed3GoSWc4Go7Y7Xh.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Aventura",
+      "Drama",
+      "Historia"
+    ],
+    "overview": "En el siglo XIV, las potencias europeas luchan por el dominio del Sacro Imperio Romano. El ambicioso Imperio Austríaco invade la pacífica Suiza, arrasando con todo a su paso. Guillermo Tell, un humilde cazador, se ve obligado a empuñar las armas cuando su familia y su tierra sufren la tiranía del rey austríaco y sus despiadados señores de la guerra.",
+    "rating": 6.2
   },
   {
     "tmdb_id": 1106289,
@@ -1427,7 +1815,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/lbpyI9nwzSVDjS7OnE0uC41UciP.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/y7tjLYcq2ZGy2DNG0ODhGX9Tm60.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Crimen"
+    ],
+    "overview": "Una rutinaria recogida de dinero da un giro salvaje cuando dos incompatibles conductores de camión, Russell y Travis, son asaltados por despiadados criminales a las órdenes de la hábil mente maestra Zoe, cuyos planes van mucho más allá del cargamento de dinero en efectivo. Mientras el caos se desata a su alrededor, este improbable dúo tiene que enfrentarse en situaciones de alto riesgo, con personalidades que chocan continuamente y un muy mal día que no deja de empeorar.",
+    "rating": 6.42
   },
   {
     "tmdb_id": 1155281,
@@ -1454,7 +1851,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/vM42VhcagVqVhl099en5pvMy4sq.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/yujcZMkNKtNXPvRGyTA3e3VCrbx.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Fantasía",
+      "Bélica"
+    ],
+    "overview": "Taishi Wen Zhong condujo a Xiqi al ejército de la dinastía Shang, incluidos Deng Chanyu y cuatro generales de la familia Mo. Con la ayuda de inmortales de Kunlun como Jiang Ziya, Ji Fa dirigió al ejército y a los civiles de Xiqi para defender su patria.",
+    "rating": 6.3
   },
   {
     "tmdb_id": 1307078,
@@ -1481,7 +1887,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iKT49ApsXGKYY3wdZ0THYhhgOBe.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/A466i5iATrpbVjX30clP1Zyfp31.jpg",
+    "genres_spanish": [
+      "Romance",
+      "Comedia",
+      "Drama"
+    ],
+    "overview": "Mientras cumple su sueño de estudiar en Oxford, una ambiciosa estadounidense se enamora de un encantador británico que esconde un secreto capaz de poner su vida patas arriba.",
+    "rating": 7.001
   },
   {
     "tmdb_id": 1175942,
@@ -1518,7 +1933,18 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/mZmnKDhIS2yNmtfzde5vtdCYzBF.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/8FWLJHuWB72UXBmiMtxwTvQVumN.jpg",
+    "genres_spanish": [
+      "Familia",
+      "Comedia",
+      "Crimen",
+      "Aventura",
+      "Animación"
+    ],
+    "overview": "Un genial equipo de animales que no respetan la ley, los ahora muy reformados Tipos Malos, se esfuerzan (mucho, muchísimo) en ser buenos, pero se ven envueltos involuntariamente en un golpe de envergadura mundial planeado por un inesperado grupo de criminales: las Tipas Malas.",
+    "rating": 7.692
   },
   {
     "tmdb_id": 552524,
@@ -1555,7 +1981,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4oLLOAT55JhAoe73VliaSKFvEEr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
+    "genres_spanish": [
+      "Familia",
+      "Ciencia ficción",
+      "Comedia"
+    ],
+    "overview": "La conmovedora y divertidísima historia de una solitaria niña hawaiana y el extraterrestre fugitivo que la ayuda a reparar su desestructurada familia.",
+    "rating": 7.22
   },
   {
     "tmdb_id": 1136867,
@@ -1592,7 +2027,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/u15ytqp6QmHymVVw1xxdodZ5N02.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/lqwwGkwJHtz9QgKtz4zeY19YgDg.jpg",
+    "genres_spanish": [
+      "Romance",
+      "Drama"
+    ],
+    "overview": "Lucy es una joven casamentera de Nueva York que se encarga de unir solteros para encontrar la pareja perfecta. Sin embargo, su mundo se desestabiliza al encontrarse atrapada en un triángulo amoroso con Harry, un apuesto financiero multimillonario, y su exnovio John, un actor de poco éxito.",
+    "rating": 6.43
   },
   {
     "tmdb_id": 1126166,
@@ -1629,7 +2072,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8T6nkYb4W8BIeafmFffyfsRciTL.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/hwlyY7LJdEFbCPaGNXiskKKmJ5X.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense"
+    ],
+    "overview": "En este claustrofóbico thriller, un piloto (Mark Wahlberg) transporta en su avioneta a una agente del servicio de MARSHALS de Estados Unidos (Michelle Dockery) que custodia a un testigo (Topher Grace) que va a testificar en un juicio contra la mafia. A medida que atraviesan las montañas de Alaska, las tensiones se disparan, ya que no todo el mundo a bordo es quien parece ser. Y a 3.000 metros de altura no hay escapatoria posible.",
+    "rating": 5.956
   },
   {
     "tmdb_id": 423108,
@@ -1666,7 +2117,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ghMQALCyytc6W0wlOlMIKiMSRKV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/6Z0FhoZM56YkuXhvklMTpc7rc5u.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Misterio",
+      "Suspense"
+    ],
+    "overview": "Los investigadores paranormales Ed y Lorraine Warren se encuentran con lo que se convertiría en uno de los casos más sensacionales de sus archivos. La lucha por el alma de un niño los lleva más allá de todo lo que habían visto antes, para marcar la primera vez en la historia de los Estados Unidos que un sospechoso de asesinato reclamaría posesión demoníaca como defensa.",
+    "rating": 7.368
   },
   {
     "tmdb_id": 1263256,
@@ -1693,7 +2153,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/utIg6Vghn65A7rz8tH9ItHUuCzU.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/stCEYCxA3SknIIne1H4LmaIJ8ii.jpg",
+    "genres_spanish": [
+      "Comedia"
+    ],
+    "overview": "Happy, ya retirado del golf profesional, regresa al circuito no por gloria sino para financiar la escuela de danza de su hija, Viena.",
+    "rating": 6.564
   },
   {
     "tmdb_id": 980477,
@@ -1720,7 +2187,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jz5sGlPGf0cWZ0uJPDc8cSjjFcZ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/8btfz81bOJ2lC7cujYBTw03wzg3.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Fantasía",
+      "Aventura",
+      "Acción"
+    ],
+    "overview": "Cuando los cuerpos de los dos amigos, Aobing y Nezha, están a punto de ser destruidos, se les permite que sus almas sigan existiendo. Su maestro, Taiyi Zhenren, restaura sus cuerpos con la ayuda de una flor de loto. Después de esto, Nezha parte en busca de enfrentar al Rey Dragón del Mar del Este, Ao Guang.",
+    "rating": 8.114
   },
   {
     "tmdb_id": 1241470,
@@ -1747,7 +2224,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3YtZHtXPNG5AleisgEatEfZOT2w.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ySHUoK4utUOiSfCinw81H1TsV0E.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Acción",
+      "Terror"
+    ],
+    "overview": "Un equipo de comandos de las Fuerzas Especiales es abducido por una misteriosa nave espacial durante una operación militar. Al despertar, los soldados desconocen su paradero y pronto descubren que están prisioneros de una despiadada raza alienígena, lo que desencadena una frenética lucha por su supervivencia.",
+    "rating": 6.076
   },
   {
     "tmdb_id": 574475,
@@ -1784,7 +2270,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/frNkbclQpexf3aUzZrnixF3t5Hw.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Misterio"
+    ],
+    "overview": "Acosada por una violenta pesadilla recurrente, la estudiante universitaria Stefanie se dirige a casa para localizar a la única persona que podría ser capaz de romper el ciclo y salvar a su familia de la espeluznante muerte que inevitablemente les espera a todos.",
+    "rating": 7.1
   },
   {
     "tmdb_id": 575265,
@@ -1816,7 +2310,16 @@
         "server": "hglink.to",
         "language": "Subtitulada"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/haOjJGUV00dKlZaJWgjM1UD1cJV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/xPNDRM50a58uvv1il2GVZrtWjkZ.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense",
+      "Aventura"
+    ],
+    "overview": "El agente Ethan Hunt continúa su misión de impedir que Gabriel controle el tecnológicamente omnipotente programa de IA conocido como \"the Entity\".",
+    "rating": 7.192
   },
   {
     "tmdb_id": 1376434,
@@ -1853,7 +2356,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8upWJ1KTR1bAPqXCHAuVOhfuiAZ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/3AGZKVr2DPT9H53gYtkSEC1tK1E.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Acción",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "overview": "Esta antología original de animación narra las aventuras de tres de los guerreros más fieros de la historia de la humanidad: una saqueadora vikinga que guía a su hijo en su sangrienta búsqueda de la venganza, un ninja del Japón feudal que se enfrenta a su hermano samurái en una brutal batalla por la sucesión y un piloto de la Segunda Guerra Mundial que surca los cielos para investigar una amenaza extraterrestre contra los Aliados.",
+    "rating": 7.845
   },
   {
     "tmdb_id": 1049942,
@@ -1880,7 +2393,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/i0amBD0hmCCB8Kf6t3nVHqKaSKi.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/tG5ZSx57zkijfK975aENinlOdIy.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Un grupo de jovenes van al bosque y ahi estara Bambi que los quiere ver muertos",
+    "rating": 5.615
   },
   {
     "tmdb_id": 1391047,
@@ -1897,7 +2418,16 @@
         "server": "vpge.link",
         "language": "Esp"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/1oPW1RuTy3CgJ1Nlv06AleOHz7a.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ekrIgeHkpjUPMAhXEI9YK9CTp4f.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Suspense",
+      "Terror"
+    ],
+    "overview": "Hstoria está ambientada en una colonia espacial distante donde Olivia (Loreto), una controladora experta y experta en seguridad, está a cargo de la sala de control de la colonia, garantizando la seguridad y el bienestar de la comunidad junto con su colega, Arlo. Pero cuando la colonia es asediada por criaturas alienígenas, Olivia debe aceptar el desafío y proteger su hogar.",
+    "rating": 5.2
   },
   {
     "tmdb_id": 1087891,
@@ -1934,7 +2464,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9WPWF0AmklsKclrXeyKXbQ543ZA.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/aD7FXrm2GErTmzrIFBntPyhAqS9.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Acción"
+    ],
+    "overview": "Charlie Heller es un brillante pero introvertido decodificador de la CIA que trabaja en una oficina en el sótano de la sede de Langley. Su vida cambia radicalmente cuando su esposa muere en un ataque terrorista en Londres. Cuando sus supervisores se niegan a tomar cartas en el asunto, él mismo toma las riendas y se embarca en un peligroso viaje por todo el mundo para localizar a los responsables. Su inteligencia puede ser el arma definitiva para llevar a cabo su venganza.",
+    "rating": 6.962
   },
   {
     "tmdb_id": 1234821,
@@ -1971,7 +2509,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2sbGd7kDhMicDkT097FR9a2JyGU.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/xCoF56oOLjKqzwWkwlC8gsrx18h.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Aventura",
+      "Acción"
+    ],
+    "overview": "Cinco años después de los eventos de \"Dominion\", la ecología del planeta ha demostrado ser insoportable para los dinosaurios, donde los pocos que quedan viven aislados en las regiones ecuatoriales. Zora Bennett es contratada para dirigir a un equipo de especialistas cuyo objetivo es conseguir el material genético de las tres criaturas más grandes, las cuales tienen en su ADN la clave para fabricar un medicamento que aportará grandes beneficios a la humanidad. Pero la operación se cruzará con una familia cuyo barco volcó y todos acabarán en una isla prohibida ocupada por dinosaurios de numerosas especies, donde tendrán que hacer lo imposible para sobrevivir.",
+    "rating": 6.323
   },
   {
     "tmdb_id": 1239655,
@@ -2008,7 +2555,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/p5k9BpwG6vwMsmlqXRUKqW5MCZo.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/g70uNy3hRqEcU0ilBTtcuBFlizx.jpg",
+    "genres_spanish": [
+      "Comedia"
+    ],
+    "overview": "Un padre de un barrio residencial (Tim Robinson) lucha por mantener su trabajo y su matrimonio a flote mientras anhela hacerse amigo de Brian, su nuevo y encantador vecino (Paul Rudd).",
+    "rating": 6.491
   },
   {
     "tmdb_id": 846422,
@@ -2035,7 +2589,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6eGyuK8bHMAB34AIIQOL3wZw8sn.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/fd9K7ZDfzRAcbLh8JlG4HIKbtuR.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Fantasía"
+    ],
+    "overview": "Andy y su equipo de guerreros inmortales luchan con un propósito renovado y se enfrentan a un nuevo y poderoso enemigo que amenaza su misión de proteger a la humanidad.",
+    "rating": 5.924
   },
   {
     "tmdb_id": 749170,
@@ -2072,7 +2634,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2CSdwqOUMH23cEBodqAJynMFz7c.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/vJbEUMeI2AxBUZKjP6ZVeVNNTLh.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense",
+      "Comedia"
+    ],
+    "overview": "El primer ministro del Reino Unido y el presidente de EE. UU. tienen una rivalidad pública que pone en riesgo la alianza entre sus países. Pero cuando se convierten en el blanco de un poderoso enemigo, se ven obligados a confiar el uno en el otro. Aliados con Noel, una agente del MI6, intenta frustrar una conspiración que amenaza al mundo libre.",
+    "rating": 6.846
   },
   {
     "tmdb_id": 911430,
@@ -2109,7 +2680,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/wfpqaxoPKvcqzLy8FO0enGXBzU.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ZtcGMc204JsNqfjS9lU6udRgpo.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Drama"
+    ],
+    "overview": "El mítico piloto Sonny Hayes vuelve de su retiro, persuadido para liderar un equipo de Fórmula 1 en apuros y guiar a su joven promesa, en busca de una nueva oportunidad de éxito.",
+    "rating": 7.8
   },
   {
     "tmdb_id": 1071585,
@@ -2146,7 +2725,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/zgsdwQ6XciR0IzgeRXyKzVhzVzP.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/cT9ZfwoPDk8JbgkessmQgxAWiaM.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "overview": "Con el futuro de la existencia humana en juego, Gemma se da cuenta de que la única opción es resucitar a M3GAN y darle unas cuantas mejoras, haciéndola más rápida, más fuerte y más letal.",
+    "rating": 7.288
   },
   {
     "tmdb_id": 1285965,
@@ -2173,7 +2761,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dztGSM9IL23Be7uGxw0khy8dfE1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/6bfas8v3FzZ3qpzR2RWpw4z9DT7.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Zephyr, una surfista inteligente y de espíritu libre, que es secuestrada por un asesino en serie obsesionado con los tiburones. Cautiva en su barco, debe averiguar cómo escapar antes de que él lleve a cabo un ritual de alimentación a los tiburones.",
+    "rating": 6.452
   },
   {
     "tmdb_id": 1098006,
@@ -2210,7 +2806,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9bhDUyOCrcwPLKbPyHM4uKOa65T.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/arGs8D4RfUfsk7vMiMjDi6Mtabv.jpg",
+    "genres_spanish": [
+      "Aventura",
+      "Fantasía",
+      "Misterio"
+    ],
+    "overview": "Un genio cazatesoros reúne a un equipo para una misión que cambiará vidas. Pero para esquivar y superar los obstáculos que se encontrará, necesitará a alguien más listo que él: su distanciada hermana.",
+    "rating": 6.271
   },
   {
     "tmdb_id": 1034716,
@@ -2237,7 +2842,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9SUEbyc5OUaNkGPLK3f1w3Ryoyo.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/qth56RA3rkUlhbDRDKGeMJEssdi.jpg",
+    "genres_spanish": [
+      "Romance",
+      "Comedia",
+      "Drama"
+    ],
+    "overview": "Poppy es un espíritu libre y a Alex le gusta planificarlo todo. Tras muchas vacaciones juntos, estos amigos tan diferentes se preguntan si serán la pareja perfecta.",
+    "rating": 7.015
   },
   {
     "tmdb_id": 1338799,
@@ -2264,7 +2878,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xaQdh164coVcrNiQm6jpehYG1dV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/w8j0HVX7xasNVGAva2T3W4ncoN4.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Acción",
+      "Fantasía"
+    ],
+    "overview": "Perseguidos por una secta religiosa y otros usuarios de maldiciones, compañeros hechos enemigos Satoru Gojo y Suguru Geto son los únicos hechiceros capaces de proteger a Riko Amanai, una estudiante que ha sido designada para ser sacrificada como Recipiente de Plasma Estelar hasta que pueda cumplir con su deber, pero esta misión marcará sus destinos y desafiará a los dos hechiceros de formas inimaginables.",
+    "rating": 8.294
   },
   {
     "tmdb_id": 1223601,
@@ -2301,7 +2924,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/qQyc6t9dHS5dlIUt3ccCQnRIAc1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/yCatt8lmp3oRFEcOZF8KHhsiASQ.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Bélica"
+    ],
+    "overview": "Al regresar a la casa donde su familia fue brutalmente asesinada durante la guerra, «el hombre que se niega a morir» la desmantela, la carga en un camión y se propone reconstruirla en un lugar seguro en honor a ellos. Cuando el comandante del Ejército Rojo que mató a su familia regresa empeñado en terminar el trabajo, se produce una implacable y espectacular persecución a través del país, una lucha a muerte llena de escenas de acción increíbles e ingeniosas.",
+    "rating": 7.416
   },
   {
     "tmdb_id": 1371185,
@@ -2328,7 +2959,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iACF4iWIDxMQnEB48DMtbgE9jnQ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/mnEx3lTjjQYHMj55ZnZHQZVUlZ.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Música",
+      "Romance"
+    ],
+    "overview": "La historia de dos músicos de poca fortuna que se lanzan con ilusión a formar una banda tributo a Neil Diamond, demostrando que nunca es demasiado tarde para encontrar el amor y cumplir tus sueños.",
+    "rating": 7.58
   },
   {
     "tmdb_id": 986056,
@@ -2365,7 +3005,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/yDWU8YyFkPnlVY627QXPvct8bz9.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/jYCyTdPfgT01IOJWDnnetr9RDX6.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+    ],
+    "overview": "Un grupo de supervillanos poco convencional es reclutado para hacer misiones para el gobierno: Yelena Belova, Bucky Barnes, Red Guardian, Ghost, Taskmaster y John Walker. Después de verse atrapados en una trampa mortal urdida por Valentina Allegra de Fontaine, estos marginados deben embarcarse en una peligrosa misión que les obligará a enfrentarse a los recovecos más oscuros de su pasado.",
+    "rating": 7.3
   },
   {
     "tmdb_id": 1241436,
@@ -2402,7 +3051,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fkVpNJugieKeTu7Se8uQRqRag2M.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/cJvUJEEQ86LSjl4gFLkYpdCJC96.jpg",
+    "genres_spanish": [
+      "Bélica",
+      "Acción"
+    ],
+    "overview": "Basada en las experiencias reales del ex marine Ray Mendoza (codirector y coguionista de la película) durante la guerra de Irak. Introduce al espectador en la experiencia de un pelotón de Navy SEALs estadounidenses. Concretamente en una misión de vigilancia que se tuerce en territorio insurgente. Una historia visceral y a pie de campo sobre la guerra moderna y la hermandad, contada como nunca antes: en tiempo real y basada en los recuerdos de quienes la vivieron.",
+    "rating": 7.09
   },
   {
     "tmdb_id": 1233069,
@@ -2439,7 +3096,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/bTYbNWz4kI1P3GzEVvWZwyZT7Uv.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/14UFWFJsGeInCbhTiehRLTff4Yx.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Acción"
+    ],
+    "overview": "Cuando su hijo desaparece en un consulado de EE. UU., una exsoldado de las fuerzas especiales hará lo imposible por encontrarlo... y destapará una oscura conspiración.",
+    "rating": 6.607
   },
   {
     "tmdb_id": 798645,
@@ -2476,7 +3141,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/5WYxFamHLqroV0TilEw0RqBPzqG.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/aHj7d7wSLqrg5cjAcgHhiGr97Ih.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense",
+      "Ciencia ficción"
+    ],
+    "overview": "En una América distópica en el año 2025, Ben Richards participa en el violento reality show \"The Running Man\" con el fin de ganar suficiente dinero para revivir a su hija gravemente enferma.",
+    "rating": 6.8
   },
   {
     "tmdb_id": 425274,
@@ -2503,7 +3177,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/Aspr0HcItNVbgLC8cV0ZAO0EBcc.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ufqytAlziHq5pljKByGJ8IKhtEZ.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Crimen",
+      "Misterio"
+    ],
+    "overview": "Los Cuatro Jinetes regresan junto a una nueva generación de ilusionistas en una extraordinaria aventura que contiene giros asombrosos, sorpresas alucinantes y trucos de magia nunca vistos en la gran pantalla.",
+    "rating": 6.5
   },
   {
     "tmdb_id": 1245347,
@@ -2530,7 +3213,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ld7HHNBXFt5XxO3DW5IBkGUIsLt.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/fnvTC96lA7pf8ZlMKI2FgBZ86AP.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Drama"
+    ],
+    "overview": "Dos jóvenes se conocen en un grupo de apoyo a gemelos en duelo y forman un inesperado vínculo.",
+    "rating": 7.3
   },
   {
     "tmdb_id": 701387,
@@ -2567,7 +3258,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2C5Vf9VcoXB7SFFcG8vppW5bmtX.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/tN3pTxkQoP96wtaEahYuRVdUWb2.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Suspense",
+      "Comedia"
+    ],
+    "overview": "Dos jóvenes obsesionados con las conspiraciones secuestran a la directora ejecutiva de una reconocida empresa porque están convencidos de que es un alienígena decidido a destruir la Tierra. Remake del film coreano \"Save the Green Planet\".",
+    "rating": 7.368
   },
   {
     "tmdb_id": 870028,
@@ -2604,7 +3304,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jcV9YfjBRo6occxqeWtEiyWwMoG.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/yBDvgpyynDsbMyK21FoQu1c2wYR.jpg",
+    "genres_spanish": [
+      "Misterio",
+      "Crimen",
+      "Suspense"
+    ],
+    "overview": "Cuando un viejo conocido es asesinado, Wolff se ve obligado a resolver el caso. Al darse cuenta de que son necesarias medidas más extremas, Wolff recluta a su hermano Brax, distanciado y muy letal, para que le ayude. En colaboración con Marybeth Medina, descubren una conspiración mortal y se convierten en objetivo de una despiadada red de asesinos que no se detendrán ante nada para mantener sus secretos enterrados.",
+    "rating": 7.1
   },
   {
     "tmdb_id": 668489,
@@ -2631,7 +3340,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/tbsDLmo2Ej8YFM0HKcOGfNMTlyJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/7rKyFSg6SdLoCRCVoWLjL5k658k.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Crimen",
+      "Suspense",
+      "Drama"
+    ],
+    "overview": "Cuando un robo de drogas tiene consecuencias fatales, un policía lucha contra el submundo criminal de una ciudad corrupta para salvar al hijo de un político.",
+    "rating": 6.38
   },
   {
     "tmdb_id": 1232546,
@@ -2668,7 +3387,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/exgfubqSbF4veI4uXFOdbV66gEf.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/vFJgEhYEjWWJ9JqmlMdDiKxE8JD.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Misterio"
+    ],
+    "overview": "Un año después de la misteriosa desaparición de su hermana Melanie, Clover y sus amigas se dirigen al remoto valle donde desapareció en busca de respuestas. Mientras exploran un centro de visitantes abandonado, son acechadas por un asesino enmascarado que las mata una a una de forma horrible… para después despertar y encontrarse de nuevo al principio de la misma noche.",
+    "rating": 6.3
   },
   {
     "tmdb_id": 1233413,
@@ -2705,7 +3432,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/zdClwqpYQXBSCGGDMdtvsuggwec.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Acción",
+      "Suspense"
+    ],
+    "overview": "Tratando de dejar atrás sus problemáticas vidas, dos hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor les espera para darles la bienvenida.",
+    "rating": 7.489
   },
   {
     "tmdb_id": 1181107,
@@ -2732,7 +3468,18 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/oukn96XolAQBXykWTVT6h0HNgY7.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/mr2LvZydvor6CDZhrpJLRYMCcBc.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Familia",
+      "Fantasía",
+      "Drama",
+      "Aventura"
+    ],
+    "overview": "Un padre le cuenta a su hijo la mejor historia jamás contada, y lo que comienza como un cuento antes de dormir se convierte en un viaje que cambia la vida. A través de una vívida imaginación, el niño camina junto a Jesús, presenciando sus milagros, enfrentándose a sus pruebas y comprendiendo su sacrificio final. El Rey de Reyes nos invita a redescubrir el poder perdurable de la esperanza, el amor y la redención a través de los ojos de un niño.",
+    "rating": 8.357
   },
   {
     "tmdb_id": 1130022,
@@ -2759,7 +3506,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3tKoiSTXBafXPbIyFF0eeb0KVoJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ml9WFOTF3liDw3gfbCJ9c1c4DW9.jpg",
+    "genres_spanish": [
+      "Crimen",
+      "Drama",
+      "Suspense"
+    ],
+    "overview": "Un padre ha convencido a su hijo de que las leyes son solo mentiras, y juntos se han unido a un grupo extremista en medio de la crisis económica de 2008. La historia se inspira en hechos reales y explora cómo estas ideologías radicales crecen en tiempos difíciles.",
+    "rating": 6.781
   },
   {
     "tmdb_id": 1459696,
@@ -2796,6 +3552,11 @@
         "server": "vpge.link",
         "language": "Sub"
       }
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9abEJ0DADz2xkcxWpZTC6hezWs3.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/mVEgbmMc4VeGFMggLglNxWvj9Gh.jpg",
+    "genres_spanish": [
+      "Música"
     ]
   },
   {
@@ -2833,7 +3594,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/sLDxndoqFWwJEq7iEdYQBzPjUDQ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/jb7yM17VZvDqUJVS4JR77EOfgEM.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Fantasía",
+      "Western"
+    ],
+    "overview": "Basada en el relato de George R. R. Martin. Una reina (Amara Okereke), desesperada por encontrar la felicidad en el amor, envía a la poderosa bruja Gray Alys (Milla Jovovich) a las Tierras Perdidas, en busca de un poder mágico que permite a una persona transformarse en un hombre lobo. Con el misterioso cazador Boyce (Dave Bautista), que la apoya en la lucha contra criaturas oscuras y despiadadas, Gray deambula por un mundo inquietante y peligroso. Pero solo ella sabe que, cada deseo que se concede, tiene consecuencias inimaginables.",
+    "rating": 6.416
   },
   {
     "tmdb_id": 950387,
@@ -2870,7 +3640,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/mFjtmmh4RtK9tLv1aPnUsl6st3m.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+    "genres_spanish": [
+      "Familia",
+      "Fantasía",
+      "Comedia",
+      "Aventura"
+    ],
+    "overview": "Cuatro inadaptados se encuentran luchando con problemas ordinarios cuando de repente se ven arrastrados a través de un misterioso portal al Mundo Exterior: un extraño país de las maravillas cúbico que se nutre de la imaginación. Para volver a casa, tendrán que dominar este mundo mientras se embarcan en una búsqueda mágica con un inesperado experto artesano, Steve.",
+    "rating": 6.3
   },
   {
     "tmdb_id": 696506,
@@ -2907,7 +3687,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iOKu6Hf5atv3DuXBS0jBF3OYYdu.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9PRKAdrDvAdCfg3EcApLTfzGsEt.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Comedia",
+      "Aventura"
+    ],
+    "overview": "Mickey 17, un miembro de la tripulación 'expendable' (prescindible) enviado a un planeta helado para colonizarlo, se niega a dejar que su clon de reemplazo, Mickey 18, tome su lugar... Adaptación del libro original de Edward Ashton.",
+    "rating": 6.835
   },
   {
     "tmdb_id": 1020414,
@@ -2944,7 +3733,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/oyd8yTJ8nF7uob9bq1zKDCuKOhb.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9uGxyklcNwpjlIe3Lim7HyPVns6.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense",
+      "Fantasía"
+    ],
+    "overview": "Sigue a Wendy Darling en su intento de rescatar a su hermano Michael de \"las garras del malvado Peter Pan\". Por el camino conoce a Campanilla, que en esta retorcida versión del cuento se verá tomando heroína, convencida de que es polvo de hadas. La famosa historia de Peter Pan reinventada como un film de terror por Jagged Edge Productions, productora de \"Winnie the Pooh: Blood and Honey\".",
+    "rating": 5.7
   },
   {
     "tmdb_id": 1197306,
@@ -2981,7 +3779,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aG50Ad3UV8cCQWpNWSHHUqgKGNB.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Crimen",
+      "Suspense"
+    ],
+    "overview": "Levon Cade dejó atrás una condecorada carrera militar en las operaciones encubiertas para vivir una vida sencilla trabajando en la construcción. Pero cuando la hija de su jefe, que para él es como de la familia, es secuestrada por traficantes de personas, su búsqueda para traerla a casa descubre un mundo de corrupción mucho mayor de lo que jamás podría haber imaginado.",
+    "rating": 6.7
   },
   {
     "tmdb_id": 1069905,
@@ -3018,7 +3825,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/vO0cV3886E47tmZo0iJXzMPEEzr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/wR9D9hQvCVBux16NauY4b7letdU.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Comedia"
+    ],
+    "overview": "La estrella del cine Jay Kelly se enfrenta a su pasado y su presente durante un viaje por Europa con su fiel representante en esta película de Noah Baumbach, nominado al Óscar.",
+    "rating": 6.105
   },
   {
     "tmdb_id": 1242419,
@@ -3045,7 +3860,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xyMrN8wuD2nNWVDo1c4V2dkkzL5.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/2YOnE2qmoyyOUqQsFit12gDSauk.jpg",
+    "genres_spanish": [
+      "Crimen",
+      "Comedia",
+      "Drama"
+    ],
+    "rating": 7.189
   },
   {
     "tmdb_id": 926606,
@@ -3072,7 +3895,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/r0NUt1M62StNgvSLmLsmJADbHpg.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/Lu57GTE24Ja5O61jieY2aIBk8d.jpg",
+    "genres_spanish": [
+      "Misterio",
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Max, que acaba de empezar a trabajar en una residencia de ancianos, se da cuenta de que sus residentes y cuidadores esconden siniestros secretos.",
+    "rating": 6.753
   },
   {
     "tmdb_id": 744653,
@@ -3099,7 +3931,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xJeCdbeaLgsEr5DkXD6T67eqZFT.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/4KN06gns94rQFoYQWDGunK7Cob4.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Misterio",
+      "Crimen"
+    ],
+    "overview": "Un grupo de jubilados aficionados a resolver casos antiguos se enfrenta a un asesinato real cargado de misterio en esta comedia de humor negro basada en la novela homónima.",
+    "rating": 6.598
   },
   {
     "tmdb_id": 13494,
@@ -3126,7 +3967,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aE3yh4y0h96CZZpLo0UDFMWZAA9.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/xSD0q1FiuZkvHuy7uscOLbmd1hR.jpg",
+    "genres_spanish": [
+      "Aventura",
+      "Acción",
+      "Fantasía"
+    ],
+    "overview": "Nueva adaptación del cómic Red Sonja, una guerrera vengativa conocida como \"La diablesa con una espada\".",
+    "rating": 5.7
   },
   {
     "tmdb_id": 1319969,
@@ -3163,7 +4013,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/sfRdBfhzYy3ZPdUO9KHgO83xY7I.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/3htgvJ6d0GV633oHYueeISk8J7w.jpg",
+    "genres_spanish": [
+      "Aventura",
+      "Fantasía",
+      "Comedia",
+      "Familia"
+    ],
+    "overview": "Cuando los peculiares dibujos de una niña cobran vida, dejando una estela de caos y polvo de lápices de colores, una familia en duelo tiene que unirse para luchar contra ellos.",
+    "rating": 7.129
   },
   {
     "tmdb_id": 1429739,
@@ -3190,7 +4050,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/y8QzarjF4zEqduL8nLNww2WCjO1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/kYsU56QEcwEr8jAQ6Vm3M8bXTWz.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Drama",
+      "Western"
+    ],
+    "overview": "Hacia el final de la Segunda Guerra Mundial, un forajido y sus secuaces intentan robar un tren lleno de oro mientras se enfrentan a su peor enemigo y al ejército japonés.",
+    "rating": 6.883
   },
   {
     "tmdb_id": 1158996,
@@ -3217,7 +4087,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/p5b8aNWopnUxORdHcmHP7WttEQO.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/pq6IdEEXEfrcT8O1dzuqkPCUvVM.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "overview": "Mientras pedalea por las calles de París para repartir comida, Souleymane repite su historia. En dos días deberá pasar la entrevista de solicitud de asilo, clave para obtener los papeles. Pero Souleymane no está preparado. Una mirada realista a la estresante cotidianidad de un inmigrante guineano, con la que Abou Sangare ganó el premio de mejor actor en Cannes (Un Certain Regard) y Gijón. Urgente y cruda, hará las delicias de los fans del cine de los Dardenne.",
+    "rating": 7.48
   },
   {
     "tmdb_id": 1205656,
@@ -3244,7 +4121,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/46xA2LvkRfnHSwe98dDHRdhRfst.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/yPU89i5KvCrfPkbgsUqYjRycPaY.jpg",
+    "genres_spanish": [
+      "Misterio",
+      "Suspense",
+      "Terror"
+    ],
+    "overview": "Dos padres reciben una angustiosa llamada nocturna de su hija adolescente, quien acaba de atropellar accidentalmente a un peatón. Se suben a su coche a toda prisa para llegar antes de que alguien más se tope con la escena. A medida que avanza la noche, revelaciones inquietantes amenazan con destrozar a la familia, mientras enseguida se dan cuenta de que podrían no ser los únicos conduciendo por Hallow Road.",
+    "rating": 6.424
   },
   {
     "tmdb_id": 1447287,
@@ -3261,7 +4147,13 @@
         "server": "vpge.link",
         "language": "Lat"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/32kwv7gWBcIcI9mi5h5CwwLxZVw.jpg",
+    "backdrop_url": null,
+    "genres_spanish": [
+      "Acción"
+    ],
+    "rating": 6.4
   },
   {
     "tmdb_id": 1450529,
@@ -3278,7 +4170,15 @@
         "server": "vpge.link",
         "language": "Lat"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/moiLQPK2YjritOYG674DrWHvlgp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/nJLp4dBD29fwWopoaranezJ26bo.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Acción"
+    ],
+    "overview": "Una cruda historia de tragedia y redención, contada a través de un único plano continuo. Rodada en la verdadera Isla Maciel, en las afueras de Buenos Aires, Argentina.",
+    "rating": 6.4
   },
   {
     "tmdb_id": 1451288,
@@ -3295,7 +4195,14 @@
         "server": "vpge.link",
         "language": "Esp"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/htde6l6RBUdRV2s7wfDeGsMOHag.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/5kmgFDjhQ1kwqSWhgcWxALjlNAU.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "overview": "Una familia se enfrenta a la complejidad de los lazos emocionales tras la ruptura de una relación. La nueva pareja del padre, unida al hijo, deberá enfrentar el dolor y el dilema de lo que ocurre si todo cambia.",
+    "rating": 6.6
   },
   {
     "tmdb_id": 1339658,
@@ -3322,7 +4229,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dHzsxIZhbxNoKSWJ4FAj0jeeDaV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/1YeNl4OexgoTqCbwXEYg4ujZmYt.jpg",
+    "genres_spanish": [
+      "Romance",
+      "Comedia",
+      "Suspense"
+    ],
+    "overview": "La primera escapada romántica de fin de semana de Iris e Isaac se tuerce de la forma más inesperada. Cuando la relación se desmorona, la desesperada esperanza de Iris de que la reticencia de su novio a comprometerse sea simplemente confusión la lleva a tomar medidas cada vez más desquiciadas para consolidar la relación.",
+    "rating": 6.4
   },
   {
     "tmdb_id": 857800,
@@ -3339,7 +4255,15 @@
         "server": "vpge.link",
         "language": "Esp"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/cAxteOtjaeQN045qNNbSEwu78c4.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/zjqvYpo7SZ23QI8GO77zRO68kEO.jpg",
+    "genres_spanish": [
+      "Documental",
+      "Música"
+    ],
+    "overview": "Los viajes individuales de los cuatro miembros de la banda, mientras se mueven a través de la escena musical de la década de 1960, tocando en pequeños clubes por toda Gran Bretaña e interpretando algunos de los mayores éxitos de la época, hasta su encuentro en el verano de 1968 para un ensayo que cambia sus vidas para siempre.",
+    "rating": 7.262
   },
   {
     "tmdb_id": 1125899,
@@ -3366,7 +4290,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/mwzDApMZAGeYCEVjhegKvCzDX0W.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/2TtpJq1PbeQ36E5FnHVX4O6hVvu.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense"
+    ],
+    "overview": "Después de que un grupo de activistas se apodere de la gala anual de una compañía energética para denunciar su corrupción, su justa causa es secuestrada por un extremista dispuesto a asesinar a las 300 personas presentes en el edificio para transmitir su mensaje anárquico. Una ex soldado convertida en limpiacristales, suspendida 50 pisos en el exterior del rascacielos londinense, es la encargada de intentar salvar a los que están atrapados dentro, incluido su hermano pequeño.",
+    "rating": 6.359
   },
   {
     "tmdb_id": 1249289,
@@ -3403,7 +4335,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/chIQxgimGbIFnuFsLqpcoTbsH9.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/qSOMdbZ6AOdHR999HWwVAh6ALFI.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Crimen",
+      "Suspense"
+    ],
+    "overview": "Un matrimonio de espías, en el punto de mira de una red de inteligencia internacional, no se detendrá ante nada para obtener un activo crítico. Joe y Lara son agentes que viven fuera de la red y cuyo tranquilo retiro en una estación invernal salta por los aires cuando miembros de la vieja guardia sospechan que ambos pueden haberse unido a un equipo de élite de espías deshonestos, conocido como Alarum.",
+    "rating": 5.7
   },
   {
     "tmdb_id": 447273,
@@ -3440,7 +4381,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/sm91FNDF6OOKU4hT9BDW6EMoyDB.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
+    "genres_spanish": [
+      "Familia",
+      "Fantasía"
+    ],
+    "overview": "Tras la desaparición del benévolo Rey, la Reina Malvada dominó la otrora bella tierra con una vena cruel. La princesa Blancanieves huye del castillo cuando la Reina, celosa de su belleza interior, intenta matarla. En lo profundo del oscuro bosque, se topa con siete enanos mágicos y un joven bandido llamado Jonathan. Juntos, luchan por sobrevivir a la implacable persecución de la Reina y aspiran a recuperar el reino en el proceso.",
+    "rating": 4.323
   },
   {
     "tmdb_id": 1107215,
@@ -3467,7 +4416,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/s56FTmqeOsGK6fcF1HBglp6yYro.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/qMYb0pTEnsYsYPVD1uJIpOMumYB.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Comedia"
+    ],
+    "overview": "París, 1963. Roland, el menor de una familia de seis hermanos, sufre una malformación en un pie. Según los médicos nunca podrá caminar, pero su testaruda madre, Esther, simplemente se niega a aceptarlo. Mediante una combinación de fe inquebrantable y negación excepcional, la mujer está decidida a desafiar cualquier adversidad  para conseguir que su hijo sea feliz.",
+    "rating": 6.957
   },
   {
     "tmdb_id": 1262983,
@@ -3494,7 +4451,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ey2jHopfqDLkmUpavAkUKIi1QsX.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/8lL13GCrlOii2KvMaSom2rC16Zr.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Un adolescente va a ver a su camello para probar una nueva droga antes de irse de fiesta. De camino a casa, recoge a una mujer herida y la noche da un giro surrealista.",
+    "rating": 6.536
   },
   {
     "tmdb_id": 1088166,
@@ -3531,7 +4496,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jUDzCoIAdgxdlOsRdRfRSjcjFkT.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9knXxeYDmxgYi7cmoQzCisP3b6w.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Drama",
+      "Suspense"
+    ],
+    "overview": "Ash (Riz Ahmed) es un negociador especializado en conflictos entre grandes empresas y denunciantes. Frío, metódico y casi invisible gracias al sofisticado sistema de comunicaciones, de nombre RELAY, con el que trabaja. Pero su mundo da un giro cuando recibe la llamada de Sarah (Lily James), una exempleada de una farmacéutica que posee información peligrosa y teme por su vida. Lo que empieza como un caso más se transforma en una carrera contrarreloj: filtraciones, persecuciones y traiciones los arrastran a ambos a una peligrosa conspiración.",
+    "rating": 6.957
   },
   {
     "tmdb_id": 861451,
@@ -3558,7 +4532,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/rmCJCFrEwPC0u0Y1smihwDo4Cf1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/42xAe6kVeTjml9Tww6vRoWa5tay.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Drama",
+      "Suspense"
+    ],
+    "overview": "El viaje de un hombre que se descubre a sí mismo, encuentra el amor y lucha por su patria. ¿Podrá mantener el fuerte en las tres puertas?",
+    "rating": 4.328
   },
   {
     "tmdb_id": 777443,
@@ -3585,7 +4568,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/swUvAF9d9WKWGQwVCPDu8Qi8ilZ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/2n7lYEeIbucsEQCswRcVB6ZYmMP.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Aventura",
+      "Acción"
+    ],
+    "overview": "Una adolescente huérfana emprende un viaje para encontrar a su hermano desaparecido junto con un misterioso robot, un cínico contrabandista y su ocurrente compañero.",
+    "rating": 6.478
   },
   {
     "tmdb_id": 1109086,
@@ -3612,7 +4604,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/j8Gl3S4L7LE8GIF1J1phZ2Cbo72.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/pKIRUTnwY3YYU9urSdsuobdcliP.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Aventura",
+      "Suspense"
+    ],
+    "overview": "Desde las sombras más densas, la India desata a su arma más letal: el superagente Vikram. Un oficial de las Unidades Especiales, imparable, indestructible, implacable. Cuando entra en escena, el peligro es inevitable. Un Terminator atormentado por sus propios demonios, con un único propósito: volarle la cabeza a Kabir. Dos titanes. Un destino. Una persecución sin límites. El mundo entero se convierte en su sangriento y despiadado campo de batalla. En su camino, decisiones imposibles, donde cada elección tiene un precio muy alto. Esta no es solo una guerra. Es una explosión de acción brutal y emociones que desgarran el alma",
+    "rating": 5.887
   },
   {
     "tmdb_id": 1413805,
@@ -3629,7 +4630,15 @@
         "server": "vpge.link",
         "language": "Esp"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gultnK0rYs4xLLYhxQ9ZnvPfVAn.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/s9oWvDQoVka7Zisi3rmJ3Lj9WA.jpg",
+    "genres_spanish": [
+      "Documental",
+      "Drama"
+    ],
+    "overview": "Los hombres encarcelados desafían las probabilidades para exponer un encubrimiento en uno de los sistemas penitenciarios más mortíferos de Estados Unidos.",
+    "rating": 6.058
   },
   {
     "tmdb_id": 1153714,
@@ -3656,7 +4665,16 @@
         "server": "vpge.link",
         "language": "Lat"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/4rLaMBcCJ1pMq72vCulBMPsbAyh.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Fantasía",
+      "Comedia"
+    ],
+    "overview": "Padre e hija, Ridley y Elliot, atropellan a un unicornio con su coche y lo llevan al refugio, en medio de la naturaleza, de un multimillonario director de una farmacéutica.",
+    "rating": 6.417
   },
   {
     "tmdb_id": 1086910,
@@ -3683,7 +4701,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xXie22VAqXHMYBDTM2XpWRJWZIn.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ax2qCKU6tUhdkStiCnrDdXKA5xC.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Aventura"
+    ],
+    "overview": "Alec Touati es un multimillonario americano que se embarca en un viaje transformador para descubrir sus raíces. A través de una visión de ayahuasca, Alec es transportado a una sangrienta batalla y se encuentra en un castillo encantado de Marruecos. Allí conoce a Hanna, que le cuenta la trágica historia del matrimonio forzado con un príncipe saudí y su relación amorosa secreta con el cuidador del castillo. A medida que el embarazo de la princesa se hace más evidente, la historia de amor de la pareja se enfrenta a peligrosas consecuencias.",
+    "rating": 6.195
   },
   {
     "tmdb_id": 1289936,
@@ -3710,7 +4736,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/f474M02m9FocBhR6sr4DAkvoM2c.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/jvzPTf0nhsqAXodYT6ILKb99IA2.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Romance"
+    ],
+    "overview": "Sigue a la familia Crawley y a su servidumbre mientras entran en la década de 1930. Cuando Mary se ve envuelta en un escándalo público y la familia enfrenta dificultades económicas, toda la casa debe lidiar con la amenaza de la deshonra social. Los Crawley deberán adaptarse al cambio, mientras el personal se prepara para un nuevo capítulo, con la próxima generación llevando a Downton Abbey hacia el futuro.",
+    "rating": 7.139
   },
   {
     "tmdb_id": 1250629,
@@ -3737,7 +4771,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/mLrJSg62N6u9dfTkzd0cLLGyWbF.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/rlcrzAtqW1G0mSt0zSiIzblrSpt.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Drama"
+    ],
+    "overview": "Sigue la inspiradora historia de nuestro héroe Dave Fishwick. Después de crear un exitoso banco comunitario en Burnley, Dave decide enfrentarse a las empresas de créditos exprés que están causando estragos en su ciudad y en todo el Reino Unido. Con determinación y la ayuda de algunos amigos, Dave se enfrenta a estas empresas para proteger a su comunidad.",
+    "rating": 7.048
   },
   {
     "tmdb_id": 1149504,
@@ -3764,7 +4806,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fJm3kmd9NLZWypMas7g34oNFgbk.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/cjhq1eBLXgKq1xHDFeUnYzu61H6.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Crimen"
+    ],
+    "overview": "Una comedia negra sobre Honey O'Donahue, una investigadora privada de un pueblo pequeño, que se adentra en una serie de extrañas muertes vinculadas a una misteriosa iglesia.",
+    "rating": 5.714
   },
   {
     "tmdb_id": 1051486,
@@ -3791,7 +4841,18 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8hrrdAShrWXCnZn8qRQS2h9L7vg.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/6nCy4OrV7gxhDc3lBSUxkNALPej.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Historia",
+      "Drama",
+      "Aventura",
+      "Bélica"
+    ],
+    "overview": "En 1520, el rey danés Cristián II intenta arrebatar la corona sueca mientras las hermanas Freja y Anne juran vengar el asesinato de su familia. Su camino las lleva al centro de una sangrienta lucha política entre Suecia y Dinamarca que culminará en el brutal Baño de Sangre de Estocolmo.",
+    "rating": 6.178
   },
   {
     "tmdb_id": 986097,
@@ -3828,7 +4889,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/uXE0bHBNY3TL932JhiQJscxnJya.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/jzzpCJWkVZZwAxzzLmtYN0MBWFd.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Misterio"
+    ],
+    "overview": "Cameron Cade es un quarterback en ciernes que ha dedicado su vida y su identidad al fútbol americano. En vísperas del campeonato anual de fútbol americano profesional, Cam es atacado por un hincha desquiciado y sufre un traumatismo cerebral que podría poner fin a su carrera. Justo cuando todo parece perdido, Cam recibe un salvavidas cuando su héroe, Isaiah White, un legendario quarterback ocho veces campeón y megaestrella cultural, se ofrece a entrenar a Cam en el aislado complejo que Isaiah comparte con su esposa, Elsie White. Pero a medida que el entrenamiento de Cam se acelera, el carisma de Isaiah comienza a cuajar en algo más oscuro, enviando a su protegido a un agujero de conejo desorientador que puede costarle más de lo que jamás esperó.",
+    "rating": 5.794
   },
   {
     "tmdb_id": 972533,
@@ -3865,7 +4934,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/bgcf7lci3pwWSMgHNBlqDDQbyJJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/661n67NhaW12hC2ux7Tm2KgR1u1.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Drama"
+    ],
+    "overview": "La increíble historia real de Chris Lemons (Finn Cole), un buzo profesional que, tras un extraño accidente, queda atrapado en el fondo del Mar del Norte. Con tan solo 10 minutos de oxígeno de emergencia y a más de media hora de cualquier esperanza de rescate, esta es la lucha imposible de un hombre por sobrevivir a 90 metros de profundidad. Mientras tanto, en la superficie, sus compañeros Duncan (Woody Harrelson) y Dave (Simu Liu) lucharán contra una feroz tormenta y harán todo lo posible por rescatarlo con vida.",
+    "rating": 6.945
   },
   {
     "tmdb_id": 1242404,
@@ -3902,7 +4979,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/wmLoMyofbseLfxiGgk1Iz5H97c3.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/sb8Aq1RohASXyjT0uEOUUZJi5oI.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "overview": "En el transcurso de un día intenso, el entregado director de un reformatorio para chicos intenta mantener a raya a sus alumnos mientras afronta sus propias presiones.",
+    "rating": 6.36
   },
   {
     "tmdb_id": 1236470,
@@ -3939,7 +5023,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8n0kkUc4wKknqEJfq8eErWrvvUL.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/1xkyq5SIemtAtzl30BEGsAvDsMp.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Misterio",
+      "Suspense"
+    ],
+    "overview": "En uno de los incendios forestales más mortíferos de la historia de Estados Unidos que amenaza la ciudad de Paradise, Kevin McKay, un conductor de autobús escolar, y Mary Ludwig, una maestra infantil, luchan para salvar a 22 niños del aterrador infierno.",
+    "rating": 7.095
   },
   {
     "tmdb_id": 1267905,
@@ -3956,7 +5049,15 @@
         "server": "vpge.link",
         "language": "Lat"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/lXumhtgMOxA3aqocplC8YIMwOv8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/tK3zER0850mxditEoepTOmIeYKq.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Drama"
+    ],
+    "overview": "La vida parece fácil para la pareja perfecta que forman Ivy y Theo: carreras de éxito, un matrimonio feliz y unos hijos estupendos. Pero detrás de la fachada de su supuesta vida ideal, se avecina una tormenta: la carrera de Theo se desploma mientras que las ambiciones de Ivy despegan, lo que desencadena una caja de Pandora de competitividad y resentimiento ocultos.",
+    "rating": 6.7
   },
   {
     "tmdb_id": 1242434,
@@ -3993,7 +5094,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/b0AQYSM09AYVRKLZr6jIAP2xNq9.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/94KROr9xO9u5Tq5gTdCJlVRRfhm.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Crimen",
+      "Drama"
+    ],
+    "overview": "Cuando un poderoso empresario musical es víctima de una extorsión, se ve obligado a luchar por su familia y su legado mientras afronta un dilema ético vital.",
+    "rating": 5.502
   },
   {
     "tmdb_id": 1124619,
@@ -4030,7 +5140,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/lfaU8qybKHg3b6IbHJ11FtIyDn2.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/2DcD4Hh80SW7YVpwckkiEFRZX06.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia"
+    ],
+    "overview": "Cuando un grupo de mercenarios toma como rehén a una lujosa boda, no tienen idea de lo que les espera, ya que la Dama de Honor es en realidad una agente secreta lista para hacer llover fuego del infierno sobre cualquiera que arruine la boda de su mejor amiga.",
+    "rating": 5.651
   },
   {
     "tmdb_id": 1537780,
@@ -4047,7 +5165,14 @@
         "server": "vpge.link",
         "language": "Lat"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/sKjOf6zQgCc5bYwOFanKTD96Obc.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/vnzlGHIMCQX9VbNnAuQxzBSjlP7.jpg",
+    "genres_spanish": [
+      "Suspense"
+    ],
+    "overview": "Maggie está en sus últimos días de embarazo, cuando ella y su marido Sean son atacados en su aislada casa por dos personas que deciden esperar con ellos hasta el lunes para vaciar las cuentas bancarias de la familia.",
+    "rating": 7.444
   },
   {
     "tmdb_id": 793387,
@@ -4074,7 +5199,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7MGnHpfhF8savUsrUJoI8Q7dTk9.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/5A01YSCPYoCOZOhh9tU7F3Htxkf.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Fantasía",
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Un equipo de varias personas lucha contra espíritus malignos.",
+    "rating": 6.894
   },
   {
     "tmdb_id": 604079,
@@ -4111,7 +5246,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/izA5U09supDy8J2Z4339Po6PIHU.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/o0Id62Wx3gjYMHunJV96WAOspN.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Suspense",
+      "Terror"
+    ],
+    "overview": "En un futuro distópico, cien adolescentes participan en una brutal competición conocida como \"La larga marcha\", donde deben caminar sin descanso: si se detienen o reducen la velocidad de la marcha, mueren. Solo uno sobrevivirá. Adaptación cinematográfica de la novela de Stephen King.",
+    "rating": 6.9
   },
   {
     "tmdb_id": 1319933,
@@ -4138,7 +5282,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/11cqYaw5KFRg3lw15tivfxM5yym.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/auzOQv215SgZERy3Yfr7vo9dD2h.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "overview": "Un chico es despedido de su puesto de trabajo e intenta buscar otro.",
+    "rating": 10.0
   },
   {
     "tmdb_id": 941109,
@@ -4175,7 +5326,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/70Na5MXfOsFlJvoX6oKYAwOhNN9.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/k6tdiMTO39RQj3dhfspuzprfoe0.jpg",
+    "genres_spanish": [
+      "Crimen"
+    ],
+    "overview": "Un experto ladrón lleva a cabo el mayor robo de su vida. Parker, junto a Grofield, Zen y un equipo experto, se ven involucrados en un golpe que los enfrenta a la mafia de Nueva York en esta arriesgada misión.",
+    "rating": 6.593
   },
   {
     "tmdb_id": 1333100,
@@ -4202,7 +5360,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2vKweKp6Nynd4kBiKhOGyP0iSdO.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/nB6IR9XfdRpVRKCz85uT97EjgwB.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Acción",
+      "Aventura",
+      "Drama"
+    ],
+    "overview": "Película recopilatoria para cines de los dos últimos episodios especiales de la última temporada de \"Ataque a los Titanes\". La humanidad vivía en paz tras los enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio truncado por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Yeager, que juró vengarse de los titanes. Años después de unirse a la Tropa de Reconocimiento, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que revela una nueva verdad sobre el mundo que conoce... Tras aventurarse más allá de los muros y separarse de sus camaradas, Eren, motivado por sus nuevos conocimientos del mundo, planea el \"Retumbar\", un terrorífico plan para erradicar a todo ser vivo del mundo. Con el destino del mundo pendiendo de un hilo, un variopinto grupo de antiguos camaradas y enemigos de Eren lucha por detener su letal misión. La única pregunta es: ¿lo conseguirán?",
+    "rating": 8.779
   },
   {
     "tmdb_id": 1010756,
@@ -4239,7 +5407,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/rQMcbHkmlnfKW42qCVrX6GYHxEr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/sSaUmM4bnZJ7PW5dlyRi7iONB65.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "De camino a su luna de miel, el vehículo de una pareja se avería, obligándoles a refugiarse en un remoto Airbnb. Al caer la noche, tres desconocidos enmascarados los aterrorizan hasta el amanecer.",
+    "rating": 6.104
   },
   {
     "tmdb_id": 1552819,
@@ -4266,7 +5442,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/eNriIkhQusncgc5SipEgQUtrybO.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/gZF6fDtE71Fi3AGcF0PSQAxCgE3.jpg",
+    "genres_spanish": [
+      "Acción"
+    ],
+    "overview": "Shanghái, 1932. Durante un banquete del ejército japonés, el líder de la resistencia china Mubai realiza una incursión exitosa y conoce al mecenas Sr. Hu, quien lo recluta para asesinar al estratega japonés Kurokawa. Mubai y su equipo enfrentan emboscadas y traiciones en una misión que cambiará sus vidas.",
+    "rating": 4.556
   },
   {
     "tmdb_id": 1498658,
@@ -4293,7 +5476,11 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jYxdUltC1BADOIuDrltcenkTWei.jpg",
+    "backdrop_url": null,
+    "genres_spanish": [],
+    "overview": "La sociedad secreta de asesinos a sueldo se sume en el caos y surge una nueva generación de asesinos. Sin las viejas reglas, ¿quién se atreverá a reclamar las sombras?"
   },
   {
     "tmdb_id": 1328803,
@@ -4310,7 +5497,17 @@
         "server": "vpge.link",
         "language": "Esp"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6paGLyOAvY95XxjfdiTcatwI7dJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/yGByIyqgJerCw7AAphTrTAlrdkJ.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Bélica",
+      "Suspense",
+      "Historia"
+    ],
+    "overview": "Un comandante británico, prisionero en un campo japonés, se esfuerza por sobrevivir. Su valentía inspira a otros prisioneros y lo convierte en un símbolo de dignidad ante la adversidad.",
+    "rating": 7.16
   },
   {
     "tmdb_id": 1337562,
@@ -4337,7 +5534,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/q2nkQ0EnHyniqDPfOKYOGR5vSuW.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/8XXIyghvMJQRopPbuz1HRT5ydTp.jpg",
+    "genres_spanish": [
+      "Comedia"
+    ],
+    "overview": "Cuando Ashley le pide el divorcio, el bonachón de Carey acude a sus amigos, Julie y Paul, en busca de apoyo. Su secreto para ser felices es un matrimonio abierto, pero Carey cruza la línea y hace que todas sus relaciones se conviertan en un caos.",
+    "rating": 6.3
   },
   {
     "tmdb_id": 1414048,
@@ -4374,7 +5578,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/af5mcUPylOFNcrWSd4OCImC71Mf.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/gIm5sjPSm973yKf6sbvd5lOkg3X.jpg",
+    "genres_spanish": [
+      "Western",
+      "Acción"
+    ],
+    "overview": "Un sheriff en apuros se une a un duro U.S. Marshal para detener a una astuta forajida. A medida que aumentan las tensiones dentro de su pelotón, deben enfrentarse a una banda que se aproxima, liderada por el violento marido de la prisionera.",
+    "rating": 6.412
   },
   {
     "tmdb_id": 979660,
@@ -4411,7 +5623,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/z17yqLUxfyNUGE75uJxFPTCOmvV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/elZZLzhDzjRIIkGcIK0FGmZSUaq.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Crimen"
+    ],
+    "overview": "Cuatro historias interconectadas ambientadas en 1987 en Oakland, California, relatan el amor por la música, el cine, la gente, los lugares y los recuerdos más allá de nuestro universo conocido.",
+    "rating": 6.3
   },
   {
     "tmdb_id": 1367575,
@@ -4438,7 +5659,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/wSQYF6sckhXixTtwgeEl3v87Cic.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/z8tNyAAnGk2d1XmO1L4i34UmP19.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense"
+    ],
+    "overview": "Tras una década como agente secreto del FBI, Jack “Cash” Conry lo dejó todo cuando perdió a su esposa, decidido a volcarse en la crianza de sus dos hijas. Aunque su vida familiar le aporta paz, en el fondo sigue sintiendo la llamada de la acción. Esa oportunidad regresa inesperadamente cuando Jamie, la sobrina de su antiguo compañero, le pide ayuda. Sin quererlo, Cash se verá arrastrado otra vez a un mundo de peligro, corrupción e intriga.",
+    "rating": 6.0
   },
   {
     "tmdb_id": 822119,
@@ -4475,7 +5704,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/vUNj55xlF0pSU5FU3yDHC6L5wVX.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/8eifdha9GQeZAkexgtD45546XKx.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense",
+      "Ciencia ficción"
+    ],
+    "overview": "Tras reunirse con el recién elegido presidente de los EE. UU., Thaddeus Ross, Sam se encuentra en medio de un incidente internacional. Debe descubrir el motivo que se esconde tras un perverso complot global, antes de que su verdadero artífice enfurezca al mundo entero.",
+    "rating": 5.989
   },
   {
     "tmdb_id": 950396,
@@ -4512,7 +5750,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
+    "genres_spanish": [
+      "Romance",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "overview": "Mandan a dos operativos de élite a vigilar lados opuestos de un misterioso abismo y allí intiman desde la distancia, pero deberán aunar fuerzas para sobrevivir al mal que esconde el abismo.",
+    "rating": 7.6
   },
   {
     "tmdb_id": 1084199,
@@ -4549,7 +5796,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nyloao2GWttUvS7KVcEM2eSDwUn.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/qA6MHDGDY0LyutjLUgFJRbPXLpW.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "overview": "La muerte de un multimillonario desencadena una serie de acontecimientos para Iris y sus amigos durante un viaje de fin de semana a su finca junto al lago.",
+    "rating": 7.02
   },
   {
     "tmdb_id": 803796,
@@ -4576,7 +5832,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6EQMqEmdG5HoGe2zT1WwWUMvVhv.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/w3Bi0wygeFQctn6AqFTwhGNXRwL.jpg",
+    "genres_spanish": [
+      "Fantasía",
+      "Música",
+      "Comedia",
+      "Animación"
+    ],
+    "overview": "Cuando no están llenando estadios, las superestrellas del K-pop Rumi, Mira y Zoey usan sus poderes secretos para proteger a sus fans de una amenaza sobrenatural.",
+    "rating": 8.103
   },
   {
     "tmdb_id": 710295,
@@ -4613,7 +5879,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6bYzhQ4DbuyEKmekOJosDBTfAyu.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/wwARk7hRIfHfh2n2ubN6N7lvTne.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Blake es un hombre casado y padre de familia residente en San Francisco que hereda la remota casa donde creció en una zona rural de Oregón tras la desaparición de su propio padre, dado por muerto. En plena crisis de pareja con su enérgica esposa Charlotte, Blake la convence para tomarse un descanso de la gran ciudad y visitar la propiedad con su hija Ginger. Todo se tuerce cuando, de camino a la granja y en plena noche, la familia sufre el brutal ataque de un animal al que no consiguen ver y, en un intento desesperado por huir, se atrincheran dentro de la casa mientras la criatura merodea por la zona. Pero, con el paso de las horas, Blake comienza a comportarse de un modo extraño y a convertirse en algo irreconocible...",
+    "rating": 6.218
   },
   {
     "tmdb_id": 993710,
@@ -4640,7 +5914,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/mAvyQ2X3767LwXE2htvAd22ucd3.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/mkxGpqh4yOYqtENv01IrDcesFRf.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia"
+    ],
+    "overview": "Emily y Matt renunciaron hace años a ser espías de la CIA para formar una familia. Pero, cuando se descubre su tapadera, se ven arrastrados de nuevo al mundo del espionaje.",
+    "rating": 6.438
   },
   {
     "tmdb_id": 604685,
@@ -4677,7 +5959,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/cD5WrzWVjA5Q5rHNLoZ1DsZIOLR.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/aXLxxKVZA37sntSQwOyUEwA48a9.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Crimen",
+      "Suspense"
+    ],
+    "overview": "Big Nick está buscando en Europa a Donnie, quien está envuelto en el peligroso mundo de los ladrones de diamantes y la infame mafia Panther, mientras planean un atraco masivo al mayor intercambio de diamantes del mundo.",
+    "rating": 6.59
   },
   {
     "tmdb_id": 1097549,
@@ -4714,7 +6005,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/1oYSulJCG2l2ZtLgaAKzM1YCl5E.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/s7vWRjcfRVMW8tBIxhC3UhKxRoo.jpg",
+    "genres_spanish": [
+      "Romance",
+      "Suspense"
+    ],
+    "overview": "Una alta ejecutiva pone en peligro su carrera y su familia cuando inicia un tórrido romance con su becario, mucho más joven que ella.",
+    "rating": 5.714
   },
   {
     "tmdb_id": 1242011,
@@ -4751,7 +6050,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/pp2ho64ah9W9jCCIHavXUCuqISr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/uBB1aMga5ngZxsUQL5k36zeW3pB.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Romance"
+    ],
+    "overview": "Una pareja con problemas en su relación se muda al campo, donde descubren una cueva con una fuerza sobrenatural. Al beber agua de la cueva, comienzan a experimentar transformaciones físicas y emocionales que reflejan su codependencia.",
+    "rating": 7.0
   },
   {
     "tmdb_id": 1302916,
@@ -4788,7 +6095,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6v0LlIAW903yLbsoTw6DMUAaQeq.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/vh5FIqfosYaLWxCmZfSPjgUWWfn.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Comedia",
+      "Romance"
+    ],
+    "overview": "Dos compañeros de trabajo son confundidos con una pareja por un asesino en San Francisco el día de San Valentín. Obligados a eludir al asesino, navegan por el paisaje romántico de la ciudad mientras trabajan juntos para sobrevivir.",
+    "rating": 6.349
   },
   {
     "tmdb_id": 936108,
@@ -4825,7 +6141,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/zBdQclxQnEDOhDOjkKgKPW6jEHh.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9whEVuKte4Qi0LI4TzPf7glinJW.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Familia",
+      "Fantasía"
+    ],
+    "overview": "Película musical de animación centrada en las icónicas creaciones de Peyo. Cuando Papá Pitufo es secuestrado de forma misteriosa por los malvados brujos Razamel y Gargamel, Pitufina lleva a los Pitufos a una misión al mundo real para salvarle. Con la ayuda de nuevos amigos, los Pitufos deberán descubrir qué define su destino para salvar el universo.",
+    "rating": 5.89
   },
   {
     "tmdb_id": 2620,
@@ -4862,7 +6187,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/cUuQYMTQGVGDBEFoKR0U1wflxSP.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/wS2fAy5Zv00CBUFvsmWVKbvSh5o.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Crimen"
+    ],
+    "overview": "Cuando Candy, un poli chapuza y Levy, un inepto abogado, pierden sus trabajos, se juntan en la Compañía de Seguridad “Perro guardián”. Después de un ridículo entrenamiento están listos para salir. Pero no pueden parar los robos que se siguen produciendo delante de sus narices. Pronto se percatan de que éstos no son accidentales, y que su empresa está aliada con el presidente de la unión de seguridad de gángsters...",
+    "rating": 5.656
   },
   {
     "tmdb_id": 939243,
@@ -4899,7 +6233,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3aDWCRXLYOCuxjrjiPfLd79tcI6.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/noPEm6Vu9Lm6QUdTGLOyRgk4M6s.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Ciencia ficción",
+      "Comedia",
+      "Familia"
+    ],
+    "overview": "Sonic, Knuckles y Tails se reúnen para enfrentarse a un nuevo y poderoso adversario, Shadow, un misterioso villano cuyos poderes no se parecen a nada de lo que nuestros héroes han conocido hasta ahora. Con sus facultades superadas en todos los sentidos, el Equipo Sonic tendrá que establecer una insólita alianza con la esperanza de detener a Shadow y proteger el planeta.",
+    "rating": 7.631
   },
   {
     "tmdb_id": 762509,
@@ -4936,7 +6280,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dmw74cWIEKaEgl5Dv3kUTcCob6D.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/1w8kutrRucTd3wlYyu5QlUDMiG1.jpg",
+    "genres_spanish": [
+      "Aventura",
+      "Familia",
+      "Animación"
+    ],
+    "overview": "Rafiki debe transmitir la leyenda de Mufasa a la joven cachorro de león Kiara, hija de Simba y Nala, y con Timón y Pumba prestando su estilo característico. Mufasa, un cachorro huérfano, perdido y solo, conoce a un simpático león llamado Taka, heredero de un linaje real. Este encuentro casual pone en marcha un viaje de un extraordinario grupo de inadaptados que buscan su destino.",
+    "rating": 7.319
   },
   {
     "tmdb_id": 1005331,
@@ -4963,7 +6316,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xQzQIrVbwft9nICAt6S6BWkthF5.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/rhc8Mtuo3Kh8CndnlmTNMF8o9pU.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Acción"
+    ],
+    "overview": "El día de Nochebuena, un viajero misterioso chantajea a un agente de seguridad del aeropuerto para que le deje subir un objeto peligroso al avión.",
+    "rating": 6.892
   },
   {
     "tmdb_id": 539972,
@@ -5000,7 +6361,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gz5w7GbX3phXLjmoJNqAlAO2Vrq.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/bGGjyPqtNc8hhGkPo8W8D8t90bW.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Aventura",
+      "Suspense"
+    ],
+    "overview": "Kraven, un hombre cuya compleja relación con su despiadado padre, Nikolai Kravinoff, le hace emprender un camino de venganza con brutales consecuencias, motivándole a convertirse no sólo en el mejor cazador del mundo, sino también en uno de los más temidos.",
+    "rating": 6.438
   },
   {
     "tmdb_id": 1357633,
@@ -5027,7 +6397,17 @@
         "server": "vpge.link",
         "language": "Lat"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/diPEcLFEb1uuUpApol1Bit6ck3l.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/hlfu6g0h0D65SjkVhQBU20zePTl.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Aventura",
+      "Fantasía",
+      "Animación"
+    ],
+    "overview": "Ha pasado más de una década desde que un camino llamado \"portal\" que conecta este mundo con una dimensión alternativa apareció de repente, y personas con poderes sobrehumanos llamados \"cazadores\" han despertado. Los cazadores usan sus poderes sobrehumanos para conquistar mazmorras dentro de los portales para ganarse la vida y Sung Jinwoo, un cazador del rango más bajo, es considerado como el Cazador Más débil de Toda la Humanidad. Un día se encuentra con una mazmorra doble, una mazmorra de alto nivel oculta dentro de una de bajo nivel. Frente a un Jinwoo gravemente herido, surge una misteriosa ventana hacia una misión. Al borde de la muerte, Jinwoo decide encargarse de la misión, que le convierte en la única persona capaz de subir de nivel. Largometraje formado por una recapitulación de la primera temporada de la serie de anime homónima junto con un avance exclusivo de los dos primeros episodios de la segunda temporada.",
+    "rating": 7.065
   },
   {
     "tmdb_id": 1208808,
@@ -5044,7 +6424,14 @@
         "server": "vpge.link",
         "language": "Lat"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iSSx9Bys64vlOkvkyKXtp19P7Re.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/o5vasl0xbZWWKQnAlaBTSgntHH2.jpg",
+    "genres_spanish": [
+      "Terror"
+    ],
+    "overview": "En los pasillos oscuros de un hospital, deambula el fantasma de una enfermera conocida como \"La planchada\", famosa por su aspecto impecable. Mientras los pacientes creen que ella está ahí para ayudarlos, las enfermeras y doctores conocen la verdad: deben seguir sus reglas al pie de la letra. \"Que nada se te olvide. No te distraigas. No te relaciones con el personal. No te duermas nunca\". Rebeca, una nueva enfermera en periodo de prueba, no solo debe demostrar su valía ante sus superiores, sino también enfrentarse a esta misteriosa y temida entidad.",
+    "rating": 6.381
   },
   {
     "tmdb_id": 1241982,
@@ -5081,7 +6468,18 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/bit1B5F7IQydiWqdwAAD8f9TkXs.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/zo8CIjJ2nfNOevqNajwMRO6Hwka.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Aventura",
+      "Familia",
+      "Comedia",
+      "Fantasía"
+    ],
+    "overview": "Tras recibir una inesperada llamada de sus antepasados, Vaiana debe viajar a los lejanos mares de Oceanía y adentrarse en peligrosas aguas perdidas para vivir una aventura sin precedentes.",
+    "rating": 7.0
   },
   {
     "tmdb_id": 1035048,
@@ -5108,7 +6506,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/92cd9vR6ThBqT6Pe6m5daxX0rAk.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/au3o84ub27qTZiMiEc9UYzN74V3.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "overview": "Un padre soltero y dos mujeres se aventuran desde la seguridad de sus hogares a enfrentarse a criaturas monstruosas para salvar la vida de un niño.",
+    "rating": 6.448
   },
   {
     "tmdb_id": 402431,
@@ -5145,7 +6552,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/hDQXqvmmikekQ15uxhisBDwEA63.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/fyZ6SDUS4o9jp2EHxfZa3qS9ean.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Romance",
+      "Fantasía"
+    ],
+    "overview": "Ambientada en la Tierra de Oz, mucho antes de la llegada de Dorothy Gale desde Kansas. Elphaba es una joven incomprendida por su inusual color verde que aún no ha descubierto su verdadero poder. Glinda es una popular joven marcada por sus privilegios y su ambición que aún no ha descubierto su verdadera pasión. Las dos se conocen como estudiantes de la Universidad Shiz, en la fantástica Tierra de Oz, y forjan una insólita pero profunda amistad. La trama abarca los acontecimientos del primer acto del musical de Broadway.",
+    "rating": 6.9
   },
   {
     "tmdb_id": 558449,
@@ -5182,7 +6598,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fbcs5AxrdXwyj1b8bGGMgC9kXrM.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/4hvK1uenpT7VVClzoNqXanvgdjX.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Aventura",
+      "Drama"
+    ],
+    "overview": "Dieciséis años después de la muerte de Marco Aurelio, Roma está gobernada por los despiadados emperadores gemelos Geta y Caracalla. El nieto de Aurelio, Lucio Vero, vive bajo el seudónimo de Hanno con su esposa Arishat en el reino norteafricano de Numidia. El ejército romano dirigido por el general Acacio invade y conquista el reino, esclavizando a Lucio junto con otros supervivientes. Los esclavos son llevados a Ostia, donde Lucio es comprado por el maestro de cuadra Macrinus, que le promete la oportunidad de vengarse matando a Acacio si gana suficientes combates para llegar al Coliseo.",
+    "rating": 6.635
   },
   {
     "tmdb_id": 1160018,
@@ -5219,7 +6644,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kMg8CtABBhIjmevP72wJnlSXqIO.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/u060S4drIWntmLeMDGe7mD0V6Jh.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Crimen",
+      "Suspense",
+      "Drama"
+    ],
+    "overview": "Sigue a un pasajero en un tren a Nueva Delhi. El tren pronto se convierte en un campo de batalla en el que un par de comandos se enfrentan a un ejército de bandidos invasores.",
+    "rating": 7.1
   },
   {
     "tmdb_id": 1184918,
@@ -5256,7 +6691,18 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/a0a7RC01aTa7pOnskgJb3mCD2Ba.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Ciencia ficción",
+      "Familia",
+      "Aventura",
+      "Drama"
+    ],
+    "overview": "Esta aventura épica cuenta la historia de una robot, Rozzum 7-1-3-4, \"Roz\" para abreviar, que naufraga en una isla inhabitada y debe aprender a adaptarse a los entornos rigurosos construyendo relaciones con los animales de la isla y convirtiéndose en la madre adoptiva de una cría de ganso huérfana.",
+    "rating": 8.313
   },
   {
     "tmdb_id": 845781,
@@ -5293,7 +6739,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Fantasía"
+    ],
+    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
+    "rating": 7.003
   },
   {
     "tmdb_id": 1118031,
@@ -5320,7 +6775,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jaBToJ1DZcwn5wOsQeLOXFVlBLn.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/lTYGtgDRygku7iiFLWyiEc4wLzz.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Acción",
+      "Terror"
+    ],
+    "overview": "Cuando una especie de rabia que transforma a la gente en criaturas agresivas se extiende por el planeta, Manel se aísla en casa con su gato, recurriendo a su ingenio para sobrevivir; pero pronto deberán salir a buscar comida, por tierra y por mar, sorteando muchos peligros.",
+    "rating": 6.72
   },
   {
     "tmdb_id": 1100782,
@@ -5357,7 +6821,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aQtWauWpy5KQEHsBURDnoTD6svd.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/iR79ciqhtaZ9BE7YFA1HpCHQgX4.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Misterio"
+    ],
+    "overview": "La estrella del pop mundial Skye Riley está a punto de embarcarse en una nueva gira mundial cuando empieza a experimentar una serie de sucesos cada vez más aterradores e inexplicables. Angustiada por la espiral de horrores y la abrumadora presión de la fama, Skye tendrá que enfrentarse a su oscuro pasado para recuperar el control de su vida antes de que sea demasiado tarde. Secuela del exitoso film de terror 'Smile' (2022).",
+    "rating": 6.6
   },
   {
     "tmdb_id": 912649,
@@ -5394,7 +6866,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/toZiAd0n0NKhiuHTiGk7kBMmhtG.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+    ],
+    "overview": "Eddie y Venom están a la fuga. Perseguidos por sus sendos mundos y cada vez más cercados, el dúo se ve abocado a tomar una decisión devastadora que hará que caiga el telón sobre el último baile de Venom y Eddie.",
+    "rating": 6.667
   },
   {
     "tmdb_id": 944401,
@@ -5426,7 +6907,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/1QTJoyA6sN6Y3nUFZzKSEUZ6DVc.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/nvW0QfRJ7ga9TK8DKwBfAPA8ywP.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Drama",
+      "Crimen"
+    ],
+    "overview": "Un chico, magullado por la vida, encuentra su salvación a través del amor de sus perros.",
+    "rating": 7.86
   },
   {
     "tmdb_id": 1084736,
@@ -5463,7 +6953,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/r2PGzaGA7bgcuy6PX7nx0BfDYsK.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/bxT8jFcWNuWK5LmVo1oGhAm4dnZ.jpg",
+    "genres_spanish": [
+      "Aventura",
+      "Acción",
+      "Drama"
+    ],
+    "overview": "Todos los sueños del joven Edmundo Dantés están a punto de hacerse realidad. Traicionado por sus rivales, es encarcelado sin juicio en el Castillo de If sin esperanza de escapar. Tras catorce años de encierro, Dantés consigue escapar y hacerse con el legendario tesoro escondido en la isla de Montecristo. Ahora, con una enorme fortuna, urde un plan extraordinario para vengarse.",
+    "rating": 7.927
   },
   {
     "tmdb_id": 1196470,
@@ -5500,7 +6999,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/pxMpt1gqRm61yQq4zZApunnnnlb.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/2xnLwNvea2TSH0M0oc9iEq2KEVp.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Suspense",
+      "Aventura",
+      "Acción"
+    ],
+    "overview": "Una catástrofe sacude el planeta: los polos magnéticos de la Tierra se han invertido. Los océanos arrasaron los continentes, dejando tras de sí un vasto desierto. En este mundo devastado, una familia debe luchar por sobrevivir. Cuando los polos vuelvan a invertirse, será demasiado tarde.",
+    "rating": 5.771
   },
   {
     "tmdb_id": 1034541,
@@ -5537,7 +7046,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
+    "rating": 6.8
   },
   {
     "tmdb_id": 507241,
@@ -5574,7 +7091,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/81PSS5l5Yr3gfdYKts9I3z2aPkG.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/zGLQmrmIB56kMZPnzqReIOBay1B.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Suspense"
+    ],
+    "overview": "Joe Flood, un sicario con enfermedad terminal, contrata a un asesino para acabar con su vida. Tras descubrir que su diagnóstico era erróneo, debe enfrentarse a antiguos colegas que intentan matarlo.",
+    "rating": 6.397
   },
   {
     "tmdb_id": 1125510,
@@ -5601,7 +7127,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jHGgM019xAoy62cKZtDmTxvQlUY.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/3m0j3hCS8kMAaP9El6Vy5Lqnyft.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Un misterioso líder ha impuesto su ley en un brutal sistema de celdas verticales, pero la llegada de una residente desafía su dudoso método de distribución de comida.",
+    "rating": 5.571
   },
   {
     "tmdb_id": 889737,
@@ -5638,7 +7173,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/i90gQD1ogdrX2EE2bYCtYSuqjRV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/AVWlQpVhpudyFsSh3OQIieHHYf.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Crimen",
+      "Suspense"
+    ],
+    "overview": "Tras crear el caos, Arthur Fleck ha sido internado en Arkham a la espera de juicio por sus crímenes como Joker. Mientras lidia con su doble identidad, Arthur no sólo se topa con el amor verdadero, sino que también descubre la música que siempre ha estado dentro de él.",
+    "rating": 5.4
   },
   {
     "tmdb_id": 1016084,
@@ -5675,7 +7219,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/mfTWiM8hAMpcgGxt5UNAjcBTcVJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/iSj5vCxUgRALvrb5tbEX7RirDzn.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Drama",
+      "Historia"
+    ],
+    "overview": "Dos emprendedores dispares, el innovador Mike Lazaridis y el despiadado empresario Jim Balsillie, unieron sus fuerzas en un proyecto que se convertiría en un éxito mundial en poco más de una década. El dispositivo que uno de ellos inventó y el otro vendió fue BlackBerry, un adictivo teléfono móvil que cambió la forma en que el mundo trabajaba, jugaba y se comunicaba. Pero justo cuando BlackBerry alcanzaba nuevas cimas, también empezó a perderse entre la niebla de las guerras de smartphones, la indecisión de los directivos y las distracciones externas.",
+    "rating": 7.15
   },
   {
     "tmdb_id": 1108566,
@@ -5712,7 +7265,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/50C6VYZRQkAD0oYzCGWJvVcmGLK.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/994i0ocQkO6X10vQPA4ptueEFlh.jpg",
+    "genres_spanish": [
+      "Crimen",
+      "Drama",
+      "Romance"
+    ],
+    "overview": "Un detective privado expatriado acepta investigar una muerte sospechosa en Creta, Grecia, dentro de una familia con celos muy arraigados.",
+    "rating": 5.794
   },
   {
     "tmdb_id": 592831,
@@ -5749,7 +7311,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6jW627n4kOQnAZCa24bbOd1S0CF.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/1DHbZ1XRvdeXbD2P7W1OJbxqN9b.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Drama",
+      "Fantasía"
+    ],
+    "overview": "Una fábula épica romana ambientada en una América moderna imaginada. La ciudad de Nueva Roma debe cambiar, lo que provoca un conflicto entre César Catilina, un genio artista que busca saltar hacia un futuro utópico e idealista, y su opositor, el alcalde Franklyn Cicero, que sigue comprometido con un statu quo regresivo, perpetuando la codicia, los intereses particulares y la guerra partidista. Dividida entre ellos está la socialité Julia Cicero, la hija del alcalde, cuyo amor por César ha dividido su lealtad, obligándola a descubrir lo que realmente cree que la humanidad merece.",
+    "rating": 5.181
   },
   {
     "tmdb_id": 1087822,
@@ -5776,7 +7347,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ExFaxmvlGxBmUBVKv9ey94fNyy.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/78CquSA0GN0m7NIYnNECx91KFkJ.jpg",
+    "genres_spanish": [
+      "Fantasía",
+      "Terror",
+      "Acción"
+    ],
+    "overview": "Hellboy y un agente novato del BPRD se quedan varados en los Apalaches rurales de los años cincuenta. Allí descubren una pequeña comunidad embrujada, liderada por el Hombre Torcido.",
+    "rating": 5.2
   },
   {
     "tmdb_id": 933260,
@@ -5813,7 +7393,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/w1PiIqM89r4AM7CiMEP4VLCEFUn.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9Whl7RAzes0oMaFAeSqD8ttN3fl.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "overview": "'Tú, pero mejor en todos los sentidos'. Esa es la promesa de la sustancia, un producto revolucionario basado en la división celular, que crea un alter ego más joven, más bello, más perfecto.",
+    "rating": 7.139
   },
   {
     "tmdb_id": 698687,
@@ -5850,7 +7439,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/1jzVCZxBmgvpGILuEU8icfX77Io.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/cMfokHWle5lfCreoV08cbmkKv6G.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Ciencia ficción",
+      "Aventura",
+      "Familia"
+    ],
+    "overview": "La historia jamás contada del origen de Optimus Prime y Megatron y de cómo pasaron de ser hermanos de armas que cambiaron el destino de Cybertron para siempre, a convertirse en enemigos acérrimos.",
+    "rating": 7.998
   },
   {
     "tmdb_id": 840705,
@@ -5887,7 +7486,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/viNFNQz7XEUUzUDHaEOvFm3e4IY.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/NqqLef2ITlK8olXT4iFuUXFwSh.jpg",
+    "genres_spanish": [
+      "Misterio",
+      "Suspense"
+    ],
+    "overview": "Cuando el magnate de la tecnología Slater King (Channing Tatum) conoce a la camarera Frida (Naomi Ackie) en su gala de recaudación de fondos, saltan chispas. Él la invita a acompañarle a él y a sus amigos a unas vacaciones de ensueño en su isla privada. Un auténtico paraíso. Las noches salvajes se mezclan con mañanas bañadas por el sol y todo el mundo se lo pasa en grande. Nadie quiere que el viaje termine, pero cuando empiezan a suceder cosas extrañas, Frida intuye que algo anda mal en ese lugar. Tendrá que descubrir la verdad si quiere salir viva de la fiesta.",
+    "rating": 6.681
   },
   {
     "tmdb_id": 1139817,
@@ -5914,7 +7521,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/53B5aAkXlbT1zufzJGblpR0y7tE.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/wSZbtiFIK1fkKZdSRtn2kz2Ttfd.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Crimen"
+    ],
+    "overview": "Un talentoso experto en artes marciales siempre dispuesto a ayudar forma equipo con un oficial de libertad condicional para usar su talento en la lucha contra el crimen.",
+    "rating": 7.719
   },
   {
     "tmdb_id": 748167,
@@ -5951,7 +7567,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/rsNSv2alCHJK72JvB81aSdk9Fms.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/y4NzXdvpJdwRmsnOT7HdkmHh6Yn.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Aventura",
+      "Acción"
+    ],
+    "overview": "En una sociedad futurista, una adolescente a la espera de una operación estética obligatoria se propone encontrar a su amiga desaparecida.",
+    "rating": 5.761
   },
   {
     "tmdb_id": 917496,
@@ -5988,7 +7613,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kWJw7dCWHcfMLr0irTHAPIKrJ4I.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/kF8ljC7Y4p1UsmKBi2LxelZpqw.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Fantasía",
+      "Terror"
+    ],
+    "overview": "Tras una inesperada tragedia familiar, tres generaciones de la familia Deetz regresan a Winter River. La vida de Lydia, todavía atormentada por Bitelchús, da un vuelco cuando su rebelde hija adolescente, Astrid, descubre la misteriosa maqueta de la ciudad en el desván y el portal al Más Allá se abre accidentalmente. Con los problemas que se avecinan en ambos reinos, es sólo cuestión de tiempo que alguien diga el nombre de Bitelchús tres veces y el travieso demonio regrese para desatar su propio caos.",
+    "rating": 6.948
   },
   {
     "tmdb_id": 646097,
@@ -6025,7 +7659,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/lH3uawGaDUEV6oJNc5No4n8IQPA.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/cyKH7pDFlxIXluqRyNoHHEpxSDX.jpg",
+    "genres_spanish": [
+      "Crimen",
+      "Acción",
+      "Suspense"
+    ],
+    "overview": "Un exmarine se enfrenta a la corrupción en una pequeña ciudad cuando la policía local le confisca, de forma injusta, la bolsa de dinero que necesita para la fianza de su primo.",
+    "rating": 6.982
   },
   {
     "tmdb_id": 957452,
@@ -6062,7 +7705,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/uUUx4kN6uCvXnjGWOv79gUBxdYE.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/503LUrI9juBk1rktOPzxyMUTDEu.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Fantasía",
+      "Terror"
+    ],
+    "overview": "Eric Draven y Shelly Webster son brutalmente asesinados cuando los demonios de su oscuro pasado les alcanzan. Ante la oportunidad de sacrificarse para salvar a su verdadero amor, Eric se propone vengarse despiadadamente de sus asesinos, atravesando el mundo de los vivos y los muertos para saldar sus deudas.",
+    "rating": 5.812
   },
   {
     "tmdb_id": 1079091,
@@ -6099,7 +7751,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/e0S9UXyuHE1JAoHZmyqRJISpyoS.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/8yPSYhooj8nyBbmV3GVdLDwuE7e.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Romance"
+    ],
+    "overview": "Una mujer atraviesa las tumultuosas etapas de una relación abusiva. Tras mudarse a la ciudad de Boston después de la universidad, decide iniciar su propio negocio como florista y se enamora de un joven neurocirujano.",
+    "rating": 7.0
   },
   {
     "tmdb_id": 945961,
@@ -6136,7 +7796,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8PYqGSd8MOm5ce8io4qNSAiSExW.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/iYqSQaWDttQIQzsxg9xHyg0bttG.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Ciencia ficción"
+    ],
+    "overview": "Mientras rebuscan en las profundidades de una estación espacial abandonada, un grupo de jóvenes colonizadores del espacio se encuentra cara a cara con la forma de vida más aterradora del universo. Nueva película de la saga Alien.",
+    "rating": 7.2
   },
   {
     "tmdb_id": 533535,
@@ -6173,7 +7841,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9TFSqghEHrlBMRR63yTx80Orxva.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ufpeVEM64uZHPpzzeiDNIAdaeOD.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Ciencia ficción"
+    ],
+    "overview": "Un apático Wade Wilson se afana en la vida civil tras dejar atrás sus días como Deadpool, un mercenario moralmente flexible. Pero cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe volver a vestirse a regañadientes con un Lobezno aún más reacio a ayudar.",
+    "rating": 7.559
   },
   {
     "tmdb_id": 762441,
@@ -6210,7 +7887,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/6efQJ7pu9GPketUDBAhJtgZLkvD.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/6XjMwQTvnICBz6TguiDKkDVHvgS.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "overview": "Una mujer llamada Sam trata de sobrevivir a una invasión en la ciudad de Nueva York por criaturas alienígenas sedientas de sangre con oídos ultrasónicos. Tercera entrega de la saga y precuela de las dos anteriores.",
+    "rating": 6.666
   },
   {
     "tmdb_id": 718821,
@@ -6247,7 +7933,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/50xgtaDR0xJkLSVghdTGUeMoPHP.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/58D6ZAvOKxlHjyX9S8qNKSBE9Y.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense"
+    ],
+    "overview": "Kate Carter, una ex cazadora de tormentas perseguida por un devastador encuentro con un tornado, es llamada por su amigo Javi de regreso a las llanuras para probar un nuevo e innovador sistema de seguimiento. Allí, se cruza con el encantador e imprudente ídolo de las redes sociales Tyler Owens y su estridente equipo. A medida que la temporada de tormentas se intensifica, se desatan fenómenos terroríficos nunca vistos, y Kate, Tyler y sus equipos competidores se encuentran directamente en el camino de múltiples sistemas de tormentas que convergen sobre Oklahoma en lo que será una lucha por sobrevivir.",
+    "rating": 6.787
   },
   {
     "tmdb_id": 1276210,
@@ -6264,7 +7958,15 @@
         "server": "vpge.link",
         "language": "Esp"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gOaNIKSGOdCV79Ot3KMqvs2A3Y8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/nJ0MYqTTZg4gk7fgVgIfAWJN4ZQ.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Misterio"
+    ],
+    "overview": "Un misterio que durante años ha sacudido a la estación de Metro de Rocafort en Barcelona entra de lleno en la vida de Laura (Natalia Azahara) cuando empieza a trabajar en esta vieja y tranquila parada. No tardará en descubrir una leyenda que la empezará a perseguir: allí ha muerto mucha gente en extrañas circunstancias. Laura, decidida a descubrir la verdad, pedirá ayuda a Román (Javier Gutiérrez), un curtido expolicía que alberga sus propios demonios relacionados con el caso. Lo que sea que ocurre en la estación maldita sigue sucediendo a día de hoy. Irá a por ella, y a por todos los que la rodean.",
+    "rating": 5.418
   },
   {
     "tmdb_id": 989662,
@@ -6301,7 +8003,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/x8nynAOohBR0fWp8TEVtdr34jzo.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/xSqaVqkbeSaPmeEyurWBaTSkgL9.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Drama"
+    ],
+    "overview": "El ambicioso actor neoyorquino Edward se somete a una intervención quirúrgica radical para transformar drásticamente su aspecto. Como resultado, muchas cosas cambian en su vida y, sin embargo, todo sigue perturbadoramente igual. Aunque haya cambiado exteriormente y pueda empezar una nueva vida, sigue siendo quien es y no quien quiere ser. Entonces se pierde el papel de su vida y su nuevo rostro de ensueño se convierte en una pesadilla.",
+    "rating": 6.91
   },
   {
     "tmdb_id": 1010161,
@@ -6338,7 +8048,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iiCO3ADeGsFq5clZh52VDBnRInm.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ansCWyqoyjLEueDXOUZeLrQlZ9J.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Crimen",
+      "Suspense"
+    ],
+    "overview": "Un equipo de limpieza de la escena del crimen descubre un maletín lleno de dinero en efectivo y, sin darse cuenta, es enviado a una batalla con mafiosos, dirigido por un jefe criminal despiadado y corrupto y agentes del gobierno que están empeñados en recuperar el dinero.",
+    "rating": 5.5
   },
   {
     "tmdb_id": 1041613,
@@ -6375,7 +8094,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kz4y4ngB2DyhIwe81hL76Jj6rKU.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/3zKU2EznBtOPtheyCTQwdZL4b93.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Misterio",
+      "Suspense"
+    ],
+    "overview": "Cecilia (Sydney Sweeney), recién llegada de Estados Unidos, ingresa como novicia en un convento de la remota campiña italiana. Allí es recibida por el Padre Tedeschi (Álvaro Morte), quien la introduce en las rutinas religiosas. Un día descubre que está embarazada y lo que parecía un milagro, por conservar aún su virginidad, resulta ocultar un siniestro secreto que hará que busque salir de aquel lugar desesperadamente.",
+    "rating": 6.213
   },
   {
     "tmdb_id": 932086,
@@ -6412,7 +8140,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kuczW9drno5YGtBBoaaQkgFYAdi.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/8UOAYjhwSF3aPZhm6wgLuyHRyrR.jpg",
+    "genres_spanish": [
+      "Western",
+      "Drama"
+    ],
+    "overview": "Crónica de un lapso de 15 años de expansión y asentamiento del oeste estadounidense antes y después de la Guerra de secesión norteamericana de 1861-1865.",
+    "rating": 6.84
   },
   {
     "tmdb_id": 1209290,
@@ -6439,7 +8175,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jXeeV5YrACBgc9CGvggdsA6PEmd.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/2B12ReNGLhDDVrdsIu1O2PnH6RU.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Ciencia ficción",
+      "Acción"
+    ],
+    "overview": "Universos paralelos se desmoronan cuando el Antimonitor ataca. La Liga de la Justicia y héroes de otras épocas unen fuerzas para detener la destrucción inminente, dispuestos a sacrificarse por el triunfo.",
+    "rating": 7.2
   },
   {
     "tmdb_id": 974262,
@@ -6466,7 +8211,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/57XarHzHxeDouUyjAb6BpVxIkC0.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/dn3gbDpXPSwC6saMJOHkCiFA9jn.jpg",
+    "genres_spanish": [
+      "Fantasía",
+      "Aventura",
+      "Familia",
+      "Comedia"
+    ],
+    "overview": "Cuando la Reina de Corazones da un golpe de Estado en Auradon, su rebelde hija Red y la perfeccionista hija de Cenicienta, Chloe, unen sus fuerzas y viajan al pasado para intentar impedir el traumático suceso que llevó a la madre de Red a convertirse en una villana.",
+    "rating": 6.752
   },
   {
     "tmdb_id": 635910,
@@ -6503,7 +8258,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dAImnw2GJNDAEVeGij9HVQNJD2c.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/dKC5qWi6S8SKkSzrP6LxTk0cb98.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Fantasía"
+    ],
+    "overview": "Basado en un solo capítulo, el Captain's Log, de la clásica novela Drácula de 1897 de Bram Stoker, la historia se desarrolla a bordo de la goleta rusa Demeter, que fue fletada para transportar carga privada (veinticuatro cajas de madera sin marcar) desde Carpatia a Londres. La película detallará los extraños eventos que acontecieron a la tripulación condenada mientras intentan sobrevivir al viaje por el océano, acechados cada noche por una aterradora presencia a bordo del barco. Cuando finalmente llegó cerca del puerto de Whitby, estaba totalmente en ruinas. No había rastro de la tripulación.",
+    "rating": 6.755
   },
   {
     "tmdb_id": 519182,
@@ -6540,7 +8303,18 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/b6JX0fBne5yPFNBtdp4Imi3CpiE.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/twsxsfao6ZOVvT8LfudH603MMi6.jpg",
+    "genres_spanish": [
+      "Familia",
+      "Comedia",
+      "Animación",
+      "Ciencia ficción",
+      "Acción"
+    ],
+    "overview": "Gru, Lucy y las niñas -Margo, Edith y Agnes- dan la bienvenida a un nuevo miembro en la familia: Gru Junior, que parece llegar con el propósito de ser un suplicio para su padre. Gru tendrá que enfrentarse en esta ocasión a su nueva némesis Maxime Le Mal y su sofisticada y malévola novia Valentina, lo que obligará a la familia a tener que darse a la fuga. Cuarta entrega de 'Gru, mi villano favorito'.",
+    "rating": 7.0
   },
   {
     "tmdb_id": 1245700,
@@ -6567,7 +8341,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/pbVcZmmcfqk35Q9hNxRoR7JPiVp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/as8fZuf0c8V2iMO43kw13hc6a9V.jpg",
+    "genres_spanish": [
+      "Crimen",
+      "Suspense",
+      "Drama"
+    ],
+    "overview": "Cuando en el Sector 36 desaparecen varios niños a manos de un asesino en serie, un policía corrupto se ve obligado a resolver el estremecedor caso a cualquier precio.",
+    "rating": 7.006
   },
   {
     "tmdb_id": 573435,
@@ -6604,7 +8387,18 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/53y0ETa1TGdVrMEVx7oLW86ay8r.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/3q01ACG0MWm0DekhvkPFCXyPZSu.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Crimen",
+      "Suspense",
+      "Aventura"
+    ],
+    "overview": "Los policías más famosos del mundo regresan con su icónica mezcla de acción al límite y comedia escandalosa, pero esta vez con un giro inesperado: ¡Los mejores de Miami se dan a la fuga! Cuarta entrega de la saga 'Dos policías rebeldes'.",
+    "rating": 7.338
   },
   {
     "tmdb_id": 1300370,
@@ -6641,6 +8435,11 @@
         "server": "vpge.link",
         "language": "Sub"
       }
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/utOClhVjHeLkcPZmRD0H7WmY75p.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9Ldp4JHqZ2zjCKCKkofsZXX30tQ.jpg",
+    "genres_spanish": [
+      "Documental"
     ]
   },
   {
@@ -6678,7 +8477,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/p08mUnCktZ2opGihZTAn7OqzOoi.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/jhk6D8pim3yaByu1801kMoxXFaX.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Drama",
+      "Aventura"
+    ],
+    "overview": "En el año 180, el Imperio Romano domina todo el mundo conocido. Tras una gran victoria sobre los bárbaros del norte, el anciano emperador Marco Aurelio decide transferir el poder a Máximo, bravo general de sus ejércitos y hombre de inquebrantable lealtad al imperio. Pero su hijo Cómodo, que aspiraba al trono, no lo acepta y trata de asesinar a Máximo.",
+    "rating": 8.221
   },
   {
     "tmdb_id": 365177,
@@ -6715,7 +8523,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jtEZi4eZxDjxcDIeMbkQ8HmvRs1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/mKOBdgaEFguADkJhfFslY7TYxIh.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Ciencia ficción",
+      "Comedia"
+    ],
+    "overview": "Lilith, una infame cazatesoros con un misterioso pasado, regresa a su planeta natal de Pandora para encontrar a la hija desaparecida del poderoso Atlas. Para ello forma una alianza inesperada con un heterogéneo equipo de inadaptados: Roland, un antiguo mercenario de élite ahora desesperado por la redención; Tiny Tina, una demolicionista salvaje preadolescente; Krieg, el musculoso protector de Tina; la científica Tannis; y Claptrap, un robot muy peculiar. Estos extraños héroes deberán luchar contra monstruos alienígenas y peligrosos bandidos para buscar y proteger a la niña desaparecida, que puede tener la clave de un poder inimaginable.",
+    "rating": 5.597
   },
   {
     "tmdb_id": 646683,
@@ -6752,7 +8569,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ioQCdjn2YPfAJMfJlgzNdXgYZrr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/93dDAqtrFQk5zeofDtQGExPlYjC.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Anthony Miller (Russell Crowe) es un actor con problemas que empieza a desmoronarse durante el rodaje de una película de terror sobrenatural. Su distante hija (Ryan Simpkins) se pregunta si su padre está volviendo a sus adicciones del pasado o si hay algo más siniestro detrás...",
+    "rating": 5.009
   },
   {
     "tmdb_id": 1138194,
@@ -6789,7 +8614,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/rpo3DJFMOSAz27gDwxJ5LIwIFni.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ag66gJCiZ06q1GSJuQlhGLi3Udx.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Terror"
+    ],
+    "overview": "Dos jóvenes misioneras se ven obligadas a demostrar su fe cuando llaman a la puerta equivocada y son recibidas por el Sr. Reed. Los tres se verán envueltos en un brutal juego del gato y el ratón durante una larga noche de tormenta.",
+    "rating": 6.978
   },
   {
     "tmdb_id": 1093237,
@@ -6806,7 +8639,15 @@
         "server": "vpge.link",
         "language": "Lat"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/wbM7cWkaHpUGiLkjd2ZaJiHLLCr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/iqQSRP52a8q7CNViVyXz6nC5CJP.jpg",
+    "genres_spanish": [
+      "Música",
+      "Suspense",
+      "Drama"
+    ],
+    "rating": 5.118
   },
   {
     "tmdb_id": 1029955,
@@ -6843,7 +8684,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8loKNUHhW0KPe3iS7JYozXHLIOB.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/aX1P75MWK5BzjqPh8fR8HQoX27s.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Comedia"
+    ],
+    "overview": "Fábula en forma de tríptico que narra tres historias: la de un hombre atrapado que intenta tomar las riendas de su propia vida; la de un policía aterrado porque su mujer, que había desaparecido en el mar, ha vuelto y parece otra persona; y la de una mujer decidida a encontrar a alguien con un don especial, destinado a convertirse en un prodigioso líder espiritual.",
+    "rating": 6.493
   },
   {
     "tmdb_id": 786892,
@@ -6880,7 +8729,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/tGHUlykWn9V2IIQ4ZaATIAq9VLB.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/raph7qjAGTMXaIjVxt6ZDSXRzUr.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+    ],
+    "overview": "En un mundo postapocalíptico donde todo ha perdido su valor, los pocos supervivientes se guían por la ley del más fuerte. Sin aprecio por la vida, lo único que despierta un brutal interés es la gasolina, sinónimo de poder y objetivo de bandas armadas hasta los dientes y sin escrúpulos. En este contexto conoceremos la  historia de la arrebatadoramente despiadada, salvaje y joven Furiosa, quien cae en manos de una horda de motoristas y debe sobrevivir a muchas pruebas mientras reúne los medios para encontrar el camino de vuelta a casa. Precuela de 'Mad Max: Furia en la carretera' (2015).",
+    "rating": 7.454
   },
   {
     "tmdb_id": 653346,
@@ -6917,7 +8775,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kkFn3KM47Qq4Wjhd8GuFfe3LX27.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/iHYh4cdO8ylA3W0dUxTDVdyJ5G9.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Aventura",
+      "Acción"
+    ],
+    "overview": "Ambientada varias generaciones en el futuro tras el reinado de César, en la que los simios son la especie dominante que vive en armonía y los humanos se han visto reducidos a vivir en la sombra. Mientras un nuevo y tiránico líder simio construye su imperio, un joven simio emprende un angustioso viaje que le llevará a cuestionarse todo lo que sabe sobre el pasado y a tomar decisiones que definirán el futuro de simios y humanos por igual.",
+    "rating": 7.1
   },
   {
     "tmdb_id": 639720,
@@ -6954,7 +8821,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8RgGuC7w8JxhykauzTC4bwha1J8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/nxxCPRGTzxUH8SFMrIsvMmdxHti.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Fantasía",
+      "Familia"
+    ],
+    "overview": "Una niña pasa por una experiencia difícil y entonces empieza a ver a los amigos imaginarios de todo el mundo que se han ido quedando atrás a medida que sus amigos de la vida real han ido creciendo.",
+    "rating": 6.992
   },
   {
     "tmdb_id": 1184495,
@@ -6981,7 +8857,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gWcq6GZcpo8ULwB7FRCZ0Dw8L3F.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/6euea0NQBP5ZrCRJmXquj7bRRbX.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "overview": "Este drama basado en una historia real narra cómo tres científicos británicos pioneros tratan de desarrollar la fecundación in vitro contra viento y marea durante los años 60 y 70.",
+    "rating": 6.832
   },
   {
     "tmdb_id": 592983,
@@ -7018,7 +8901,18 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/g4oArI4RmOnSDZzQbdbAm3yLNkC.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/iqL1ztNeXAXulsZzpJWmyiZdZWc.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Fantasía",
+      "Familia",
+      "Aventura",
+      "Comedia"
+    ],
+    "overview": "Cuando un poderoso hechizo transforma a sus padres en unos monstruos gigantes, una joven princesa debe adentrarse en la naturaleza para romper la maldición antes de que sea tarde.",
+    "rating": 6.633
   },
   {
     "tmdb_id": 1114738,
@@ -7055,7 +8949,14 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/tF11hjC92KC9mpUAxZbqOyRGCZp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/uNTciMXpCQDg7gvgMsPCdnxo6Re.jpg",
+    "genres_spanish": [
+      "Suspense"
+    ],
+    "overview": "Cuando se descubren los restos óseos de once mujeres y niñas en el desierto de Nuevo México, se pone en marcha una exhaustiva investigación. El jefe de policía Carter, el detective Ortega y el agente Petrovick hacen un esfuerzo interinstitucional por identificar y detener al asesino. A medida que sus agendas y métodos chocan, una enmarañada red de intrigas arroja sospechas en todas direcciones.",
+    "rating": 5.5
   },
   {
     "tmdb_id": 896151,
@@ -7092,7 +8993,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3RPufhE7QOLfX7zMjaesMt9jO99.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/qRSMoh9EMlQ9uywMpLulWBkIma9.jpg",
+    "genres_spanish": [
+      "Bélica",
+      "Drama",
+      "Historia"
+    ],
+    "overview": "En el Londres de la Segunda Guerra Mundial, George, un niño de nueve años, es evacuado al campo por su madre, Rita, para escapar de los bombardeos. Decidido a volver con su familia, George se embarca en un viaje épico de vuelta a casa mientras Rita intenta encontrarle.",
+    "rating": 5.998
   },
   {
     "tmdb_id": 1330298,
@@ -7129,7 +9039,13 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2EnQ1j5tBWRXA0BaYWYCrW1mYa1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/zle3havJ85BXxbpEUBiCfKBzFCf.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "rating": 7.0
   },
   {
     "tmdb_id": 1105407,
@@ -7166,7 +9082,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/pgcq9W2J74vtbmNFfhqgxAsS9Rx.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/hPU12uDcsVyaz368yjxa4BjDHXB.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Drama",
+      "Suspense",
+      "Crimen"
+    ],
+    "overview": "Dan Lawson, un detective de Chicago, viaja a Escocia para reunirse con el detective escocés Glen Boyd, tras el regreso de un asesino en serie cuyos crímenes coinciden con un caso sin resolver que él investigó cinco años antes en Chicago.",
+    "rating": 5.627
   },
   {
     "tmdb_id": 586810,
@@ -7193,7 +9119,17 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aEC0dFieUjpkveilI9GQdTfUFc9.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/yIOw17XdfsoCaydtrkzlZBCcHk6.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Ciencia ficción",
+      "Acción",
+      "Misterio"
+    ],
+    "overview": "Aline Ruby es una testaruda detective privada, y su compañero Carlos Rivera lleva muerto cinco años, pero se ha 'reencarnado' en el cuerpo de un robot. Ambos se encuentran en una carrera contrarreloj hacia Marte. Su misión inicial es encontrar a Jun Chow, una estudiante de cibernética a la fuga, antes de que los asesinos que le pisan los talones puedan atraparla. Sin embargo, lo que los investigadores descubren por el camino es más grande de lo que ninguno de los dos podía esperar.",
+    "rating": 7.448
   },
   {
     "tmdb_id": 618588,
@@ -7230,7 +9166,15 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/q1DDwFuWeQlwR0lcjFiEsM8iRkd.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/jw4SNkaSgbrO7VJPsZUZqbBg1Ph.jpg",
+    "genres_spanish": [
+      "Aventura",
+      "Drama"
+    ],
+    "overview": "Basada en una historia real. Michael White es el capitán de un equipo que participa en una carrera de 700 km durante 10 días por las selvas de la República Dominicana. Durante esta épica carrera de resistencia, un perro callejero se les une, recorriendo con ellos algunos de los terrenos más difíciles del planeta. A medida que el equipo se ve empujado al límite de su resistencia en la carrera, Arthur redefine lo que realmente significan la victoria, la lealtad y la amistad.",
+    "rating": 7.6
   },
   {
     "tmdb_id": 832964,
@@ -7267,7 +9211,16 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kc6vCBHH81zlmYZ4h14U0cx4sux.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9SvSJJSgufM76vn9ddB0YMF6lzs.jpg",
+    "genres_spanish": [
+      "Historia",
+      "Drama",
+      "Bélica"
+    ],
+    "overview": "La historia de la fotógrafa Elizabeth 'Lee' Miller, una modelo que se convirtió en una aclamada corresponsal de guerra de la revista Vogue durante la Segunda Guerra Mundial.",
+    "rating": 7.03
   },
   {
     "tmdb_id": 1380217,
@@ -7299,6 +9252,12 @@
         "server": "vpge.link",
         "language": "Sub"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/w99AnBPHrfku2h0fFf7TQ0EoNlO.jpg",
+    "backdrop_url": null,
+    "genres_spanish": [
+      "Drama"
+    ],
+    "overview": "Dos hermanos adolescentes pelean constantemente por cuestiones triviales. Pedro acusa a Fernanda con su madre por tener un romance, lo que provoca peleas donde siempre sale perdiendo debido a su diferencia de edad. Todo cambia cuando Pedro planea una venganza sin usar la fuerza física, pero descubre a su hermana en su momento más vulnerable."
   }
 ]
