@@ -28,7 +28,14 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/ald2390iur7k"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aM3ZwratInjyFyckQzXE4owylgk.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/kfhEphTWHnxMti3F2GeyDwtlMH9.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Drama"
+    ],
+    "rating": 5.5
   },
   {
     "tmdb_id": 1370814,
@@ -53,7 +60,15 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/5tmfwb39qg61"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/b0RWuqzgvyfiIYU4QfgJHhmxZF4.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/5hx45AVpw6PkVSGUl2GPDDbsUD1.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Suspense"
+    ],
+    "overview": "En un campamento de waterpolo masculino, un preadolescente de doce años con ansiedad social se ve arrastrado a formar parte de una cruel tradición que ataca a un marginado con una enfermedad llamada 'La Plaga'. Pero a medida que se difuminan los límites entre el juego y la realidad, teme que la broma pueda estar ocultando algo real.",
+    "rating": 7.4
   },
   {
     "tmdb_id": 1366745,
@@ -78,7 +93,16 @@
         "language": "LATINO",
         "embed_url": "https://bysejikuar.com/d/un2glzgj9ndp"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gclIrK0PYAVXhROFQuH6ju15k8h.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/y6MgDckBAzPfvRDCR093UNaWItQ.jpg",
+    "genres_spanish": [
+      "Familia",
+      "Comedia",
+      "Romance"
+    ],
+    "overview": "Santiago decide formar una familia con su novia Ana, a pesar de que ella está embarazada de su ex, Pancho, sin embargo, el verdadero desafío llegará cuando Pancho regrese inesperadamente de Miami para involucrarse en el embarazo, desatando una serie de situaciones cómicas y caóticas en su hogar.",
+    "rating": 4.2
   },
   {
     "tmdb_id": 1400789,
@@ -103,7 +127,15 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/ny35po8jds7b"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/5lSd5WDYVxZWcfGkyS7IgbdGscx.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/yZKLgaHKmJCrMsg5e1naV4JqY6b.jpg",
+    "genres_spanish": [
+      "Documental",
+      "Bélica"
+    ],
+    "overview": "El director ganador del Óscar por \"20 días en Mariúpol\" regresa a Ucrania para presentarnos el documental más brutal y espeluznante del año. La guerra como nunca la habías visto: desde el punto de vista de un soldado.\r La misión de un pelotón ucraniano es atravesar un kilómetro y medio de bosque fuertemente fortificado para liberar un pueblo estratégico de las fuerzas rusas. Un periodista les acompaña y es testigo de los estragos de la guerra y de la creciente incertidumbre sobre su conclusión.",
+    "rating": 8.3
   },
   {
     "tmdb_id": 1317090,
@@ -128,7 +160,13 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/mkexqoiu1ntj"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3AhGIGMZJ37smK41OGQzX8MVqac.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/Auvm2LlesmQkGVjXogZ5ItlHN4y.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "rating": 7.0
   },
   {
     "tmdb_id": 1139296,
@@ -177,7 +215,15 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/2h0w048lgtgj"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kgeCklZUXdImDcop8odTbCmvvjr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/d4B26AUGxAABPdj4zmr9RzwPK79.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense",
+      "Ciencia ficción"
+    ],
+    "rating": 5.583
   },
   {
     "tmdb_id": 434853,
@@ -202,7 +248,15 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/ta98helfq7j3"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/uje1ecKMnNpZp0at5TxlvVgVXqI.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/w1Z1I9PqTK5UjG6RVAFXLCjp1Sw.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Acción",
+      "Suspense"
+    ],
+    "rating": 5.0
   },
   {
     "tmdb_id": 1584215,
@@ -233,7 +287,14 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/yoeedrubt5an"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fYqSOkix4rbDiZW0ACNnvZCpT6X.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/eUERZRVjCTNdgnESlQxyaOJ2d4K.jpg",
+    "genres_spanish": [
+      "Acción"
+    ],
+    "overview": "Una asesina entrenada por la CIA recluta a otros graduados de su programa secreto de la infancia, The Internship, para destruir violentamente la organización. La CIA contraataca con fuerza letal.",
+    "rating": 6.0
   },
   {
     "tmdb_id": 806448,
@@ -246,6 +307,13 @@
         "language": "ES",
         "embed_url": "https://verhdlink.cam/movie/tt12398294"
       }
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/GASuHzFc7gdYNppAGUWSQBJuEB.jpg",
+    "backdrop_url": null,
+    "genres_spanish": [
+      "Acción",
+      "Comedia",
+      "Drama"
     ]
   },
   {
@@ -271,7 +339,15 @@
         "language": "LATINO",
         "embed_url": "https://bysejikuar.com/d/klukgheq58la"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/m6LtDQhUYZS7JMkOkYsEfAp2THW.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/hdPEeg84S4BL9znbZie57IwrItl.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Romance"
+    ],
+    "overview": "Después de que Lorena, la mujer que él creía el amor de su vida, le deja plantado ante el altar, a Sebastián no se le ocurre mejor idea que buscarla en la casa de playa que alquilaron para su luna de miel. Allí se cruza en su camino, Valeria, la chica del alquiler, quien se empeña en curar su despecho, romper sus rígidos esquemas y convertirlo en un nuevo Sebastián hasta que la novia fugitiva aparece en la playa con Tomas, el padrino de la boda.",
+    "rating": 6.2
   },
   {
     "tmdb_id": 1225624,
@@ -314,7 +390,14 @@
         "language": "ESPAÑOL",
         "embed_url": "https://bysejikuar.com/d/2i149c4gls9a"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/i8PhtOAxl2NnH08vGCDkNAw9bA5.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/3vvA1WuP4wVTmuyOKUhdJLzIUWc.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "overview": "Aurora es una mujer portuguesa inmigrante que trabaja en un gran almacén de Escocia. Atrapada entre los muros de su centro de trabajo y la soledad de su piso compartido, trata de resistir al aislamiento, la alienación y la charla trivial que comienzan a amenazar su consciencia de sí misma. En un entorno dominado por una economía basada en algoritmos y diseñada para mantenernos separados, 'On Falling' explora la lucha silenciosa y vital por encontrar sentido y conectar.",
+    "rating": 7.0
   },
   {
     "tmdb_id": 1466013,
@@ -339,7 +422,14 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/krhwnx8xov4p"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iT1J9zYzEY069wF546RJmuYO5m4.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/A2fQstUG5OwJuq8DlwBXJKgQzNn.jpg",
+    "genres_spanish": [
+      "Documental",
+      "Película de TV"
+    ],
+    "rating": 8.6
   },
   {
     "tmdb_id": 1005156,
@@ -370,7 +460,14 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/10rb8ew0o54x"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/p40CvbEkeQtDShKgM8G4DRWtZKw.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/d7Z7M83ZbYYN8qb1zltztAT0Tq1.jpg",
+    "genres_spanish": [
+      "Misterio",
+      "Terror"
+    ],
+    "rating": 4.667
   },
   {
     "tmdb_id": 1287141,
@@ -401,7 +498,16 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/sjfht7yklcda"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7Pd6ChSQjSXy4snJiorSdzg2cG3.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/rBYrtkAy9YtRuFpX1g6JbcjRT8h.jpg",
+    "genres_spanish": [
+      "Romance",
+      "Drama",
+      "Comedia"
+    ],
+    "overview": "Colin, un hombre introvertido, se queda prendado de Ray, el carismático y atractivo líder de una banda de moteros que le toma como sumiso, dinamitando su rutina y cambiándole la vida.",
+    "rating": 6.1
   },
   {
     "tmdb_id": 1063875,
@@ -444,7 +550,15 @@
         "language": "ESPAÑOL",
         "embed_url": "https://bysejikuar.com/d/fbr31jiz1d1u"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7pvakYCnGTaUyoxfr0XK18Vn8f5.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/zT8LR9MkZuHZxJsaqgNpxUf9lxl.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Historia"
+    ],
+    "overview": "Francia, finales del siglo XIX. Louise Violet es una profesora parisina, enviada a la campiña francesa. En un lugar donde la vida cotidiana está ligada a las estaciones, la tierra y los cultivos, primero deberá convencer a los habitantes para que envíen a sus hijos a la escuela. Con la ayuda del alcalde, los padres y sus hijos acaban por aceptarla. Pero pronto, su pasado la alcanza. A pesar de los obstáculos, la señorita Violet se entregará en cuerpo y alma a su creencia: la educación es la clave de la libertad.",
+    "rating": 7.0
   },
   {
     "tmdb_id": 1081077,
@@ -469,7 +583,14 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/bj6y8l1dgzn9"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/as1cK8wQZN35gMFMmYWW5baGG2t.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/hllN6WP6WpVe5Eu6gzFIzITKfk4.jpg",
+    "genres_spanish": [
+      "Documental"
+    ],
+    "overview": "Examina el legado artístico de Leni Riefenstahl y sus complejos vínculos con el régimen nazi, contrastando su autoimagen con pruebas que sugieren que estaba al tanto de las atrocidades del régimen.",
+    "rating": 7.3
   },
   {
     "tmdb_id": 1181765,
@@ -512,7 +633,16 @@
         "language": "ESPAÑOL",
         "embed_url": "https://bysejikuar.com/d/4lsk4tp4whpg"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/66aiD6UUkAd4Iloj7rPtWN3gKxT.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/hFjLNzQFA85vMVEDDupOnajkbkU.jpg",
+    "genres_spanish": [
+      "Familia",
+      "Fantasía",
+      "Comedia"
+    ],
+    "overview": "Mientras Ida sueña con salvar el bosque junto a su clase, Helene esconde un secreto que podría cambiarlo todo: su familia está en bancarrota y necesita triunfar como influencer para evitarlo. Silas, decidido a conquistarla, hará lo que sea por llamar su atención aunque eso lo meta en problemas. Entre rivalidades, malentendidos y sueños enfrentados, la magia volverá a brillar: con un gato con aires de lujo, un cocodrilo vegano y el poder de la amistad, descubrirán que la unión puede más que cualquier obstáculo. Al final, todos aprenderán que el verdadero éxito no se mide en seguidores sino en amigos.",
+    "rating": 6.2
   },
   {
     "tmdb_id": 1283320,
@@ -537,7 +667,14 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/ofy7k3yr5q6l"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/38Fcb3lgBYITJ3j6hjrFiKoCIqi.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/1M8MgXc9UifZFA8qeC2gG4UCQe.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "overview": "Un joven adicto que vive en las calles de Londres recibe una oportunidad de redención, pero su camino hacia la recuperación pronto se convierte en una extraña odisea de la que tal vez nunca pueda escapar.",
+    "rating": 6.5
   },
   {
     "tmdb_id": 1418715,
@@ -562,7 +699,13 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/adk27mvnqai6"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/eVIaFNB8W8YYGAwBfLhTO8r75Dc.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/n9CQbMY1nVJuBOxBe5xwfx2fjtm.jpg",
+    "genres_spanish": [
+      "Terror"
+    ],
+    "rating": 4.125
   },
   {
     "tmdb_id": 1476988,
@@ -593,7 +736,14 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/rnej136oeb1b"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3rNTtnQGU8dq4YBNqdiXVE5fc9E.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/jmllJISErGu9hDvT7myXeaLGDUb.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Comedia"
+    ],
+    "rating": 2.5
   },
   {
     "tmdb_id": 1534861,
@@ -618,6 +768,12 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/vz5hbtzqldgc"
       }
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9lGdMHdJqB7KdzA3iBJBj8jsVhH.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/rcu696tqgSYXRBx2lBQJDs2ac6v.jpg",
+    "genres_spanish": [
+      "Documental",
+      "Música"
     ]
   },
   {
@@ -643,7 +799,13 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/mfoq3jn3hcit"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/h4ZD3a5dn5gNXkNYJgxxHce37oC.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/eDjSr4ukYkWeqoTxxKXmSeAi95R.jpg",
+    "genres_spanish": [
+      "Comedia"
+    ],
+    "rating": 10.0
   },
   {
     "tmdb_id": 1595875,
@@ -668,7 +830,15 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/hhwxq6dlacoa"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/bd1rZNyW7ZPtnT1JFduUHLWtruJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/oLnUhliHV6wWY6i4tIttddKxzjA.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Misterio",
+      "Drama"
+    ],
+    "rating": 5.5
   },
   {
     "tmdb_id": 1063509,
@@ -687,7 +857,15 @@
         "language": "LATINO",
         "embed_url": "https://streamwish.to/d/739in4jtjgpp"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xFRNwqTl0WeWiTW10Wyixug1c9J.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/3uzS3EYfWSCorDZeOtWknEo5X7a.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Misterio",
+      "Película de TV"
+    ],
+    "rating": 5.2
   },
   {
     "tmdb_id": 1351923,
@@ -712,7 +890,14 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/eoenzf2z5xwc"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fdxf02vUous6fty6O4nollyuo4m.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/xxY1udGvueqd1oPl2wmeuFOUF5d.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Bélica"
+    ],
+    "rating": 6.4
   },
   {
     "tmdb_id": 1417941,
@@ -737,7 +922,13 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/abrujcxgjbix"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/tO7OI5MyzPSiVmlXXnlBKlAJH92.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "rating": 7.5
   },
   {
     "tmdb_id": 1064869,
@@ -768,7 +959,17 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/u9406sw3qlnt"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7Eq5mcSKVXBhclnaFNA4880mqOX.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/wvuGYsFgkhCWTELcKa7qqc1k4zI.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Acción",
+      "Aventura",
+      "Fantasía",
+      "Suspense"
+    ],
+    "rating": 6.833
   },
   {
     "tmdb_id": 1131822,
@@ -799,7 +1000,14 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/xgcwzkrb90oh"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xL18kd52vU8glcRTta6SpWhdZvF.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/q7IEPYFo20lU9boSTCqScUv7cBZ.jpg",
+    "genres_spanish": [
+      "Romance",
+      "Drama"
+    ],
+    "rating": 7.0
   },
   {
     "tmdb_id": 1359076,
@@ -830,7 +1038,15 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/g9ak76q94i4l"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/wvNLNMZjSYvnPvIdfMZWZzpBPIW.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/5H5UPPDRZAJqA3VlXKUxA1bxUoZ.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Acción",
+      "Historia"
+    ],
+    "rating": 5.9
   },
   {
     "tmdb_id": 1591822,
@@ -861,7 +1077,15 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/ypcwwzksxn16"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xiVr4V5Ilj4ZbBofrd7OWo071d2.jpg",
+    "backdrop_url": null,
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+    ],
+    "rating": 7.0
   },
   {
     "tmdb_id": 1312646,
@@ -886,7 +1110,15 @@
         "language": "ESPAÑOL",
         "embed_url": "https://bysejikuar.com/d/k94wcpt2a6la"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/4kyRHyiR8JHrhQUOlQZVf6XkgQ6.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/nY1h5HT93A9JOF87qczqAoZFyW1.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Drama"
+    ],
+    "overview": "Seis mujeres en distintas etapas de la vida enfrentan las expectativas sociales en esta comedia dramática sobre la autoimagen y el amor. Con historias entrelazadas, cada una lidia con sus propias inseguridades y desafíos, desde la maternidad hasta la vida en el mundo de la moda.",
+    "rating": 4.7
   },
   {
     "tmdb_id": 1601082,
@@ -929,7 +1161,14 @@
         "language": "ESPAÑOL",
         "embed_url": "https://bysejikuar.com/d/a9ba3ksbhyeh"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/x7EDMH4aOFM9s5BeEj3TcbMyKOS.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/snyThv9JMTLqyfNfnpGk6q356SB.jpg",
+    "genres_spanish": [
+      "Documental"
+    ],
+    "overview": "Bertie llega al Serengueti justo cuando comienza la espectacular migración de ñus. Está allí para filmar al animal terrestre más rápido del mundo: el guepardo. Se acerca a una madre que cuida de sus diminutas crías y a un joven grupo de machos que realizan cacerías fenomenales en equipo, y aprende sobre los desafíos inesperados a los que se enfrenta esta especie.",
+    "rating": 7.2
   },
   {
     "tmdb_id": 1277172,
@@ -942,7 +1181,16 @@
         "language": "LATINO",
         "embed_url": "https://streamwish.to/e/g3lvgojdnmz4"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/2sepxjUsrL265MGxu43CPbMZgxe.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/wJ7ORrqQEYyh9AQc0Wa20TCDSVW.jpg",
+    "genres_spanish": [
+      "Familia",
+      "Fantasía",
+      "Aventura",
+      "Comedia"
+    ],
+    "rating": 5.9
   },
   {
     "tmdb_id": 1303236,
@@ -973,7 +1221,14 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/z3mny75jq6l6"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gaNsN1ojr3mhFBUexBpA4gJ7ejs.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/cBBIk8jCSt6vIVJkaCwjjDLSMKH.jpg",
+    "genres_spanish": [
+      "Crimen",
+      "Acción"
+    ],
+    "rating": 6.962
   },
   {
     "tmdb_id": 1556834,
@@ -1004,7 +1259,16 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/xk3xz0lfwkro"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/iPbMpXGTUhk39asHVye7VkBIdOz.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ofp2O5yUNGjBGXGA5SXdRCFOS74.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Aventura",
+      "Suspense",
+      "Bélica"
+    ],
+    "rating": 5.1
   },
   {
     "tmdb_id": 1367723,
@@ -1035,6 +1299,12 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/poxwtfunsuas"
       }
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/dVnY1NwLc8Clum7Uxy8Vf2PHxAt.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/r8tVOW0jmsFDfhb8vLQqsLstzaL.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Suspense"
     ]
   },
   {
@@ -1066,6 +1336,13 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/ej8raq89xoaz"
       }
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aoB8DAgVielL5qTySxpSlAU7PF3.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/h5dcsCJ0JxqCphhQIjj2tmqsM40.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense",
+      "Crimen"
     ]
   },
   {
@@ -1079,7 +1356,14 @@
         "language": "LATINO",
         "embed_url": "https://supervideo.cc/e/e76p8iflkaqj"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/isVAfZn5orLcUwoI1IUWPMWHmPV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/bx6LoGl8L3hwgOCoD2H8JgIu7uC.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Drama"
+    ],
+    "rating": 6.292
   },
   {
     "tmdb_id": 1321624,
@@ -1104,7 +1388,15 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/hrubjb4yr4xy"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/alNUuyYisn5IB3b2gWqDyLtMKQr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/1sU4w7DLJbcKdYjPrLB9jeiIkfz.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Bélica"
+    ],
+    "overview": "En el Harbin ocupado de 1945, miles de prisioneros son sometidos a brutales experimentos biológicos por la Unidad 731 del ejército japonés. Un crudo relato sobre la deshumanización y la lucha por la supervivencia en uno de los laboratorios más oscuros de la Segunda Guerra Mundial.",
+    "rating": 5.267
   },
   {
     "tmdb_id": 1543134,
@@ -1129,7 +1421,14 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/o8juj83vsi7q"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ifM7LfaIIkiQ03bXn5MVe87uLf9.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/qJ4h0zzDWu1NkRZT95yXAbvEXk8.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Bélica"
+    ],
+    "rating": 7.8
   },
   {
     "tmdb_id": 1019210,
@@ -1172,7 +1471,15 @@
         "language": "ESPAÑOL",
         "embed_url": "https://bysejikuar.com/d/n8sa67r2rkau"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xDT1myWq9TLqEc39BwtkxvhuywC.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/wfy1anvv26st5QaDwPRqWF4FY1b.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Las Bestias del Cielo, invasores alienígenas, controlan la mente de los humanos. Un grupo escondido en un edificio es localizado y sufre una paranoia letal.",
+    "rating": 5.5
   },
   {
     "tmdb_id": 1294706,
@@ -1227,7 +1534,15 @@
         "language": "ESPAÑOL",
         "embed_url": "https://bysejikuar.com/d/qfdt2buqloy7"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/r1Aiq6OaCsV1eKgr6AkA9xUa4xm.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/iRAQwlMZ5L2TfQ4kx0YUg69VEdW.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Drama"
+    ],
+    "overview": "Francia, agosto de 2024, y los Juegos Olímpicos están en pleno apogeo. Blandine, de treinta años, llega a París para asistir a las competiciones de natación, reencontrarse con una hermanastra a la que no ve desde hace diez años y conocer por primera vez a su joven sobrina. Blandine viene de Normandía, donde se ha acostumbrado a la paz y la soledad. En París, se encuentra inmersa en el ajetreo de una ciudad en la que parecen regir otras reglas. A medida que pasan los días, conoce a gente nueva, se pierde, duda, retoma viejos hilos, establece otros nuevos y, finalmente, encuentra el camino de vuelta a sí misma. Blandine traza un nuevo mapa para su espíritu y su alma mientras navega por el corazón de una ciudad completamente dominada por este acontecimiento extraordinario.",
+    "rating": 6.3
   },
   {
     "tmdb_id": 756397,
@@ -1258,7 +1573,17 @@
         "language": "ESPAÑOL",
         "embed_url": "https://bysejikuar.com/d/tq1oh79jsvr9"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/tEpL23MRZGB4nlqeSushk0bIHLg.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/leobhCk6L86BEBnx1t6URQcIdQW.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Comedia",
+      "Aventura",
+      "Familia"
+    ],
+    "overview": "HITPIG es un cerdo contratado por humanos para traer de vuelta a sus animales escapados.  No es fácil, pero es una vida! Su último éxito es Pickles, un  elefante ingenuo pero vivaz que ha escapado de las garras de un malvado showman de Las Vegas. Aunque HITPIG inicialmente se propone capturar al alegre paquidermo por mucho dinero, la extraña pareja se encuentra en una aventura inesperada que recorre el mundo y saca lo mejor de ambos. Ambientado en un mundo cyberpunk futurista, HITPIG demuestra que a veces lo que queremos no es lo que necesitamos.",
+    "rating": 6.786
   },
   {
     "tmdb_id": 1195518,
@@ -1313,7 +1638,16 @@
         "language": "ESPAÑOL",
         "embed_url": "https://streamwish.to/d/y8k6jrs4c6l3"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/g6QtO93J2nVkJ8BduNE1WS9Fg2h.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/hyc9gq0Oq5THKak7tB7oqC2Rd6z.jpg",
+    "genres_spanish": [
+      "Western",
+      "Aventura",
+      "Crimen"
+    ],
+    "overview": "Los secretos enterrados de un pueblo de Montana en la década de 1870 provocan una oleada de violencia cuando un joven regresa para reclamar su legado y queda atrapado entre un sheriff decidido a mantener el orden y un misterioso extraño empeñado en destruirlo.",
+    "rating": 6.4
   },
   {
     "tmdb_id": 1329673,
@@ -1338,7 +1672,14 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/wc05laxwbs2n"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ppp5otWkF4RkadeGIuCx1I7mt2X.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/kDRhvKxJ1lx7vmvfJ8D18MmItUb.jpg",
+    "genres_spanish": [
+      "Romance",
+      "Drama"
+    ],
+    "rating": 6.5
   },
   {
     "tmdb_id": 1516391,
@@ -1399,7 +1740,14 @@
         "language": "ESPAÑOL",
         "embed_url": "https://bysejikuar.com/d/1i891bz6df0l"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/3kVAkwPrNNw3kxe2yJVatj86QKo.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/fmu0SG65QYUKs6OkrRLDUzG0bZn.jpg",
+    "genres_spanish": [
+      "Documental"
+    ],
+    "overview": "Ha dedicado su carrera a sacar a la luz historias que los poderosos quieren ocultar. Desde My Lai hasta Abu Ghraib, profundiza en la obra del periodista Seymour Hersh.",
+    "rating": 6.87
   },
   {
     "tmdb_id": 1140498,
@@ -1430,7 +1778,15 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/sre383rmu3sv"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/fQBKFzmuGEaVH5FYwodesWfu9Z4.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/91aHQ6HsccjLxP29WziHwACuofK.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Drama"
+    ],
+    "overview": "El matrimonio de una pareja se desmorona mientras él persigue la comedia en Nueva York y ella se redescubre. Juntos aprenden a redefinir su relación y dinámica familiar en medio de grandes cambios.",
+    "rating": 7.1
   },
   {
     "tmdb_id": 1211442,
@@ -1461,7 +1817,13 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/wc1ze818hccq"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7cDCGKBA6XANFDw4km9GvDnFBHw.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/zfhAzbZXg24Z9INMcRfkr45mH91.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "rating": 6.859
   },
   {
     "tmdb_id": 1473666,
@@ -1492,7 +1854,14 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/2h1h5ur7yg9b"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xoPLfMbNYYuk3X2iVGhfaM6vxIP.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/5xVouFudknDuRCl955xvu4QQTOQ.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Comedia"
+    ],
+    "rating": 5.4
   },
   {
     "tmdb_id": 1151586,
@@ -1523,7 +1892,14 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/x11b5eviax9b"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/rXRDLLApEqoXXbkM4SQcaVeApzN.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/rqiE0Vo5u1T64eAeQGh9ga2Jax.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Misterio"
+    ],
+    "rating": 4.5
   },
   {
     "tmdb_id": 1437985,
@@ -1554,7 +1930,13 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/8zivxld2sziw"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9PJrHGp41hRTq2kkPWU2j6zzjat.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/255neTizAGgmgHPXQenAL3bITLT.jpg",
+    "genres_spanish": [
+      "Comedia"
+    ],
+    "rating": 5.8
   },
   {
     "tmdb_id": 1208348,
@@ -1597,7 +1979,15 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/92neln2qfkmh"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/9z5dHWiX8EjZBRhJ2OzmYZGW7jS.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ufuabtiOem0kHeYz6b8x8MjBb2L.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Drama"
+    ],
+    "overview": "Ambientada en el Tokio actual, sigue a un actor estadounidense que lucha por encontrar un propósito en la vida hasta que consigue un trabajo inusual: trabajar para una agencia japonesa de \"familias de alquiler\", interpretando papeles de suplente para desconocidos. A medida que se sumerge en el mundo de sus clientes, comienza a establecer vínculos genuinos que difuminan las líneas entre la actuación y la realidad. Al enfrentarse a las complejidades morales de su trabajo, redescubre el propósito, la pertenencia y la tranquila belleza de las relaciones humanas.",
+    "rating": 7.857
   },
   {
     "tmdb_id": 803229,
@@ -1610,7 +2000,14 @@
         "language": "EN",
         "embed_url": "https://streamwish.to/e/pzq2bq3dv9g1"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/wf5cfKJaBSbxheaRM6rvwFyalvt.jpg",
+    "backdrop_url": null,
+    "genres_spanish": [
+      "Comedia",
+      "Terror"
+    ],
+    "rating": 5.0
   },
   {
     "tmdb_id": 1284530,
@@ -1641,7 +2038,13 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/tjnzv0o0o818"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/92hEkLPcTWliucsI5FSZ3OjOQmO.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/7EYBDQTPiyr2b3zYy2ZtedAIdmL.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "rating": 2.0
   },
   {
     "tmdb_id": 945801,
@@ -1660,7 +2063,14 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/ecaskcflvoqp"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/tHZtSDgNwU9ZkiRjzGSgrjXF1x1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/g52CF0q5hHGiWDoArJ4brD9nLmp.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Fantasía"
+    ],
+    "rating": 5.167
   },
   {
     "tmdb_id": 1435092,
@@ -1709,7 +2119,14 @@
         "language": "ESPAÑOL",
         "embed_url": "https://streamwish.to/d/xtn3a1htu64r"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/c6b7JgxtmN1ADVzFPeeY3J11kWt.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9MJifKtwH3hSDPSqguyvFfgdmtA.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "overview": "Helen Mirren da vida a una madre enferma, pero llena de ingenio, que decide tomar el control de su propia despedida en el emotivo debut como directora de Kate Winslet.",
+    "rating": 6.568
   },
   {
     "tmdb_id": 1399457,
@@ -1734,7 +2151,13 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/901o0wgb0h5l"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/inSk8zJig5cCBI0HytXY71mQNpf.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/rEYIy20obMtiuHmiVtXBEn1DUtr.jpg",
+    "genres_spanish": [
+      "Terror"
+    ],
+    "rating": 6.0
   },
   {
     "tmdb_id": 1512623,
@@ -1777,7 +2200,16 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/ifv39xg1x89d"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/h6OsRrDwbspLnKMvlFl57QFDP7d.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/novE5UrqfLIFEMe5QBnjm18GG4E.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Crimen",
+      "Suspense"
+    ],
+    "overview": "Un grupo de strippers busca vengarse de sus jefes robando en los clubes de striptease en los que trabajan.",
+    "rating": 7.42
   },
   {
     "tmdb_id": 1583500,
@@ -1796,7 +2228,13 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/g0giga20xqhv"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/bPOEtWhI7lGpW0OxZZGjt545OXy.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/dM6EbI3T5O2PruUS5K7cbVAexON.jpg",
+    "genres_spanish": [
+      "Documental"
+    ],
+    "rating": 6.038
   },
   {
     "tmdb_id": 1206008,
@@ -1827,7 +2265,15 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/ueny5qkug5tu"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/kuAObOLDIBnWgGE3vk9wBsrM54.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/9cd1zsxcOAcBW01WDOWz8EODTS0.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Drama"
+    ],
+    "overview": "Una joven política idealista hace malabarismos con sus problemas familiares y su estresante vida laboral mientras se prepara para ocupar nada menos que el puesto de gobernadora de su estado, ocupando el puesto de su mentor.",
+    "rating": 5.8
   },
   {
     "tmdb_id": 1383247,
@@ -1846,7 +2292,14 @@
         "language": "LATINO",
         "embed_url": "https://doodstream.com/d/hfqnphjr4yl9"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/sLjHm8eKrC27wykgmih6vVCxjbi.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/lkkWEkEb0v8NKAlBQ6xLyiap3DY.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense"
+    ],
+    "rating": 5.0
   },
   {
     "tmdb_id": 1465038,
@@ -1889,7 +2342,14 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/8qu1pvf0c2r3"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/mwRZ00JgrpF2xTmO6cvl3eYu5X.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/mcmFEGb4A4XtJivjHrYnDMVvfu8.jpg",
+    "genres_spanish": [
+      "Acción"
+    ],
+    "overview": "Los asesinos más letales del mundo luchan a muerte en un torneo clandestino. Pero un grupo rebelde se infiltra con una misión: sobrevivir a la masacre...",
+    "rating": 6.4
   },
   {
     "tmdb_id": 1485539,
@@ -1914,6 +2374,11 @@
         "language": "LATINO",
         "embed_url": "https://streamwish.to/d/bxxqjzag3yq6"
       }
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8rN5AD747CBhzBBaVR9LaEWylgF.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/pFFLGNUz6sld3KqgwAIj2jVFhQe.jpg",
+    "genres_spanish": [
+      "Animación"
     ]
   },
   {
@@ -1933,7 +2398,15 @@
         "language": "ESPAÑOL",
         "embed_url": "https://streamwish.to/d/q5in8hxrvvvi"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/p2FPpMbAeYRdzyJM4bTGhv7d8iV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/A7gbRzK0z0yFvFpn6ZmNx7G5cmg.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Comedia"
+    ],
+    "overview": "Conoce a Vera Gemma, la Belén Esteban a la italiana cuya vida sentimental es un desastre y que está condenada a vivir bajo la sombra de su padre, una leyenda del Spaghetti Western. Entre la ficción y no ficción, se nos presenta el retrato de un personaje estrafalario, arrebatador y fascinante.  Vera es una \"celebrity\" de baja estofa en Italia. Cansada de su vida superficial y de relaciones sentimentales sin sentido abocadas al fracaso, Vera decidirá inmiscuirse dentro de la alta sociedad romana. Sin embargo, pronto vivirá inesperadas consecuencias .",
+    "rating": 6.8
   },
   {
     "tmdb_id": 1415974,
@@ -1976,7 +2449,17 @@
         "language": "ESPAÑOL",
         "embed_url": "https://streamwish.to/d/s01what0imdd"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/lYuHiEzoe0V4fDNzhApAdmYOs1d.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/tql3kTLmF2FFeSVIlafFJiZfcfk.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Misterio",
+      "Crimen",
+      "Drama"
+    ],
+    "overview": "El asesinato de varios miembros de la familia Bansal lleva al inspector Jatil Yadav a destapar una historia de avaricia, traición y secretos vinculada a una conspiración letal.",
+    "rating": 5.921
   },
   {
     "tmdb_id": 1520850,
@@ -1995,7 +2478,15 @@
         "language": "ESPAÑOL",
         "embed_url": "https://streamwish.to/d/k0bnqk1onlyv"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jt6mm0nqYdn6UFEGoEEI4Xt3VMi.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/jFFnY8WtdqAz3RBjc438i7MudZP.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Drama"
+    ],
+    "overview": "Cuando Daniel recibe una enigmática invitación para conocer a su madre biológica en el Berlín del Este, se convierte en la pieza esencial de un plan secreto de la KGB y su hermano gemelo, Klaus, le roba su identidad. Su esposa, Sofía, empieza a sospechar que la persona que clama ser Daniel no lo es en realidad.",
+    "rating": 5.7
   },
   {
     "tmdb_id": 1589891,
@@ -2014,7 +2505,15 @@
         "language": "LATINO",
         "embed_url": "https://streamwish.to/d/yctx6qgbljih"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/8ZoDrAbrsSLDVjXsyvOlwjJakUK.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/gtuXARxjGdfsGFqEwggBB8zUJza.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Acción"
+    ],
+    "overview": "Un psicoanalista que cumple servicio comunitario ayuda a un inspector destrozado por una infidelidad. Juntos afrontarán el peligro y descubrirán segundas oportunidades.",
+    "rating": 7.5
   },
   {
     "tmdb_id": 1233199,
@@ -2051,7 +2550,17 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/qw7yd5lbp2fk"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/wwcNlc69qLyzDLY6sa9SLdUZfBx.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/lDPiNMKFZUg2d1vfBpduYmzTMfs.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Fantasía",
+      "Terror",
+      "Acción"
+    ],
+    "overview": "El padre Park es un médico convertido en sacerdote que fue excomulgado por realizar exorcismos para una iglesia que negaba la existencia de males sobrenaturales. Cuando su viejo amigo, un monje de un templo secreto y lleno de magia, lo llama para proteger a un niño ingenuo, pero poderoso, de su malvado maestro, el padre Park deberá enfrentarse a su pasado.",
+    "rating": 6.1
   },
   {
     "tmdb_id": 1127674,
@@ -2076,7 +2585,15 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/hhqhaxbu1cf5"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/pOFKztoqEyvEYldr1dNxy2M1Oo5.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/7ZiQSnYYzv5gdmW6flGOm7mZX1M.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Romance",
+      "Drama"
+    ],
+    "rating": 7.0
   },
   {
     "tmdb_id": 103014,
@@ -2095,7 +2612,16 @@
         "language": "LATINO",
         "embed_url": "https://streamwish.to/d/zasz8u6lwma8"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/pbql7shBnLoEhWhY5YPNEE5Xmna.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/87zeqqi0xP5C7Fe09lP8cGiNa3j.jpg",
+    "genres_spanish": [
+      "Película de TV",
+      "Familia",
+      "Comedia"
+    ],
+    "overview": "Un niño travieso de 14 años y su tío irresponsable casi arruinan la Navidad cuando deciden llevar el trineo de alta tecnología de Santa a dar un paseo.",
+    "rating": 5.5
   },
   {
     "tmdb_id": 1516518,
@@ -2120,7 +2646,13 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/rfapji5h3hxd"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/qz4e1LLeRKk74a0Pyfqvb8zQlJe.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/ld3PIgbveWOPF2B8s5iwENDk7YM.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "rating": 6.4
   },
   {
     "tmdb_id": 1476740,
@@ -2139,7 +2671,14 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/yykda1sbol3z"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/nRdjGDxBW60OhzjAtikLgQBwt3B.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/m63y5ozkIBpPr3LxjZUFH8vQKlk.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "rating": 6.561
   },
   {
     "tmdb_id": 1584781,
@@ -2158,7 +2697,15 @@
         "language": "LATINO",
         "embed_url": "https://streamwish.to/d/qcec5353s782"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/vb8wrZlqFXswqranjjSi0w816kl.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/Ab4CjXeleZSBTtKFz17ax0UU400.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Suspense",
+      "Misterio"
+    ],
+    "rating": 5.333
   },
   {
     "tmdb_id": 801937,
@@ -2189,7 +2736,15 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/6whfbbwfov4i"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ecpETxTPyVFai17hMMoFGy1ruLO.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/kv8kCuvfhSQ50YxjowqpVn1QqhJ.jpg",
+    "genres_spanish": [
+      "Terror",
+      "Suspense"
+    ],
+    "overview": "Un niño presencia el asesinato de sus padres por de hombre disfrazado de Papá Noel. Años más tarde, ya adulto, se pone él mismo un disfraz de Papá Noel y se embarca en una violenta búsqueda de venganza contra los responsables.",
+    "rating": 6.203
   },
   {
     "tmdb_id": 1397335,
@@ -2220,7 +2775,14 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/cve1gjktfurx"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/xRcGnwShS9wpqlTc6KvK4WUY55A.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/osIFSgqjLHOVRVHLTzpPqF02a8C.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense"
+    ],
+    "rating": 5.6
   },
   {
     "tmdb_id": 1238379,
@@ -2269,7 +2831,16 @@
         "language": "ESPAÑOL",
         "embed_url": "https://streamwish.to/d/yns4oakw4vl0"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/eHcDszOjYGaoVzdefRdG8X9meId.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/hKMN6vMT3rbzXY3VaqS61hv4vjx.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Romance",
+      "Drama"
+    ],
+    "overview": "Stan Olszewski, un guardia de seguridad, frustra un intento de robo en la residencia de Cynthia Rand. A partir de entonces surge una intensa amistad que comienza con mensajes de texto nocturnos llenos de humor. Su vínculo cada vez más estrecho sacude la vida de ambos.",
+    "rating": 7.039
   },
   {
     "tmdb_id": 1543831,
@@ -2300,7 +2871,15 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/5din8nln78t2"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/d6LkmLq2DcDIu1ctygYINGMMyUR.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/mhC1TIv2WxerGKcXacyKOMsO67n.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Acción",
+      "Suspense"
+    ],
+    "rating": 4.6
   },
   {
     "tmdb_id": 1151766,
@@ -2319,7 +2898,14 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/cfsem1f646de"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/rcmJRflS4aFJg8Ockk7YePQWlzc.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/xIoUKseV9rnhDmWP9udh5IhtjiH.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Suspense"
+    ],
+    "rating": 7.1
   },
   {
     "tmdb_id": 1385536,
@@ -2338,7 +2924,16 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/c07jufrws2nj"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/u4pNXPmBuYeTtksakUCZgJ1zpSB.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/sTNzZZdIm7csFdgnvP20XmSJRTx.jpg",
+    "genres_spanish": [
+      "Fantasía",
+      "Romance",
+      "Drama",
+      "Ciencia ficción"
+    ],
+    "rating": 7.662
   },
   {
     "tmdb_id": 1507275,
@@ -2369,7 +2964,16 @@
         "language": "ESPAÑOL",
         "embed_url": "https://streamwish.to/d/7e6zm14jyr0k"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/22jKJhRDxGBE2FBKWD1XPvFYaG5.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/32mjpsITLwEQcvqKuMBGyajN18h.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Familia",
+      "Aventura"
+    ],
+    "overview": "Rubble está deseando que llegue la Navidad, con la esperanza de que Papá Noel le traiga un taladro láser, pero cuando Papá Noel cae enfermo por un resfriado, la Navidad ¡corre peligro de cancelarse!",
+    "rating": 6.9
   },
   {
     "tmdb_id": 1175174,
@@ -2412,7 +3016,14 @@
         "language": "ENGLISH",
         "embed_url": "https://bysejikuar.com/d/xquhjemtbqi4"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/ppIoWfwei623fxCtKFRfXwXUjZx.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/6PM1erqC2dCKjZSOA830DY2daWQ.jpg",
+    "genres_spanish": [
+      "Comedia",
+      "Historia"
+    ],
+    "rating": 7.035
   },
   {
     "tmdb_id": 1379413,
@@ -2443,7 +3054,14 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/skkymsdd9ntq"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aRdbTNiklT1xsv6mk30ZXnkt0A1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/8zaOztqN9Xu1WNRdKfpN5zmthL2.jpg",
+    "genres_spanish": [
+      "Western",
+      "Suspense"
+    ],
+    "rating": 5.583
   },
   {
     "tmdb_id": 1340355,
@@ -2468,7 +3086,13 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/v1drqdqiqttr"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/gONIQR41CveZehtUa25YuFUcj9G.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/nCvVlkdxI31F8ebkMdr7zpwfyOO.jpg",
+    "genres_spanish": [
+      "Acción"
+    ],
+    "rating": 7.0
   },
   {
     "tmdb_id": 1387382,
@@ -2505,7 +3129,16 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/lzekcovoffxi"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/eJ0HooOOD1uzI39CfOQNWIiWKlJ.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Drama",
+      "Suspense"
+    ],
+    "overview": "Cuando una misteriosa joven aparece en la orilla de un río local, tanto la niña de doce años que la descubre como su sobreprotector padre cambian para siempre con la llegada de esta extraña a su hogar. Mientras, un despiadado capo de la droga no se detendrá ante nada para matarla de una vez por todas.",
+    "rating": 7.163
   },
   {
     "tmdb_id": 1330400,
@@ -2536,7 +3169,14 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/lu9u7jcvaznw"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/sAg254rEBdzBXqLysWTZkkcfGZV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/uI0sReHcg0RcmmKrjsJu3IeLnH3.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Crimen"
+    ],
+    "rating": 5.2
   },
   {
     "tmdb_id": 1450648,
@@ -2561,7 +3201,14 @@
         "language": "LATINO",
         "embed_url": "https://streamwish.to/d/r39ga6poec7k"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/oEJIL0ZND2B25qalWIBNyoyLxQ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/o8Zq4Tw4nXWdBWWvV3MRW06wmfd.jpg",
+    "genres_spanish": [
+      "Documental"
+    ],
+    "overview": "Esta película explora la percepción de Lisandro, un joven de 16 años que está dentro del espectro autista. Su madre, Valentina, actriz, lo ha criado entre backstages y camarines. ¿Existe para él alguna diferencia entre la realidad y la ficción?",
+    "rating": 6.0
   },
   {
     "tmdb_id": 1387190,
@@ -2592,7 +3239,16 @@
         "language": "ESPAÑOL",
         "embed_url": "https://streamwish.to/d/tn1ujma3w7s9"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/7OSDlAgpXRNTdecXArA0S75y2aN.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/lAlZ9Gw5k9TGcUBz6Ll9vrs1nrU.jpg",
+    "genres_spanish": [
+      "Crimen",
+      "Drama",
+      "Historia"
+    ],
+    "overview": "Dinamarca, 1927. El ambicioso agente de policía Otto Himmelstrup dirige la recién creada Unidad Especial, encargada de ayudar a la policía local a resolver crímenes especialmente difíciles. Cuando se encuentra un cadáver en una casa de verano incendiada en Esbjerg, Otto y su equipo comienzan a desentrañar un misterioso asesinato, que revela luchas de poder y corrupción entre la élite de la ciudad.",
+    "rating": 7.5
   },
   {
     "tmdb_id": 858024,
@@ -2623,7 +3279,16 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/7yc2h8c5vfw8"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/hVo0g5M8z1kuhzxQ51eCbF81wUh.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/73BClq9FOcrWrutnpiqhCNEWEwJ.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Romance",
+      "Historia"
+    ],
+    "overview": "Descubre la poderosa historia de amor que inspiró la creación de Hamlet, la intemporal obra maestra de Shakespeare.",
+    "rating": 7.7
   },
   {
     "tmdb_id": 1280330,
@@ -2642,7 +3307,15 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/5cyg407yk3gf"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/aOlAhqJXfxF2IqVlbK6vpqNIpWI.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/wteoGPQwhj79yQuEINoTwqfEzav.jpg",
+    "genres_spanish": [
+      "Drama",
+      "Acción",
+      "Bélica"
+    ],
+    "rating": 7.25
   },
   {
     "tmdb_id": 1293167,
@@ -2661,7 +3334,14 @@
         "language": "ENGLISH",
         "embed_url": "https://doodstream.com/d/3bh8dzoze1zh"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/flMnawvBtLvMStfeAjuBE1K9ykX.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/oZKwNSLdCQBETNMwqJgkPcxGx3G.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense"
+    ],
+    "rating": 4.917
   },
   {
     "tmdb_id": 1499744,
@@ -2704,7 +3384,17 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/xgphbxvtbbmi"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/osuxNst45U4d7CT02uYHBI1B9nK.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/h0bffxi9OL8XN7CEdCZW1pV5OzA.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Familia",
+      "Comedia",
+      "Fantasía"
+    ],
+    "overview": "Cuando Chuck E. Cheese y sus amigos se enteran de que Papá Noel nunca ha tenido una fiesta de Navidad, porque siempre está agotado de trabajar en Nochebuena, ¡se proponen organizar una celebración navideña sorpresa para él como agradecimiento por toda la alegría que trae al mundo! La fiesta también termina sirviendo como una forma de salvar a su pueblo de la intromisión de un malvado que odia las fiestas.",
+    "rating": 6.2
   },
   {
     "tmdb_id": 1047223,
@@ -2723,7 +3413,16 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/chw5bxzu7lbg"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/l6OhSVwmPLkt3yGzHe16m3AxPtX.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/4DZ9rYfdLvoehzGZ7wSjMfp3Uy2.jpg",
+    "genres_spanish": [
+      "Fantasía",
+      "Terror",
+      "Drama"
+    ],
+    "overview": "Perdido en un bosque hostil, el marqués de Urfé, un noble emisario del rey de Francia, encuentra refugio en la casa de una extraña familia.",
+    "rating": 6.3
   },
   {
     "tmdb_id": 1469354,
@@ -2754,7 +3453,15 @@
         "language": "ESPAÑOL",
         "embed_url": "https://streamwish.to/d/vu6upqnhjghv"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/oCB0j331qr6CW1TtpgSgPccdYA7.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/rBygkL0nL18t0zd5bNJECET64kV.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Suspense"
+    ],
+    "overview": "Cuando una sobredosis de fentanilo causa la muerte de un joven estadounidense en México, el exespía Abraham Woodhill se ve envuelto en una misión desesperada para desmantelar los cárteles responsables. Con la ayuda del exagente preso Jake Byrne, el infame “Diablo Blanco”, se desata un juego peligroso entre selvas, pueblos y fortalezas de los cárteles.",
+    "rating": 6.4
   },
   {
     "tmdb_id": 812583,
@@ -2803,7 +3510,16 @@
         "language": "ESPAÑOL",
         "embed_url": "https://streamwish.to/d/sr38dkx07pvu"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/trGWfaYTkzkalkosXfxidpLum50.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/fiRDzpcJe7qz3yIR43hdXIE3NHv.jpg",
+    "genres_spanish": [
+      "Suspense",
+      "Misterio",
+      "Comedia"
+    ],
+    "overview": "El detective Benoit Blanc se une a un joven y honesto sacerdote para investigar un crimen totalmente imposible en la iglesia de un pequeño pueblo con una oscura historia.",
+    "rating": 7.2
   },
   {
     "tmdb_id": 914243,
@@ -2846,7 +3562,13 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/m161n0lar29d"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/bJMgP6j2mKeiQNgu159MeFCg0qI.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/6tCLkR2I9ZK4gjc3bgHUcY8UbQ5.jpg",
+    "genres_spanish": [
+      "Drama"
+    ],
+    "rating": 5.667
   },
   {
     "tmdb_id": 771220,
@@ -2859,7 +3581,15 @@
         "language": "ES",
         "embed_url": "https://pelisplus.upns.pro/#ushvq"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/hIxcODb9mQMSy2rwQxLzQilchbh.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/uuJd3D2yD0LChKts4lCsn3ls46v.jpg",
+    "genres_spanish": [
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "overview": "Condenado a vivir con escasez detrás de un muro colosal que divide la ciudad de Gabhán en dos, Alba es parte de una red que distribuye medicamentos y agua a los más necesitados en un hospital clandestino. Su madrina, Lucre, busca salvarla arriesgando su vida en un tráfico encubierto de personas ilegales al otro lado de la pared. Alba se niega a dejar a su gente y al hospital, por lo que Lucre se ve obligado a mentirle para convencerla y así embarcarse en un viaje a través de la frontera que cambia su vida para siempre.",
+    "rating": 4.7
   },
   {
     "tmdb_id": 1116465,
@@ -2872,7 +3602,16 @@
         "language": "LATINO",
         "embed_url": "https://streamwish.to/d/3gz8j1axxiwi"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/jvrSYRtgHTu3oqJN1X7LWZoekB6.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/7FDVhmCur4LMOfnXMteiSCtsdOb.jpg",
+    "genres_spanish": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+    ],
+    "overview": "Un arqueólogo nota que la textura de las reliquias descubiertas durante la excavación de un glaciar se parece mucho a un colgante de jade visto en uno de sus sueños. Él y su equipo se embarcan en una expedición a las profundidades del glaciar.",
+    "rating": 6.8
   },
   {
     "tmdb_id": 1117857,
@@ -2915,7 +3654,18 @@
         "language": "ESPAÑOL",
         "embed_url": "https://streamwish.to/d/7t91qd19t9gh"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/z2v3lNAA2ymrZuKof4J2vqFIBdw.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Familia",
+      "Comedia",
+      "Aventura",
+      "Fantasía"
+    ],
+    "overview": "Stevie y su hermano pequeño Elliot viajan al absurdo mundo de sus sueños para pedirle a Sandman que les conceda un deseo: la familia perfecta.",
+    "rating": 6.885
   },
   {
     "tmdb_id": 1144107,
@@ -2934,7 +3684,15 @@
         "language": "ENGLISH",
         "embed_url": "https://streamwish.to/d/k4rvbl2lbyc4"
       }
-    ]
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/d1yVZB5UYwtxk3d1LBFZupSN0Rs.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w500/uJEZaEM2hY3MG50CgZ3z9jeTwmp.jpg",
+    "genres_spanish": [
+      "Animación",
+      "Fantasía",
+      "Acción"
+    ],
+    "rating": 8.463
   },
   {
     "tmdb_id": 1473342,
@@ -2947,6 +3705,12 @@
         "language": "EN",
         "embed_url": "https://streamwish.to/e/kpgr794mdgh6"
       }
+    ],
+    "poster_url": "https://image.tmdb.org/t/p/w500/z8mbLZ2ce3wkx9ydyEPaTE7ovEG.jpg",
+    "backdrop_url": null,
+    "genres_spanish": [
+      "Suspense",
+      "Película de TV"
     ]
   },
   {
