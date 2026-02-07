@@ -28,15 +28,48 @@ class PoseidonSeriesScraper:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
         })
         self.series: List[Dict] = []
         self.processed_series_ids = set()
+        self.debug_season_url: Optional[str] = None
+        self.debug_episode_url: Optional[str] = None
+        self.next_build_id: Optional[str] = None
+
+    def _get_html(self, url: str, referer: Optional[str] = None, timeout: int = 15) -> str:
+        """Obtiene HTML usando headers similares al navegador."""
+        headers = {}
+        if referer:
+            headers["Referer"] = referer
+            headers["Origin"] = f"{urlparse(referer).scheme}://{urlparse(referer).netloc}"
+        response = self.session.get(url, timeout=timeout, headers=headers or None)
+        response.encoding = "utf-8"
+        return response.text
+
+    def _normalize_url(self, url: str) -> str:
+        if not url:
+            return url
+        url = url.replace("\\/", "/")
+        url = url.replace("&amp;", "&")
+        return url
 
     def _workspace_root(self) -> str:
         """Devuelve la ruta base del workspace (dos niveles arriba)."""
         script_dir = os.path.dirname(os.path.abspath(__file__))
         return os.path.abspath(os.path.join(script_dir, "..", ".."))
+
+    def _write_debug_file(self, filename: str, content: str) -> None:
+        try:
+            debug_dir = os.path.join(self._workspace_root(), "debug")
+            os.makedirs(debug_dir, exist_ok=True)
+            full_path = os.path.join(debug_dir, filename)
+            with open(full_path, "w", encoding="utf-8") as f:
+                f.write(content)
+            logger.info(f"DEBUG guardado: {full_path}")
+        except Exception as exc:
+            logger.debug(f"No se pudo guardar debug {filename}: {exc}")
 
     def _get_next_data(self, html_text: str) -> Optional[Dict]:
         """Extrae el JSON de __NEXT_DATA__."""
@@ -46,9 +79,42 @@ class PoseidonSeriesScraper:
             if script:
                 content = script.string if script.string else script.get_text(strip=False)
                 if content:
-                    return json.loads(content)
+                    data = json.loads(content)
+                    build_id = data.get("buildId") if isinstance(data, dict) else None
+                    if build_id:
+                        self.next_build_id = build_id
+                    return data
         except Exception as exc:
             logger.debug(f"Error parseando __NEXT_DATA__: {exc}")
+        return None
+
+    def _fetch_next_data_json(self, url: str, html_text: Optional[str] = None) -> Optional[Dict]:
+        """Intenta obtener el JSON de Next.js via /_next/data/{buildId}/..."""
+        try:
+            if not html_text:
+                html_text = self._get_html(url, referer=POSEIDON_BASE_URL, timeout=15)
+            next_data = self._get_next_data(html_text) if html_text else None
+            build_id = None
+            if isinstance(next_data, dict):
+                build_id = next_data.get("buildId")
+            if not build_id:
+                build_id = self.next_build_id
+
+            if not build_id:
+                return None
+
+            parsed = urlparse(url)
+            path = parsed.path.rstrip("/")
+            if not path:
+                return None
+
+            data_url = f"{parsed.scheme}://{parsed.netloc}/_next/data/{build_id}{path}.json"
+            json_text = self._get_html(data_url, referer=url, timeout=15)
+            if self.debug_season_url and url.rstrip("/") == self.debug_season_url.rstrip("/"):
+                self._write_debug_file("next_data_season.json", json_text)
+            return json.loads(json_text)
+        except Exception as exc:
+            logger.debug(f"Error obteniendo _next/data json para {url}: {exc}")
         return None
 
     def _find_dict_with_keys(self, data, required_keys: List[str]) -> Optional[Dict]:
@@ -76,14 +142,196 @@ class PoseidonSeriesScraper:
                 return None
         return None
 
+    def _extract_season_numbers_from_next_data(self, next_data: Dict) -> List[int]:
+        seasons: List[int] = []
+        try:
+            props = next_data.get("props", {}).get("pageProps", {})
+            serie = props.get("serie") if isinstance(props.get("serie"), dict) else None
+            season_list = None
+            if serie:
+                season_list = serie.get("seasons") or serie.get("temporadas")
+
+            if isinstance(season_list, list):
+                for item in season_list:
+                    if not isinstance(item, dict):
+                        continue
+                    for key in ["number", "seasonNumber", "season", "num"]:
+                        if key in item:
+                            try:
+                                number = int(item.get(key))
+                                if number > 0:
+                                    seasons.append(number)
+                            except Exception:
+                                pass
+                            break
+
+            if not seasons:
+                container = self._find_dict_with_keys(next_data, ["seasons"])
+                if container and isinstance(container.get("seasons"), list):
+                    for item in container.get("seasons"):
+                        if not isinstance(item, dict):
+                            continue
+                        for key in ["number", "seasonNumber", "season", "num"]:
+                            if key in item:
+                                try:
+                                    number = int(item.get(key))
+                                    if number > 0:
+                                        seasons.append(number)
+                                except Exception:
+                                    pass
+                                break
+        except Exception:
+            return []
+
+        return sorted(set(seasons))
+
+    def _build_episode_url(self, season_url: str, episode_number: Optional[int]) -> str:
+        if not episode_number:
+            return ""
+        match = re.search(r"/temporada/(\d+)", season_url)
+        if not match:
+            return ""
+        season_number = match.group(1)
+        base_url = season_url.split("/temporada/")[0]
+        return f"{base_url}/temporada/{season_number}/episodio/{episode_number}"
+
+    def _parse_episode_list(self, episodes_list: List[Dict], series_url: str, season_number: int) -> List[Dict]:
+        episodes: List[Dict] = []
+        if not isinstance(episodes_list, list):
+            return episodes
+        season_url = f"{series_url}/temporada/{season_number}"
+
+        for item in episodes_list:
+            if not isinstance(item, dict):
+                continue
+            ep_num = None
+            for key in ["number", "episode", "episodeNumber", "num"]:
+                if key in item:
+                    try:
+                        ep_num = int(item.get(key))
+                    except Exception:
+                        ep_num = None
+                    break
+
+            title = item.get("title") or item.get("name") or ""
+            raw_url = item.get("url") or item.get("link")
+            ep_url = ""
+            if raw_url and isinstance(raw_url, str):
+                ep_url = urljoin(POSEIDON_BASE_URL, raw_url)
+            else:
+                ep_url = self._build_episode_url(season_url, ep_num)
+
+            if ep_url:
+                episodes.append({
+                    "url": ep_url,
+                    "title": title,
+                    "episode": ep_num,
+                })
+
+        unique = {}
+        for ep in episodes:
+            key = ep.get("url") or f"{ep.get('episode')}"
+            if key and key not in unique:
+                unique[key] = ep
+        return list(unique.values())
+
+    def _extract_episodes_from_seasons(self, next_data: Dict, series_url: str, season_number: int) -> List[Dict]:
+        """Busca episodios de una temporada en estructuras de seasons dentro de Next data."""
+        matches: List[List[Dict]] = []
+
+        def walk(node):
+            if isinstance(node, dict):
+                if "episodes" in node and isinstance(node.get("episodes"), list):
+                    season_num = None
+                    for key in ["seasonNumber", "season", "number", "num"]:
+                        if key in node:
+                            try:
+                                season_num = int(node.get(key))
+                            except Exception:
+                                season_num = None
+                            break
+                    if season_num == season_number:
+                        matches.append(node.get("episodes"))
+                for value in node.values():
+                    walk(value)
+            elif isinstance(node, list):
+                for item in node:
+                    walk(item)
+
+        walk(next_data)
+        episodes: List[Dict] = []
+        for ep_list in matches:
+            episodes.extend(self._parse_episode_list(ep_list, series_url, season_number))
+
+        unique = {}
+        for ep in episodes:
+            key = ep.get("url") or f"{ep.get('episode')}"
+            if key and key not in unique:
+                unique[key] = ep
+        return list(unique.values())
+
+    def _extract_episodes_from_next_data(self, next_data: Dict, season_url: str) -> List[Dict]:
+        episodes: List[Dict] = []
+        episodes_list = None
+        props = next_data.get("props", {}).get("pageProps", {}) if isinstance(next_data, dict) else {}
+
+        season_obj = props.get("season") if isinstance(props.get("season"), dict) else None
+        if season_obj and isinstance(season_obj.get("episodes"), list):
+            episodes_list = season_obj.get("episodes")
+
+        if not episodes_list and isinstance(props.get("episodes"), list):
+            episodes_list = props.get("episodes")
+
+        if not episodes_list:
+            container = self._find_dict_with_keys(next_data, ["episodes"])
+            if container and isinstance(container.get("episodes"), list):
+                episodes_list = container.get("episodes")
+
+        if not isinstance(episodes_list, list):
+            return episodes
+
+        for item in episodes_list:
+            if not isinstance(item, dict):
+                continue
+            ep_num = None
+            for key in ["number", "episode", "episodeNumber", "num"]:
+                if key in item:
+                    try:
+                        ep_num = int(item.get(key))
+                    except Exception:
+                        ep_num = None
+                    break
+
+            title = item.get("title") or item.get("name") or ""
+            raw_url = item.get("url") or item.get("link")
+            ep_url = ""
+            if raw_url:
+                ep_url = urljoin(POSEIDON_BASE_URL, raw_url)
+            else:
+                ep_url = self._build_episode_url(season_url, ep_num)
+
+            if ep_url:
+                episodes.append({
+                    "url": ep_url,
+                    "title": title,
+                    "episode": ep_num,
+                })
+
+        # Deduplicar
+        unique = {}
+        for ep in episodes:
+            key = ep.get("url") or f"{ep.get('episode')}"
+            if key and key not in unique:
+                unique[key] = ep
+        return list(unique.values())
+
     def _extract_grid_series(self, page_url: str) -> Tuple[List[Dict], Optional[str]]:
         """Extrae URLs de series desde un grid y devuelve next page si existe."""
         results = []
         next_url = None
         try:
-            response = self.session.get(page_url, timeout=15)
-            response.encoding = "utf-8"
-            soup = BeautifulSoup(response.text, "html.parser")
+            html_text = self._get_html(page_url, referer=POSEIDON_BASE_URL, timeout=15)
+            soup = BeautifulSoup(html_text, "html.parser")
 
             section = soup.find("section", class_="home-movies")
             if not section:
@@ -127,9 +375,8 @@ class PoseidonSeriesScraper:
     def _parse_series_info(self, series_url: str) -> Tuple[Optional[Dict], List[int]]:
         """Extrae informacion de la serie y temporadas disponibles."""
         try:
-            response = self.session.get(series_url, timeout=15)
-            response.encoding = "utf-8"
-            soup = BeautifulSoup(response.text, "html.parser")
+            html_text = self._get_html(series_url, referer=POSEIDON_BASE_URL, timeout=15)
+            soup = BeautifulSoup(html_text, "html.parser")
 
             title = ""
             original_title = ""
@@ -144,7 +391,7 @@ class PoseidonSeriesScraper:
             first_air_date = ""
 
             # Intentar con __NEXT_DATA__ primero
-            next_data = self._get_next_data(response.text)
+            next_data = self._get_next_data(html_text)
             if next_data:
                 serie_data = self._find_dict_with_keys(next_data, ["TMDbId", "titles", "overview"])
                 if serie_data:
@@ -217,6 +464,9 @@ class PoseidonSeriesScraper:
                     if number and number > 0:
                         season_numbers.append(number)
 
+            if not season_numbers and next_data:
+                season_numbers = self._extract_season_numbers_from_next_data(next_data)
+
             if not season_numbers:
                 season_numbers = [1]
 
@@ -248,16 +498,56 @@ class PoseidonSeriesScraper:
     def _season_url(self, series_url: str, season_number: int) -> str:
         return f"{series_url}/temporada/{season_number}"
 
-    def _extract_episode_cards(self, season_url: str) -> List[Dict]:
-        """Extrae episodios desde una pagina de temporada."""
+    def _extract_episode_cards(self, series_url: str, season_number: int) -> List[Dict]:
+        """Extrae episodios desde la pagina de la serie (selector de temporadas)."""
         episodes = []
         try:
-            response = self.session.get(season_url, timeout=15)
-            response.encoding = "utf-8"
-            soup = BeautifulSoup(response.text, "html.parser")
+            html_text = self._get_html(series_url, referer=POSEIDON_BASE_URL, timeout=15)
+            debug_match = False
+            if self.debug_season_url:
+                debug_target = self.debug_season_url.rstrip("/")
+                series_target = series_url.rstrip("/")
+                if debug_target == series_target or debug_target.startswith(f"{series_target}/temporada/"):
+                    debug_match = True
+            if debug_match:
+                self._write_debug_file("season_page.html", html_text)
+            if "Just a moment" in html_text or "cf-" in html_text:
+                logger.warning(f"Posible bloqueo anti-bot en {series_url}")
+            next_data = self._get_next_data(html_text)
+            if debug_match:
+                has_next = bool(next_data)
+                logger.info(f"DEBUG temporada: __NEXT_DATA__={'si' if has_next else 'no'}")
+                logger.info(f"DEBUG temporada: len(html)={len(html_text)}")
+                if next_data:
+                    props = next_data.get("props", {}).get("pageProps", {})
+                    logger.info(f"DEBUG temporada: pageProps keys={list(props.keys())}")
+                    self._write_debug_file("next_data_season_raw.json", json.dumps(next_data, ensure_ascii=False, indent=2))
+            if next_data:
+                episodes = self._extract_episodes_from_seasons(next_data, series_url, season_number)
+                if not episodes and season_number == 1:
+                    season_url = self._season_url(series_url, season_number)
+                    episodes = self._extract_episodes_from_next_data(next_data, season_url)
+                if episodes:
+                    return episodes
+
+            next_json = self._fetch_next_data_json(series_url, html_text=html_text)
+            if next_json:
+                episodes = self._extract_episodes_from_seasons(next_json, series_url, season_number)
+                if not episodes and season_number == 1:
+                    season_url = self._season_url(series_url, season_number)
+                    episodes = self._extract_episodes_from_next_data(next_json, season_url)
+                if episodes:
+                    return episodes
+
+            soup = BeautifulSoup(html_text, "html.parser")
 
             ul = soup.find("ul", class_=re.compile(r"all-episodes"))
+            if season_number != 1:
+                return episodes
+
             if not ul:
+                if debug_match:
+                    logger.info("DEBUG temporada: no se encontro ul.all-episodes")
                 return episodes
 
             items = ul.find_all("li", class_="TPostMv")
@@ -289,19 +579,58 @@ class PoseidonSeriesScraper:
                     "episode": ep_num,
                 })
 
+            if episodes:
+                return episodes
+
+            # Fallback: buscar URLs de episodios en el HTML crudo
+            match = re.search(r"/temporada/(\d+)", season_url)
+            season_number = match.group(1) if match else None
+            episode_links = re.findall(r"/serie/\d+/[^\s'\"]+/temporada/\d+/episodio/\d+", html_text)
+            if episode_links:
+                if debug_match:
+                    logger.info(f"DEBUG temporada: links episodio encontrados={len(episode_links)}")
+                unique = {}
+                for href in episode_links:
+                    ep_url = urljoin(POSEIDON_BASE_URL, href)
+                    ep_match = re.search(r"/episodio/(\d+)", href)
+                    ep_num = int(ep_match.group(1)) if ep_match else None
+                    if season_number and ep_num:
+                        key = (season_number, ep_num)
+                    else:
+                        key = ep_url
+                    if key not in unique:
+                        unique[key] = {
+                            "url": ep_url,
+                            "title": "",
+                            "episode": ep_num,
+                        }
+                episodes = list(unique.values())
+                if episodes:
+                    return episodes
+
+            logger.warning(f"No se detectaron episodios en {series_url} (temporada {season_number})")
+
         except Exception as exc:
-            logger.error(f"Error extrayendo episodios de {season_url}: {exc}")
+            logger.error(f"Error extrayendo episodios de {series_url} (temporada {season_number}): {exc}")
 
         return episodes
 
-    def _extract_player_iframe(self, player_url: str) -> Optional[str]:
+    def _extract_player_iframe(self, player_url: str, referer: Optional[str] = None) -> Optional[str]:
         """Extrae el iframe final desde un player poseidon."""
         try:
-            response = self.session.get(player_url, timeout=10)
-            response.encoding = "utf-8"
-            match = re.search(r"var\s+url\s*=\s*['\"]([^'\"]+)['\"]", response.text)
+            html_text = self._get_html(player_url, referer=referer or POSEIDON_BASE_URL, timeout=10)
+            match = re.search(r"var\s+url\s*=\s*['\"]([^'\"]+)['\"]", html_text)
             if match:
-                return match.group(1)
+                return self._normalize_url(match.group(1))
+            match = re.search(r"window\.location\.href\s*=\s*['\"]([^'\"]+)['\"]", html_text)
+            if match:
+                return self._normalize_url(match.group(1))
+
+            # Fallback: buscar un link directo a servidores conocidos
+            for host in ["streamwish", "vidhide", "streamtape", "filemoon", "dood", "upstream"]:
+                host_match = re.search(rf"https?://[^\s'\"]*{host}[^\s'\"]*", html_text, re.IGNORECASE)
+                if host_match:
+                    return self._normalize_url(host_match.group(0))
         except Exception as exc:
             logger.debug(f"Error extrayendo iframe de {player_url}: {exc}")
         return None
@@ -322,9 +651,13 @@ class PoseidonSeriesScraper:
         """Extrae servidores y links finales de un episodio."""
         servers: List[Dict] = []
         try:
-            response = self.session.get(episode_url, timeout=15)
-            response.encoding = "utf-8"
-            soup = BeautifulSoup(response.text, "html.parser")
+            html_text = self._get_html(episode_url, referer=POSEIDON_BASE_URL, timeout=15)
+            if self.debug_episode_url and episode_url.rstrip("/") == self.debug_episode_url.rstrip("/"):
+                logger.info(f"DEBUG episodio: len(html)={len(html_text)}")
+                logger.info(f"DEBUG episodio: contiene data-tr={('data-tr' in html_text)}")
+            if "Just a moment" in html_text or "cf-" in html_text:
+                logger.warning(f"Posible bloqueo anti-bot en {episode_url}")
+            soup = BeautifulSoup(html_text, "html.parser")
 
             # Buscar listas de servidores por idioma
             uls = soup.find_all("ul", class_=re.compile(r"sub-tab-lang"))
@@ -339,10 +672,10 @@ class PoseidonSeriesScraper:
                 language = self._infer_language(lang_text)
 
                 for li in ul.find_all("li", attrs={"data-tr": True}):
-                    player_url = li.get("data-tr")
+                    player_url = self._normalize_url(li.get("data-tr"))
                     if not player_url:
                         continue
-                    final_url = self._extract_player_iframe(player_url) or player_url
+                    final_url = self._extract_player_iframe(player_url, referer=episode_url) or player_url
                     server_text = li.get_text(" ", strip=True)
                     server_name = ""
                     quality = ""
@@ -365,11 +698,60 @@ class PoseidonSeriesScraper:
 
             # Fallback si no se encontraron listas por idioma
             if not servers:
+                # Fallback 1: buscar data-tr en HTML crudo o strings escapados
+                player_urls = re.findall(r"data-tr=\"([^\"]+)\"", html_text)
+                if not player_urls:
+                    player_urls = re.findall(r"data-tr=\\\"([^\"]+)\\\"", html_text)
+                if not player_urls:
+                    player_urls = re.findall(r"https?://player\.poseidonhd2\.co/player\.php\?h=[^\s'\"]+", html_text)
+                if not player_urls:
+                    player_urls = re.findall(r"https?:\\/\\/player\.poseidonhd2\.co/player\.php\?h=[^\\\s'\"]+", html_text)
+
+                if self.debug_episode_url and episode_url.rstrip("/") == self.debug_episode_url.rstrip("/"):
+                    logger.info(f"DEBUG episodio: player_urls encontrados={len(player_urls)}")
+
+                seen = set()
+                for player_url in player_urls:
+                    player_url = self._normalize_url(player_url)
+                    if player_url in seen:
+                        continue
+                    seen.add(player_url)
+                    final_url = self._extract_player_iframe(player_url, referer=episode_url) or player_url
+                    parsed = urlparse(final_url)
+                    server_name = parsed.netloc.replace("www.", "") if parsed.netloc else ""
+                    servers.append({
+                        "url": final_url,
+                        "name": server_name,
+                        "server": server_name,
+                        "language": "LAT",
+                        "quality": "",
+                    })
+
+            # Fallback 2: si igual esta vacio, intentar extraer URLs directas
+            if not servers:
+                direct_urls = re.findall(r"https?://[^\s'\"]+", html_text)
+                if not direct_urls:
+                    direct_urls = re.findall(r"https?:\\/\\/[^\\\s'\"]+", html_text)
+                for url in direct_urls:
+                    url = self._normalize_url(url)
+                    if any(host in url for host in ["streamwish", "vidhide", "streamtape", "filemoon", "dood", "upstream"]):
+                        parsed = urlparse(url)
+                        server_name = parsed.netloc.replace("www.", "") if parsed.netloc else ""
+                        servers.append({
+                            "url": url,
+                            "name": server_name,
+                            "server": server_name,
+                            "language": "LAT",
+                            "quality": "",
+                        })
+
+            # Fallback 3: si no se encontraron listas por idioma
+            if not servers:
                 for li in soup.find_all("li", attrs={"data-tr": True}):
-                    player_url = li.get("data-tr")
+                    player_url = self._normalize_url(li.get("data-tr"))
                     if not player_url:
                         continue
-                    final_url = self._extract_player_iframe(player_url) or player_url
+                    final_url = self._extract_player_iframe(player_url, referer=episode_url) or player_url
                     parsed = urlparse(final_url)
                     server_name = parsed.netloc.replace("www.", "") if parsed.netloc else ""
                     servers.append({
@@ -468,8 +850,7 @@ class PoseidonSeriesScraper:
                 for season_number in seasons:
                     if season_number == 0:
                         continue
-                    season_url = self._season_url(series_url, season_number)
-                    episode_cards = self._extract_episode_cards(season_url)
+                    episode_cards = self._extract_episode_cards(series_url, season_number)
 
                     for ep in episode_cards:
                         ep_num = ep.get("episode")
@@ -514,10 +895,14 @@ def main():
     parser.add_argument("--max-pages", type=int, default=None, help="Numero maximo de paginas")
     parser.add_argument("--max-series", type=int, default=None, help="Numero maximo de series")
     parser.add_argument("--max-episodes", type=int, default=None, help="Numero maximo de episodios por corrida")
+    parser.add_argument("--debug-season-url", type=str, default=None, help="URL de temporada para debug")
+    parser.add_argument("--debug-episode-url", type=str, default=None, help="URL de episodio para debug")
 
     args = parser.parse_args()
 
     scraper = PoseidonSeriesScraper()
+    scraper.debug_season_url = args.debug_season_url
+    scraper.debug_episode_url = args.debug_episode_url
     scraper.run(max_pages=args.max_pages, max_series=args.max_series, max_episodes=args.max_episodes)
 
 
